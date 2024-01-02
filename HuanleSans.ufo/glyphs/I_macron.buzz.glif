@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Imacron.buzz" format="2">
+	<advance width="282"/>
+	<outline>
+		<component base="I.buzz"/>
+		<component base="uni0304.case" xOffset="-64" yOffset="183"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.97,0.9,0,1</string>
+		</dict>
+	</lib>
+</glyph>

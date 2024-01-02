@@ -1,0 +1,39 @@
+{
+glyphname = gravecomb.case;
+kernLeft = asterisk;
+kernRight = asterisk;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (195,457);
+},
+{
+name = top;
+pos = (195,691);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(85,693,l),
+(64,650,l),
+(67,643,l),
+(133,610,o),
+(234,543,o),
+(298,515,c),
+(306,519,l),
+(322,553,l),
+(260,584,o),
+(160,655,o),
+(93,695,c)
+);
+}
+);
+width = 389;
+}
+);
+}

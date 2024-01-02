@@ -1,0 +1,39 @@
+{
+glyphname = acutecomb.case;
+kernLeft = asterisk;
+kernRight = asterisk;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (174,457);
+},
+{
+name = top;
+pos = (168,583);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(229,655,o),
+(129,584,o),
+(68,553,c),
+(83,519,l),
+(91,515,l),
+(155,543,o),
+(256,610,o),
+(322,643,c),
+(325,650,l),
+(304,693,l),
+(296,695,l)
+);
+}
+);
+width = 389;
+}
+);
+}

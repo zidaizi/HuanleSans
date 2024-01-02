@@ -1,0 +1,34 @@
+{
+color = 8;
+glyphname = O.di;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = O;
+},
+{
+closed = 1;
+nodes = (
+(295,370,o),
+(279,354,o),
+(279,329,cs),
+(279,304,o),
+(294,289,o),
+(319,289,cs),
+(343,289,o),
+(359,305,o),
+(359,331,cs),
+(359,355,o),
+(345,370,o),
+(321,370,cs)
+);
+}
+);
+width = 633;
+}
+);
+}

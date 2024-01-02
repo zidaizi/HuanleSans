@@ -1,0 +1,22 @@
+{
+color = 5;
+glyphname = Ucaron;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (120,183);
+ref = caroncomb.case;
+}
+);
+width = 623;
+}
+);
+unicode = 467;
+}

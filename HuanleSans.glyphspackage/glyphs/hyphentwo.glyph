@@ -1,0 +1,16 @@
+{
+glyphname = hyphentwo;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+alignment = -1;
+ref = hyphen;
+}
+);
+width = 308;
+}
+);
+unicode = 8208;
+}

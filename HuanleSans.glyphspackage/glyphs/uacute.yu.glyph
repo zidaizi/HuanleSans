@@ -1,0 +1,21 @@
+{
+color = 5;
+glyphname = uacute.yu;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = u.yu;
+},
+{
+pos = (86,0);
+ref = acutecomb;
+}
+);
+width = 484;
+}
+);
+}

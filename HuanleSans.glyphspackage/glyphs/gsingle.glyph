@@ -1,0 +1,18 @@
+{
+category = "";
+glyphname = gsingle;
+kernLeft = g;
+kernRight = g;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = g;
+}
+);
+width = 483;
+}
+);
+unicode = 609;
+}

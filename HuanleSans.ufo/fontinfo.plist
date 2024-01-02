@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ascender</key>
+	<integer>700</integer>
+	<key>capHeight</key>
+	<integer>640</integer>
+	<key>copyright</key>
+	<string>Copyright 2013 The Alegreya Sans Project Authors (https://github.com/huertatipografica/Alegreya-Sans)</string>
+	<key>descender</key>
+	<integer>-185</integer>
+	<key>familyName</key>
+	<string>Huanle Sans</string>
+	<key>guidelines</key>
+	<array>
+		<dict>
+			<key>angle</key>
+			<integer>0</integer>
+			<key>x</key>
+			<integer>236</integer>
+			<key>y</key>
+			<integer>-107</integer>
+		</dict>
+	</array>
+	<key>openTypeHeadCreated</key>
+	<string>2024/01/01 11:00:45</string>
+	<key>openTypeHheaAscender</key>
+	<integer>800</integer>
+	<key>openTypeHheaDescender</key>
+	<integer>-200</integer>
+	<key>openTypeHheaLineGap</key>
+	<integer>0</integer>
+	<key>openTypeNameDesigner</key>
+	<string>Juan Pablo del Peral; zidaizi</string>
+	<key>openTypeNameLicense</key>
+	<string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL</string>
+	<key>openTypeNameLicenseURL</key>
+	<string>http://scripts.sil.org/OFL</string>
+	<key>openTypeNamePreferredSubfamilyName</key>
+	<string>Regular</string>
+	<key>openTypeOS2Type</key>
+	<array/>
+	<key>openTypeOS2TypoAscender</key>
+	<integer>800</integer>
+	<key>openTypeOS2TypoDescender</key>
+	<integer>-200</integer>
+	<key>openTypeOS2TypoLineGap</key>
+	<integer>0</integer>
+	<key>openTypeOS2WeightClass</key>
+	<integer>400</integer>
+	<key>openTypeOS2WidthClass</key>
+	<integer>5</integer>
+	<key>openTypeOS2WinAscent</key>
+	<integer>800</integer>
+	<key>openTypeOS2WinDescent</key>
+	<integer>200</integer>
+	<key>postscriptBlueValues</key>
+	<array>
+		<real>-12.0</real>
+		<real>0.0</real>
+		<real>457.0</real>
+		<real>469.0</real>
+		<real>640.0</real>
+		<real>652.0</real>
+		<real>700.0</real>
+		<real>712.0</real>
+	</array>
+	<key>postscriptFontName</key>
+	<string>HuanleSans-Regular</string>
+	<key>postscriptOtherBlues</key>
+	<array>
+		<real>-197.0</real>
+		<real>-185.0</real>
+	</array>
+	<key>postscriptStemSnapH</key>
+	<array>
+		<real>48.0</real>
+		<real>54.0</real>
+		<real>56.0</real>
+	</array>
+	<key>postscriptStemSnapV</key>
+	<array>
+		<real>61.0</real>
+		<real>64.0</real>
+		<real>69.0</real>
+	</array>
+	<key>postscriptUnderlinePosition</key>
+	<integer>-185</integer>
+	<key>postscriptUnderlineThickness</key>
+	<integer>35</integer>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
+	<key>styleName</key>
+	<string>Regular</string>
+	<key>unitsPerEm</key>
+	<integer>974</integer>
+	<key>versionMajor</key>
+	<integer>2</integer>
+	<key>versionMinor</key>
+	<integer>8</integer>
+	<key>xHeight</key>
+	<integer>457</integer>
+</dict>
+</plist>

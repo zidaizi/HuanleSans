@@ -1,0 +1,28 @@
+{
+color = 0;
+glyphname = adotbelow;
+kernLeft = a;
+kernRight = u;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (220,457);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = a;
+},
+{
+pos = (108,0);
+ref = dotbelowcomb;
+}
+);
+width = 448;
+}
+);
+unicode = 7841;
+}

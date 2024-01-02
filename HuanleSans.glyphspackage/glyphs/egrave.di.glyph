@@ -1,0 +1,21 @@
+{
+color = 1;
+glyphname = egrave.di;
+kernLeft = o;
+kernRight = e;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = e.di;
+},
+{
+pos = (41,0);
+ref = gravecomb;
+}
+);
+width = 457;
+}
+);
+}

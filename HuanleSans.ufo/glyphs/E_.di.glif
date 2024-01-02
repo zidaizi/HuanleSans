@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="E.di" format="2">
+	<advance width="476"/>
+	<anchor x="278" y="0" name="bottom"/>
+	<anchor x="411" y="17" name="ogonek"/>
+	<anchor x="272" y="640" name="top"/>
+	<outline>
+		<contour>
+			<point x="165" y="640" type="line"/>
+			<point x="96" y="640" type="line"/>
+			<point x="101" y="194" type="line"/>
+			<point x="96" y="0" type="line"/>
+			<point x="164" y="0" type="line"/>
+			<point x="161" y="199" type="line"/>
+		</contour>
+		<contour>
+			<point x="447" y="59" type="line"/>
+			<point x="292" y="56" type="line"/>
+			<point x="143" y="57" type="line"/>
+			<point x="139" y="6" type="line"/>
+			<point x="143" y="0" type="line"/>
+			<point x="446" y="0" type="line"/>
+			<point x="451" y="52" type="line"/>
+		</contour>
+		<contour>
+			<point x="392" y="358" type="line"/>
+			<point x="285" y="356" type="line"/>
+			<point x="145" y="357" type="line"/>
+			<point x="141" y="306" type="line"/>
+			<point x="145" y="300" type="line"/>
+			<point x="279" y="301" type="line"/>
+			<point x="391" y="299" type="line"/>
+			<point x="397" y="352" type="line"/>
+		</contour>
+		<contour>
+			<point x="446" y="640" type="line"/>
+			<point x="143" y="640" type="line"/>
+			<point x="139" y="588" type="line"/>
+			<point x="143" y="582" type="line"/>
+			<point x="294" y="583" type="line"/>
+			<point x="444" y="581" type="line"/>
+			<point x="450" y="633" type="line"/>
+		</contour>
+		<component base="period" xOffset="186" yOffset="142"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.99,0.62,0.11,1</string>
+		</dict>
+	</lib>
+</glyph>

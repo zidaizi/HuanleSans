@@ -1,0 +1,21 @@
+{
+color = 3;
+glyphname = Igrave.buzz;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = I.buzz;
+},
+{
+pos = (-64,183);
+ref = gravecomb.case;
+}
+);
+width = 282;
+}
+);
+}

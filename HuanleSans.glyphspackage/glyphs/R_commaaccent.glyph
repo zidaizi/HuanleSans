@@ -1,0 +1,25 @@
+{
+category = Letter;
+color = 9;
+glyphname = Rcommaaccent;
+kernLeft = H;
+kernRight = R;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = R;
+},
+{
+alignment = -1;
+pos = (251,0);
+ref = cedillacomb;
+}
+);
+width = 547;
+}
+);
+script = latin;
+unicode = 342;
+}

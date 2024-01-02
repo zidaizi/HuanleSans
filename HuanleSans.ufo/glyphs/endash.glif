@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash" format="2">
+	<advance width="479"/>
+	<unicode hex="2013"/>
+	<outline>
+		<contour>
+			<point x="490" y="280" type="line"/>
+			<point x="-12" y="280" type="line"/>
+			<point x="-16" y="237" type="line"/>
+			<point x="-11" y="231" type="line"/>
+			<point x="492" y="231" type="line"/>
+			<point x="496" y="274" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>emdash</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>emdash</string>
+		</dict>
+	</lib>
+</glyph>

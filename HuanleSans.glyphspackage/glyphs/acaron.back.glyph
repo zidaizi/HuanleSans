@@ -1,0 +1,21 @@
+{
+color = 0;
+glyphname = acaron.back;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = a.back;
+},
+{
+pos = (55,0);
+ref = caroncomb;
+}
+);
+width = 477;
+}
+);
+}

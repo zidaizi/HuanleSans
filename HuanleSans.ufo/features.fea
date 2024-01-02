@@ -1,0 +1,1078 @@
+@MMK_L_A = [A Aacute uni01CD uni1EA0 Agrave Amacron Aring A.back Aacute.back uni01CD.back uni1EA0.back Agrave.back Amacron.back A.mid Aacute.mid uni01CD.mid uni1EA0.mid Agrave.mid Amacron.mid];
+@MMK_L_B = [B];
+@MMK_L_C = [C Ccedilla Ccircumflex];
+@MMK_L_E = [E Eacute Ecaron Ecircumflex uni1EBE uni1EC6 uni1EC0 uni1EB8 Egrave Emacron E.di Eacute.di Ecaron.di uni1EB8.di Egrave.di Emacron.di E.front Eacute.front Ecaron.front uni1EB8.front Egrave.front Emacron.front];
+@MMK_L_F = [F];
+@MMK_L_G = [G];
+@MMK_L_H = [H I Iacute uni01CF uni1ECA Igrave Imacron J N Nacute Ncaron uni1E46 uni01F8 Eng I.buzz Iacute.buzz uni01CF.buzz uni1ECA.buzz Igrave.buzz Imacron.buzz];
+@MMK_L_L = [L];
+@MMK_L_M = [M];
+@MMK_L_O = [D O Oacute uni01D1 uni1ECC Ograve Omacron Q O.di Oacute.di uni01D1.di uni1ECC.di Ograve.di Omacron.di at];
+@MMK_L_P = [P];
+@MMK_L_R = [R uni0156 Rcircumflex];
+@MMK_L_S = [S Scedilla Scircumflex];
+@MMK_L_T = [T];
+@MMK_L_U = [U Uacute uni01D3 Udieresis uni01D7 uni01D9 uni01DB uni01D5 uni1EE4 Ugrave Umacron Uring U.di Uacute.di uni01D3.di uni1EE4.di Ugrave.di Umacron.di U.yu Uacute.yu uni01D3.yu uni1EE4.yu Ugrave.yu Umacron.yu];
+@MMK_L_V = [V W Y.yu];
+@MMK_L_X = [K X];
+@MMK_L_Y = [Y];
+@MMK_L_Z = [Z uni1E90 Zcedilla];
+@MMK_L_asterisk = [asterisk quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle uni03020301 uni03020300 uni0308 uni03080300 uni03080301 uni0308030C uni03080304 gravecomb acutecomb uni0302 uni030C uni030A uni0304 uni03080300.case uni03080301.case uni0308030C.case gravecomb.case acutecomb.case uni0302.case uni030C.case];
+@MMK_L_c = [c ccedilla ccircumflex];
+@MMK_L_colon = [colon semicolon];
+@MMK_L_e = [e eacute ecaron ecircumflex uni1EBF uni1EC7 uni1EC1 uni1EB9 egrave emacron e.di eacute.di ecaron.di uni1EB9.di egrave.di emacron.di e.front eacute.front ecaron.front uni1EB9.front egrave.front emacron.front];
+@MMK_L_f = [f];
+@MMK_L_g = [g uni0261];
+@MMK_L_hyphen = [periodcentered bullet hyphen uni00AD endash emdash];
+@MMK_L_j = [j eng];
+@MMK_L_l = [d i iacute uni01D0 uni1ECB igrave imacron l i.buzz iacute.buzz uni01D0.buzz uni1ECB.buzz igrave.buzz imacron.buzz];
+@MMK_L_n = [h m n nacute ncaron uni1E47 uni01F9];
+@MMK_L_o = [b o oacute uni01D2 uni1ECD ograve omacron p o.di oacute.di uni01D2.di uni1ECD.di ograve.di omacron.di];
+@MMK_L_period = [period comma ellipsis underscore dotbelowcomb uni0327];
+@MMK_L_r = [r uni0157 rcircumflex];
+@MMK_L_s = [s scedilla scircumflex];
+@MMK_L_t = [t];
+@MMK_L_u = [a aacute uni01CE uni1EA1 agrave amacron aring u uacute uni01D4 udieresis uni01D8 uni01DA uni01DC uni01D6 uni1EE5 ugrave umacron uring a.back aacute.back uni01CE.back uni1EA1.back agrave.back amacron.back u.di uacute.di uni01D4.di uni1EE5.di ugrave.di umacron.di a.mid aacute.mid uni01CE.mid uni1EA1.mid agrave.mid amacron.mid u.yu uacute.yu uni01D4.yu uni1EE5.yu ugrave.yu umacron.yu y.yu];
+@MMK_L_v = [v w y];
+@MMK_L_x = [k x];
+@MMK_L_z = [z uni1E91 zcedilla];
+@MMK_R_A = [A Aacute uni01CD uni1EA0 Agrave Amacron Aring A.back Aacute.back uni01CD.back uni1EA0.back Agrave.back Amacron.back A.mid Aacute.mid uni01CD.mid uni1EA0.mid Agrave.mid Amacron.mid];
+@MMK_R_H = [B D E Eacute Ecaron Ecircumflex uni1EBE uni1EC6 uni1EC0 uni1EB8 Egrave Emacron F H I Iacute uni01CF uni1ECA Igrave Imacron K L N Nacute Ncaron uni1E46 uni01F8 Eng P R uni0156 I.buzz Iacute.buzz uni01CF.buzz uni1ECA.buzz Igrave.buzz Imacron.buzz E.di Eacute.di Ecaron.di uni1EB8.di Egrave.di Emacron.di E.front Eacute.front Ecaron.front uni1EB8.front Egrave.front Emacron.front Rcircumflex];
+@MMK_R_J = [J];
+@MMK_R_M = [M];
+@MMK_R_O = [C Ccedilla Ccircumflex G O Oacute uni01D1 uni1ECC Ograve Omacron Q O.di Oacute.di uni01D1.di uni1ECC.di Ograve.di Omacron.di at];
+@MMK_R_S = [S Scedilla Scircumflex];
+@MMK_R_T = [T];
+@MMK_R_U = [U Uacute uni01D3 Udieresis uni01D7 uni01D9 uni01DB uni01D5 uni1EE4 Ugrave Umacron Uring U.di Uacute.di uni01D3.di uni1EE4.di Ugrave.di Umacron.di U.yu Uacute.yu uni01D3.yu uni1EE4.yu Ugrave.yu Umacron.yu];
+@MMK_R_V = [V W Y.yu];
+@MMK_R_X = [X];
+@MMK_R_Y = [Y];
+@MMK_R_Z = [Z uni1E90 Zcedilla];
+@MMK_R_a = [a aacute uni01CE uni1EA1 agrave amacron aring aacute.mid uni01CE.mid uni1EA1.mid agrave.mid amacron.mid];
+@MMK_R_asterisk = [asterisk quotedblleft quotedblright quoteleft quoteright quotedbl quotesingle uni03020301 uni03020300 uni0308 uni03080300 uni03080301 uni0308030C uni03080304 gravecomb acutecomb uni0302 uni030C uni030A uni0304 uni03080300.case uni03080301.case uni0308030C.case gravecomb.case acutecomb.case uni0302.case uni030C.case];
+@MMK_R_colon = [colon semicolon];
+@MMK_R_f = [f];
+@MMK_R_g = [g uni0261];
+@MMK_R_h = [b h k l];
+@MMK_R_hyphen = [periodcentered bullet hyphen uni00AD endash emdash];
+@MMK_R_j = [j];
+@MMK_R_l = [i iacute uni01D0 uni1ECB igrave imacron i.buzz iacute.buzz uni01D0.buzz uni1ECB.buzz igrave.buzz imacron.buzz];
+@MMK_R_n = [m n nacute ncaron uni1E47 uni01F9 eng r uni0157 rcircumflex];
+@MMK_R_o = [c ccedilla ccircumflex d e eacute ecaron ecircumflex uni1EBF uni1EC7 uni1EC1 uni1EB9 egrave emacron o oacute uni01D2 uni1ECD ograve omacron q e.di eacute.di ecaron.di uni1EB9.di egrave.di emacron.di o.di oacute.di uni01D2.di uni1ECD.di ograve.di omacron.di e.front eacute.front ecaron.front uni1EB9.front egrave.front emacron.front a.mid];
+@MMK_R_p = [p];
+@MMK_R_period = [period comma ellipsis underscore dotbelowcomb uni0327];
+@MMK_R_s = [s scedilla scircumflex];
+@MMK_R_u = [t u uacute uni01D4 udieresis uni01D8 uni01DA uni01DC uni01D6 uni1EE5 ugrave umacron uring a.back aacute.back uni01CE.back uni1EA1.back agrave.back amacron.back u.di uacute.di uni01D4.di uni1EE5.di ugrave.di umacron.di u.yu uacute.yu uni01D4.yu uni1EE5.yu ugrave.yu umacron.yu y.yu];
+@MMK_R_v = [v w y];
+@MMK_R_x = [x];
+@MMK_R_z = [z uni1E91 zcedilla];
+	markClass [uni03020301] <anchor 195 457> @mark_top;
+	markClass [uni03020300] <anchor 195 457> @mark_top;
+	markClass [uni0308] <anchor 194 457> @mark_top;
+	markClass [uni03080300] <anchor 195 457> @mark_top;
+	markClass [uni03080301] <anchor 196 457> @mark_top;
+	markClass [uni0308030C] <anchor 195 457> @mark_top;
+	markClass [uni03080304] <anchor 195 457> @mark_top;
+	markClass [gravecomb] <anchor 195 457> @mark_top;
+	markClass [acutecomb] <anchor 167 457> @mark_top;
+	markClass [uni0302] <anchor 194 457> @mark_top;
+	markClass [uni030C] <anchor 194 457> @mark_top;
+	markClass [uni030A] <anchor 195 457> @mark_top;
+	markClass [uni0304] <anchor 195 457> @mark_top;
+	markClass [dotbelowcomb] <anchor 116 0> @mark_bottom;
+	markClass [uni0327] <anchor 190 0> @mark_bottom;
+	markClass [uni0308.case] <anchor 194 457> @mark_top;
+	markClass [uni03080300.case] <anchor 195 457> @mark_top;
+	markClass [uni03080301.case] <anchor 195 457> @mark_top;
+	markClass [uni0308030C.case] <anchor 195 457> @mark_top;
+	markClass [gravecomb.case] <anchor 195 457> @mark_top;
+	markClass [acutecomb.case] <anchor 174 457> @mark_top;
+	markClass [uni0302.case] <anchor 194 457> @mark_top;
+	markClass [uni030C.case] <anchor 194 457> @mark_top;
+	markClass [uni030A.case] <anchor 195 457> @mark_top;
+	markClass [uni0304.case] <anchor 195 457> @mark_top;
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
+languagesystem DFLT dflt;
+### close prefix 'Languagesystems' ###
+
+### feature:0:aalt ###
+feature aalt {
+### open feature 'aalt' ###
+feature calt;
+feature case;
+### close feature 'aalt' ###
+} aalt;
+
+### feature:1:calt ###
+feature calt {
+### open feature 'calt' ###
+# @a
+@b = [ b B ];
+@c = [ c C ];
+@d = [ d D ];
+# @e
+@f = [ f F ];
+@g = [ g G ];
+@h = [ h H ];
+# @i
+@j = [ j J ];
+@k = [ k K ];
+@l = [ l L ];
+@m = [ m M ];
+@n = [ n N ];
+# @o
+@p = [ p P ];
+@q = [ q Q ];
+@r = [ r R ];
+@s = [ s S ];
+@t = [ t T ];
+# @u
+# @yu
+@v = [ v V ];
+@w = [ w W ];
+@x = [ x X ];
+@y = [ y Y ];
+@z = [ z Z ];
+
+@a  = [a amacron aacute uni01CE agrave uni1EA1
+       A Amacron Aacute uni01CD Agrave uni1EA0];
+@e  = [e emacron eacute ecaron egrave uni1EB9
+       E Emacron Eacute Ecaron Egrave uni1EB8];
+@i  = [i imacron iacute uni01D0 igrave uni1ECB
+       I Imacron Iacute uni01CF Igrave uni1ECA];
+@o  = [o omacron oacute uni01D2 ograve uni1ECD
+       O Omacron Oacute uni01D1 Ograve uni1ECC];
+@u  = [u umacron uacute uni01D4 ugrave uni1EE5
+       U Umacron Uacute uni01D3 Ugrave uni1EE4];
+@yu = [udieresis uni01D6 uni01D8 uni01DA uni01DC
+       Udieresis uni01D5 uni01D7 uni01D9 uni01DB];
+
+@a.mid  = [ a.mid amacron.mid aacute.mid uni01CE.mid agrave.mid uni1EA1.mid
+            A.mid Amacron.mid Aacute.mid uni01CD.mid Agrave.mid uni1EA0.mid ];
+@a.back = [ a.back amacron.back aacute.back uni01CE.back agrave.back uni1EA1.back
+            A.back Amacron.back Aacute.back uni01CD.back Agrave.back uni1EA0.back ];
+@a.a    = [ @a @a.mid @a.back ];
+
+@e.di    = [ e.di emacron.di eacute.di ecaron.di egrave.di uni1EB9.di
+             E.di Emacron.di Eacute.di Ecaron.di Egrave.di uni1EB8.di ];
+@e.front = [ e.front emacron.front eacute.front ecaron.front egrave.front uni1EB9.front
+             E.front Emacron.front Eacute.front Ecaron.front Egrave.front uni1EB8.front ];
+@e.a     = [ @e @e.di @e.front ];
+
+@i.buzz = [ i.buzz imacron.buzz iacute.buzz uni01D0.buzz igrave.buzz uni1ECB.buzz
+            I.buzz Imacron.buzz Iacute.buzz uni01CF.buzz Igrave.buzz uni1ECA.buzz ];
+@i.a    = [ @i @i.buzz ];
+
+@o.di = [ o.di omacron.di oacute.di uni01D2.di ograve.di uni1ECD.di
+          O.di Omacron.di Oacute.di uni01D1.di Ograve.di uni1ECC.di ];
+@o.a =  [ @o @o.di ];
+
+@u.di = [ u.di umacron.di uacute.di uni01D4.di ugrave.di uni1EE5.di
+          U.di Umacron.di Uacute.di uni01D3.di Ugrave.di uni1EE4.di ];
+@u.a =  [ @u @u.di ];
+
+@u.yu = [ u.yu umacron.yu uacute.yu uni01D4.yu ugrave.yu uni1EE5.yu
+          U.yu Umacron.yu Uacute.yu uni01D3.yu Ugrave.yu uni1EE4.yu ];
+@yu.a = [ @yu @u.yu ];
+
+@eng = [ eng Eng ];
+
+@sibilants = [ z c s r
+               Z C S R
+               zcedilla ccedilla scedilla uni0157
+               Zcedilla Ccedilla Scedilla uni0156
+               uni1E91 ccircumflex scircumflex rcircumflex
+               uni1E90 Ccircumflex Scircumflex Rcircumflex];
+
+@front = [y i y.yu u.yu udieresis
+          Y I Y.yu U.yu Udieresis];
+
+
+
+lookup SUB_ZHP_cleanup {
+	lookupflag IgnoreMarks;
+
+	sub [v V] by [udieresis Udieresis];
+
+	# explicit single storey variants (ɑ, ɡ) occasionally found in Chinese material
+	sub uni0251 by a;
+	sub uni0261 by g;
+
+} SUB_ZHP_cleanup;
+
+
+
+lookup SUB_ZHP_decompose {
+  lookupflag IgnoreMarks;
+
+  # nmacron does not have a unicode
+  sub [uni01F9 uni01F8] by [n N] gravecomb;
+  sub [nacute Nacute] by [n N] acutecomb;
+  sub [ncaron Ncaron] by [n N] uni030C;
+
+  sub [aring Aring uring Uring] by [a A u U] uni030A;
+
+} SUB_ZHP_decompose;
+
+
+
+lookup SUB_ZHP_basic {
+	lookupflag IgnoreMarks;
+
+	sub [y Y]' @u.a by [y.yu Y.yu];
+	sub [@j @q @x y.yu Y.yu] @u' by @u.yu;
+	sub [@n @l] u' @e.a by u.yu;
+
+	# e.g. fǎn[]gǎn vs fāng'àn
+	ignore sub @n' @g' [@a.a @e.a @i.a @o.a @u.a @yu.a];
+	sub n' g' by eng;
+	sub N' [G g]' by Eng;
+
+	sub z' [h]'   by zcedilla;
+	sub Z' [H h]' by Zcedilla;
+	sub c' [h]'   by ccedilla;
+	sub C' [H h]' by Ccedilla;
+	sub s' [h]'   by scedilla;
+	sub S' [H h]' by Scedilla;
+	sub [r R]' [@a.a @e.a @i.a @o.a @u.a @yu.a] by [uni0157 uni0156];
+	sub @sibilants @i' by @i.buzz;
+
+} SUB_ZHP_basic;
+
+
+
+lookup SUB_ZHP_e.front {
+	lookupflag IgnoreMarks;
+
+	sub @e' @i.a by @e.front;
+	sub @front @e' by @e.front;
+
+} SUB_ZHP_e.front;
+
+
+
+lookup SUB_ZHP_e.default {
+	lookupflag IgnoreMarks;
+
+	### easier to assume the diphthong is the default and then change e.di
+	sub @e' by @e.di;
+
+} SUB_ZHP_e.default;
+
+
+
+lookup SUB_ZHP_e.di {
+	lookupflag IgnoreMarks;
+
+	ignore sub @e.a' [@n @r] [@a.a @e.a @i.a @o.a @u.a @yu.a];
+	sub @e.di' [@n @eng @r] by @e;
+
+} SUB_ZHP_e.di;
+
+
+
+lookup SUB_ZHP_uen {
+	lookupflag IgnoreMarks;
+
+	### should not be needed, these u already transformed into *.yu
+	#ignore sub [@j @q @x y.yu Y.yu] @u' @n;
+	### some diphthongs would break, e.g. shòunà
+	ignore sub [@a.a @e.a @i.a @o.a @u.a @yu.a] @u' @n;
+	### ensure n does not belong to next syllable
+	ignore sub @u' @n [@a.a @e.a @i.a @o.a @u.a @yu.a];
+	### u (not w) indicates another preceding initial, we need no context before, only after.
+	sub @u' @n by @u.di;
+
+} SUB_ZHP_uen;
+
+
+
+lookup SUB_ZHP_a.mid {
+	lookupflag IgnoreMarks;
+
+	### -ian and -u[ü]an
+	### a takes the tone mark, not i or ü
+	ignore sub @front @a' @n [@a.a @e.a @i.a @o.a @u.a @yu.a];
+	sub @front @a' @n by @a.mid;
+
+} SUB_ZHP_a.mid;
+
+
+
+lookup SUB_ZHP_a.back {
+	lookupflag IgnoreMarks;
+
+	### assume that if o- would be a new syllable it would have an apostrophe before
+	sub @a' [@eng o O] by @a.back;
+
+} SUB_ZHP_a.back;
+
+
+
+lookup SUB_ZHP_uo {
+	lookupflag IgnoreMarks;
+
+	ignore sub [@b @p @m @f] @o' @u.a;
+	sub [@b @p @m @f] @o' by @o.di;
+
+} SUB_ZHP_uo;
+
+
+
+lookup SUB_ZHP_iou {
+	lookupflag IgnoreMarks;
+
+	### syllables do not start with u, no need for accomodations
+	sub @i @u' by @u.di;
+
+} SUB_ZHP_iou;
+
+
+
+lookup SUB_ZHP_uei {
+	lookupflag IgnoreMarks;
+
+	### syllables do not start with i, no need for accomodations
+	sub @u' @i.a by @u.di;
+
+} SUB_ZHP_uei;
+### close feature 'calt' ###
+} calt;
+
+### feature:2:case ###
+feature case {
+### open feature 'case' ###
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+### close feature 'case' ###
+} case;
+
+### feature:-1:kern ###
+feature kern {
+### open feature 'kern' ###
+	lookup kern_DFLT {
+		lookupflag IgnoreMarks;
+		pos @MMK_L_asterisk @MMK_R_A -62;
+		pos @MMK_L_asterisk @MMK_R_M -3;
+		pos @MMK_L_asterisk @MMK_R_O -17;
+		pos @MMK_L_asterisk @MMK_R_V 15;
+		pos @MMK_L_asterisk @MMK_R_Y 10;
+		pos @MMK_L_asterisk @MMK_R_a -11;
+		pos @MMK_L_asterisk @MMK_R_g -58;
+		pos @MMK_L_asterisk @MMK_R_n -20;
+		pos @MMK_L_asterisk @MMK_R_o -37;
+		pos @MMK_L_asterisk @MMK_R_p -20;
+		pos @MMK_L_asterisk @MMK_R_period -80;
+		pos @MMK_L_asterisk @MMK_R_u -20;
+		pos @MMK_L_hyphen @MMK_R_A -51;
+		pos @MMK_L_hyphen @MMK_R_H -30;
+		pos @MMK_L_hyphen @MMK_R_J -30;
+		pos @MMK_L_hyphen @MMK_R_M -30;
+		pos @MMK_L_hyphen @MMK_R_T -70;
+		pos @MMK_L_hyphen @MMK_R_U -30;
+		pos @MMK_L_hyphen @MMK_R_V -83;
+		pos @MMK_L_hyphen @MMK_R_X -60;
+		pos @MMK_L_hyphen @MMK_R_Y -55;
+		pos @MMK_L_hyphen @MMK_R_Z 7;
+		pos @MMK_L_hyphen @MMK_R_v -30;
+		pos @MMK_L_period @MMK_R_O -45;
+		pos @MMK_L_period @MMK_R_T -83;
+		pos @MMK_L_period @MMK_R_U -40;
+		pos @MMK_L_period @MMK_R_V -92;
+		pos @MMK_L_period @MMK_R_Y -101;
+		pos @MMK_L_period @MMK_R_asterisk -80;
+		pos @MMK_L_period @MMK_R_h -45;
+		pos @MMK_L_period @MMK_R_o -50;
+		pos @MMK_L_period @MMK_R_p -34;
+		pos @MMK_L_period @MMK_R_u -50;
+		pos @MMK_L_period @MMK_R_v -71;
+	} kern_DFLT;
+	lookup kern_latn {
+		lookupflag IgnoreMarks;
+		pos @MMK_L_A @MMK_R_O -13;
+		pos @MMK_L_A @MMK_R_T -56;
+		pos @MMK_L_A @MMK_R_U -16;
+		pos @MMK_L_A @MMK_R_V -20;
+		pos @MMK_L_A @MMK_R_X -13;
+		pos @MMK_L_A @MMK_R_Y -46;
+		pos @MMK_L_A @MMK_R_asterisk -62;
+		pos @MMK_L_A @MMK_R_hyphen -51;
+		pos @MMK_L_A @MMK_R_n -12;
+		pos @MMK_L_A @MMK_R_o -19;
+		pos @MMK_L_A @MMK_R_p -20;
+		pos @MMK_L_A @MMK_R_u -20;
+		pos @MMK_L_A @MMK_R_v -18;
+		pos @MMK_L_B @MMK_R_Y 3;
+		pos @MMK_L_B @MMK_R_asterisk -15;
+		pos @MMK_L_B @MMK_R_n -11;
+		pos @MMK_L_B @MMK_R_o -11;
+		pos @MMK_L_B @MMK_R_p -11;
+		pos @MMK_L_B @MMK_R_period -43;
+		pos @MMK_L_B @MMK_R_z -11;
+		pos @MMK_L_C @MMK_R_O -3;
+		pos @MMK_L_C @MMK_R_g -10;
+		pos @MMK_L_C @MMK_R_hyphen -32;
+		pos @MMK_L_C @MMK_R_n -21;
+		pos @MMK_L_C @MMK_R_o -21;
+		pos @MMK_L_C @MMK_R_p -15;
+		pos @MMK_L_C @MMK_R_s -3;
+		pos @MMK_L_C @MMK_R_u -14;
+		pos @MMK_L_C @MMK_R_v -10;
+		pos @MMK_L_C @MMK_R_z -22;
+		pos @MMK_L_E @MMK_R_O -17;
+		pos @MMK_L_E @MMK_R_a -21;
+		pos @MMK_L_E @MMK_R_f -21;
+		pos @MMK_L_E @MMK_R_g -44;
+		pos @MMK_L_E @MMK_R_h -3;
+		pos @MMK_L_E @MMK_R_hyphen -33;
+		pos @MMK_L_E @MMK_R_n -10;
+		pos @MMK_L_E @MMK_R_o -27;
+		pos @MMK_L_E @MMK_R_u -21;
+		pos @MMK_L_E @MMK_R_v -33;
+		pos @MMK_L_E @MMK_R_z -21;
+		pos @MMK_L_F @MMK_R_A -25;
+		pos @MMK_L_F @MMK_R_J 33;
+		pos @MMK_L_F @MMK_R_M -10;
+		pos @MMK_L_F @MMK_R_O -3;
+		pos @MMK_L_F @MMK_R_S -3;
+		pos @MMK_L_F @MMK_R_T 23;
+		pos @MMK_L_F @MMK_R_V 15;
+		pos @MMK_L_F @MMK_R_X 16;
+		pos @MMK_L_F @MMK_R_Y 18;
+		pos @MMK_L_F @MMK_R_a -30;
+		pos @MMK_L_F @MMK_R_asterisk 13;
+		pos @MMK_L_F @MMK_R_g -44;
+		pos @MMK_L_F @MMK_R_h -3;
+		pos @MMK_L_F @MMK_R_n -40;
+		pos @MMK_L_F @MMK_R_o -38;
+		pos @MMK_L_F @MMK_R_p -25;
+		pos @MMK_L_F @MMK_R_period -104;
+		pos @MMK_L_F @MMK_R_s -27;
+		pos @MMK_L_F @MMK_R_u -50;
+		pos @MMK_L_F @MMK_R_v -15;
+		pos @MMK_L_F @MMK_R_x -30;
+		pos @MMK_L_G @MMK_R_A 3;
+		pos @MMK_L_G @MMK_R_a -10;
+		pos @MMK_L_G @MMK_R_g -20;
+		pos @MMK_L_G @MMK_R_h -10;
+		pos @MMK_L_G @MMK_R_n -20;
+		pos @MMK_L_G @MMK_R_o -21;
+		pos @MMK_L_G @MMK_R_u -21;
+		pos @MMK_L_G @MMK_R_v -20;
+		pos @MMK_L_H @MMK_R_O -18;
+		pos @MMK_L_H @MMK_R_T -15;
+		pos @MMK_L_H @MMK_R_V -18;
+		pos @MMK_L_H @MMK_R_a -21;
+		pos @MMK_L_H @MMK_R_g -26;
+		pos @MMK_L_H @MMK_R_h -6;
+		pos @MMK_L_H @MMK_R_hyphen -30;
+		pos @MMK_L_H @MMK_R_n -11;
+		pos @MMK_L_H @MMK_R_o -20;
+		pos @MMK_L_H @MMK_R_p 3;
+		pos @MMK_L_H @MMK_R_period -30;
+		pos @MMK_L_H @MMK_R_s -22;
+		pos @MMK_L_H @MMK_R_u -10;
+		pos @MMK_L_H @MMK_R_v -32;
+		pos @MMK_L_L @MMK_R_O -36;
+		pos @MMK_L_L @MMK_R_T -46;
+		pos @MMK_L_L @MMK_R_U 3;
+		pos @MMK_L_L @MMK_R_V -49;
+		pos @MMK_L_L @MMK_R_Y -49;
+		pos @MMK_L_L @MMK_R_asterisk -97;
+		pos @MMK_L_L @MMK_R_o -15;
+		pos @MMK_L_L @MMK_R_u -3;
+		pos @MMK_L_L @MMK_R_v -23;
+		pos @MMK_L_M @MMK_R_V -10;
+		pos @MMK_L_M @MMK_R_a -10;
+		pos @MMK_L_M @MMK_R_asterisk -3;
+		pos @MMK_L_M @MMK_R_hyphen -30;
+		pos @MMK_L_M @MMK_R_n -11;
+		pos @MMK_L_M @MMK_R_o -21;
+		pos @MMK_L_M @MMK_R_u -21;
+		pos @MMK_L_M @MMK_R_v -20;
+		pos @MMK_L_O @MMK_R_A -13;
+		pos @MMK_L_O @MMK_R_T -42;
+		pos @MMK_L_O @MMK_R_V -15;
+		pos @MMK_L_O @MMK_R_X -22;
+		pos @MMK_L_O @MMK_R_Y -33;
+		pos @MMK_L_O @MMK_R_asterisk -15;
+		pos @MMK_L_O @MMK_R_j 32;
+		pos @MMK_L_O @MMK_R_period -45;
+		pos @MMK_L_P @MMK_R_A -49;
+		pos @MMK_L_P @MMK_R_T -3;
+		pos @MMK_L_P @MMK_R_V -17;
+		pos @MMK_L_P @MMK_R_Y -15;
+		pos @MMK_L_P @MMK_R_a -27;
+		pos @MMK_L_P @MMK_R_asterisk -3;
+		pos @MMK_L_P @MMK_R_g -10;
+		pos @MMK_L_P @MMK_R_hyphen -74;
+		pos @MMK_L_P @MMK_R_n -15;
+		pos @MMK_L_P @MMK_R_o -44;
+		pos @MMK_L_P @MMK_R_p -15;
+		pos @MMK_L_P @MMK_R_period -187;
+		pos @MMK_L_P @MMK_R_s -17;
+		pos @MMK_L_P @MMK_R_u -15;
+		pos @MMK_L_R @MMK_R_O -10;
+		pos @MMK_L_R @MMK_R_T -40;
+		pos @MMK_L_R @MMK_R_U -21;
+		pos @MMK_L_R @MMK_R_V -24;
+		pos @MMK_L_R @MMK_R_Y -29;
+		pos @MMK_L_R @MMK_R_a -22;
+		pos @MMK_L_R @MMK_R_asterisk 3;
+		pos @MMK_L_R @MMK_R_g -17;
+		pos @MMK_L_R @MMK_R_h -11;
+		pos @MMK_L_R @MMK_R_hyphen -74;
+		pos @MMK_L_R @MMK_R_n -19;
+		pos @MMK_L_R @MMK_R_o -37;
+		pos @MMK_L_R @MMK_R_p -20;
+		pos @MMK_L_R @MMK_R_period -3;
+		pos @MMK_L_R @MMK_R_s -22;
+		pos @MMK_L_R @MMK_R_u -21;
+		pos @MMK_L_R @MMK_R_v -21;
+		pos @MMK_L_S @MMK_R_T -17;
+		pos @MMK_L_S @MMK_R_a -21;
+		pos @MMK_L_S @MMK_R_h -11;
+		pos @MMK_L_S @MMK_R_j -11;
+		pos @MMK_L_S @MMK_R_n -10;
+		pos @MMK_L_S @MMK_R_o -21;
+		pos @MMK_L_S @MMK_R_period -65;
+		pos @MMK_L_S @MMK_R_v -20;
+		pos @MMK_L_T @MMK_R_A -56;
+		pos @MMK_L_T @MMK_R_O -42;
+		pos @MMK_L_T @MMK_R_S -17;
+		pos @MMK_L_T @MMK_R_X -15;
+		pos @MMK_L_T @MMK_R_a -67;
+		pos @MMK_L_T @MMK_R_colon -33;
+		pos @MMK_L_T @MMK_R_g -67;
+		pos @MMK_L_T @MMK_R_h -14;
+		pos @MMK_L_T @MMK_R_hyphen -70;
+		pos @MMK_L_T @MMK_R_j -44;
+		pos @MMK_L_T @MMK_R_n -65;
+		pos @MMK_L_T @MMK_R_o -67;
+		pos @MMK_L_T @MMK_R_p -67;
+		pos @MMK_L_T @MMK_R_period -83;
+		pos @MMK_L_T @MMK_R_s -67;
+		pos @MMK_L_T @MMK_R_u -75;
+		pos @MMK_L_T @MMK_R_v -67;
+		pos @MMK_L_T @MMK_R_x -49;
+		pos @MMK_L_T @MMK_R_z -67;
+		pos @MMK_L_U @MMK_R_A -16;
+		pos @MMK_L_U @MMK_R_a -21;
+		pos @MMK_L_U @MMK_R_hyphen -30;
+		pos @MMK_L_U @MMK_R_n -21;
+		pos @MMK_L_U @MMK_R_o -33;
+		pos @MMK_L_U @MMK_R_p -21;
+		pos @MMK_L_U @MMK_R_period -40;
+		pos @MMK_L_V @MMK_R_A -20;
+		pos @MMK_L_V @MMK_R_M -10;
+		pos @MMK_L_V @MMK_R_O -15;
+		pos @MMK_L_V @MMK_R_S -16;
+		pos @MMK_L_V @MMK_R_X -10;
+		pos @MMK_L_V @MMK_R_a -53;
+		pos @MMK_L_V @MMK_R_asterisk 15;
+		pos @MMK_L_V @MMK_R_f -32;
+		pos @MMK_L_V @MMK_R_g -55;
+		pos @MMK_L_V @MMK_R_h -12;
+		pos @MMK_L_V @MMK_R_hyphen -83;
+		pos @MMK_L_V @MMK_R_j -33;
+		pos @MMK_L_V @MMK_R_n -47;
+		pos @MMK_L_V @MMK_R_o -43;
+		pos @MMK_L_V @MMK_R_p -55;
+		pos @MMK_L_V @MMK_R_period -92;
+		pos @MMK_L_V @MMK_R_s -49;
+		pos @MMK_L_V @MMK_R_u -51;
+		pos @MMK_L_V @MMK_R_v -23;
+		pos @MMK_L_V @MMK_R_x -30;
+		pos @MMK_L_V @MMK_R_z -37;
+		pos @MMK_L_X @MMK_R_A -3;
+		pos @MMK_L_X @MMK_R_O -22;
+		pos @MMK_L_X @MMK_R_T -10;
+		pos @MMK_L_X @MMK_R_a -10;
+		pos @MMK_L_X @MMK_R_hyphen -60;
+		pos @MMK_L_X @MMK_R_n -12;
+		pos @MMK_L_X @MMK_R_o -24;
+		pos @MMK_L_X @MMK_R_p -12;
+		pos @MMK_L_X @MMK_R_u -16;
+		pos @MMK_L_X @MMK_R_v -26;
+		pos @MMK_L_Y @MMK_R_A -46;
+		pos @MMK_L_Y @MMK_R_O -33;
+		pos @MMK_L_Y @MMK_R_S 3;
+		pos @MMK_L_Y @MMK_R_X -22;
+		pos @MMK_L_Y @MMK_R_a -63;
+		pos @MMK_L_Y @MMK_R_asterisk 10;
+		pos @MMK_L_Y @MMK_R_f -30;
+		pos @MMK_L_Y @MMK_R_g -73;
+		pos @MMK_L_Y @MMK_R_h -3;
+		pos @MMK_L_Y @MMK_R_hyphen -55;
+		pos @MMK_L_Y @MMK_R_l -10;
+		pos @MMK_L_Y @MMK_R_n -63;
+		pos @MMK_L_Y @MMK_R_o -63;
+		pos @MMK_L_Y @MMK_R_p -63;
+		pos @MMK_L_Y @MMK_R_period -101;
+		pos @MMK_L_Y @MMK_R_s -43;
+		pos @MMK_L_Y @MMK_R_u -63;
+		pos @MMK_L_Y @MMK_R_v -38;
+		pos @MMK_L_Y @MMK_R_x -45;
+		pos @MMK_L_Y @MMK_R_z -35;
+		pos @MMK_L_Z @MMK_R_g -17;
+		pos @MMK_L_Z @MMK_R_o -30;
+		pos @MMK_L_Z @MMK_R_period -3;
+		pos @MMK_L_Z @MMK_R_u -17;
+		pos @MMK_L_Z @MMK_R_v -22;
+		pos @MMK_L_c @MMK_R_H -32;
+		pos @MMK_L_c @MMK_R_T -60;
+		pos @MMK_L_c @MMK_R_V -30;
+		pos @MMK_L_c @MMK_R_X 3;
+		pos @MMK_L_c @MMK_R_Y -31;
+		pos @MMK_L_c @MMK_R_a -10;
+		pos @MMK_L_c @MMK_R_asterisk 3;
+		pos @MMK_L_c @MMK_R_g 3;
+		pos @MMK_L_c @MMK_R_hyphen -20;
+		pos @MMK_L_c @MMK_R_n -10;
+		pos @MMK_L_c @MMK_R_period -33;
+		pos @MMK_L_e @MMK_R_A -15;
+		pos @MMK_L_e @MMK_R_H -32;
+		pos @MMK_L_e @MMK_R_T -67;
+		pos @MMK_L_e @MMK_R_V -47;
+		pos @MMK_L_e @MMK_R_X 3;
+		pos @MMK_L_e @MMK_R_Y -49;
+		pos @MMK_L_e @MMK_R_asterisk -25;
+		pos @MMK_L_e @MMK_R_g -10;
+		pos @MMK_L_e @MMK_R_period -33;
+		pos @MMK_L_f @MMK_R_A -17;
+		pos @MMK_L_f @MMK_R_H 35;
+		pos @MMK_L_f @MMK_R_J 43;
+		pos @MMK_L_f @MMK_R_O 16;
+		pos @MMK_L_f @MMK_R_S 29;
+		pos @MMK_L_f @MMK_R_T 36;
+		pos @MMK_L_f @MMK_R_U 102;
+		pos @MMK_L_f @MMK_R_V 50;
+		pos @MMK_L_f @MMK_R_X 102;
+		pos @MMK_L_f @MMK_R_Y 65;
+		pos @MMK_L_f @MMK_R_Z 40;
+		pos @MMK_L_f @MMK_R_a -11;
+		pos @MMK_L_f @MMK_R_asterisk 53;
+		pos @MMK_L_f @MMK_R_g -24;
+		pos @MMK_L_f @MMK_R_o -20;
+		pos @MMK_L_f @MMK_R_period -42;
+		pos @MMK_L_f @MMK_R_v 16;
+		pos @MMK_L_g @MMK_R_H -22;
+		pos @MMK_L_g @MMK_R_J 16;
+		pos @MMK_L_g @MMK_R_M -22;
+		pos @MMK_L_g @MMK_R_T -46;
+		pos @MMK_L_g @MMK_R_V -30;
+		pos @MMK_L_g @MMK_R_Y -45;
+		pos @MMK_L_g @MMK_R_Z -12;
+		pos @MMK_L_g @MMK_R_a -14;
+		pos @MMK_L_g @MMK_R_asterisk -22;
+		pos @MMK_L_g @MMK_R_f -4;
+		pos @MMK_L_g @MMK_R_j 16;
+		pos @MMK_L_j @MMK_R_T -44;
+		pos @MMK_L_j @MMK_R_period -43;
+		pos @MMK_L_l @MMK_R_T -15;
+		pos @MMK_L_l @MMK_R_V -3;
+		pos @MMK_L_l @MMK_R_v -3;
+		pos @MMK_L_n @MMK_R_H -22;
+		pos @MMK_L_n @MMK_R_J -22;
+		pos @MMK_L_n @MMK_R_S -11;
+		pos @MMK_L_n @MMK_R_T -67;
+		pos @MMK_L_n @MMK_R_V -47;
+		pos @MMK_L_n @MMK_R_Y -63;
+		pos @MMK_L_n @MMK_R_asterisk -67;
+		pos @MMK_L_n @MMK_R_f -10;
+		pos @MMK_L_n @MMK_R_n -12;
+		pos @MMK_L_n @MMK_R_v -20;
+		pos @MMK_L_o @MMK_R_A -19;
+		pos @MMK_L_o @MMK_R_H -20;
+		pos @MMK_L_o @MMK_R_J -43;
+		pos @MMK_L_o @MMK_R_T -67;
+		pos @MMK_L_o @MMK_R_V -50;
+		pos @MMK_L_o @MMK_R_X -24;
+		pos @MMK_L_o @MMK_R_Y -63;
+		pos @MMK_L_o @MMK_R_Z -15;
+		pos @MMK_L_o @MMK_R_asterisk -45;
+		pos @MMK_L_o @MMK_R_f -20;
+		pos @MMK_L_o @MMK_R_n -12;
+		pos @MMK_L_o @MMK_R_period -50;
+		pos @MMK_L_o @MMK_R_v -15;
+		pos @MMK_L_o @MMK_R_x -16;
+		pos @MMK_L_o @MMK_R_z -15;
+		pos @MMK_L_r @MMK_R_A -15;
+		pos @MMK_L_r @MMK_R_H -10;
+		pos @MMK_L_r @MMK_R_J -20;
+		pos @MMK_L_r @MMK_R_T -85;
+		pos @MMK_L_r @MMK_R_V -29;
+		pos @MMK_L_r @MMK_R_X -33;
+		pos @MMK_L_r @MMK_R_Y -40;
+		pos @MMK_L_r @MMK_R_a -10;
+		pos @MMK_L_r @MMK_R_asterisk 20;
+		pos @MMK_L_r @MMK_R_h 3;
+		pos @MMK_L_r @MMK_R_hyphen -35;
+		pos @MMK_L_r @MMK_R_o -3;
+		pos @MMK_L_r @MMK_R_period -87;
+		pos @MMK_L_r @MMK_R_v 13;
+		pos @MMK_L_s @MMK_R_H -34;
+		pos @MMK_L_s @MMK_R_T -67;
+		pos @MMK_L_s @MMK_R_V -49;
+		pos @MMK_L_s @MMK_R_X -40;
+		pos @MMK_L_s @MMK_R_Y -43;
+		pos @MMK_L_s @MMK_R_period -17;
+		pos @MMK_L_t @MMK_R_H -21;
+		pos @MMK_L_t @MMK_R_T -45;
+		pos @MMK_L_t @MMK_R_V -17;
+		pos @MMK_L_t @MMK_R_X -10;
+		pos @MMK_L_t @MMK_R_Y -31;
+		pos @MMK_L_t @MMK_R_asterisk 22;
+		pos @MMK_L_t @MMK_R_g -22;
+		pos @MMK_L_t @MMK_R_hyphen -15;
+		pos @MMK_L_t @MMK_R_o -15;
+		pos @MMK_L_t @MMK_R_period -34;
+		pos @MMK_L_u @MMK_R_H 3;
+		pos @MMK_L_u @MMK_R_J -22;
+		pos @MMK_L_u @MMK_R_O -14;
+		pos @MMK_L_u @MMK_R_T -75;
+		pos @MMK_L_u @MMK_R_V -44;
+		pos @MMK_L_u @MMK_R_Y -56;
+		pos @MMK_L_u @MMK_R_asterisk -25;
+		pos @MMK_L_u @MMK_R_f -10;
+		pos @MMK_L_u @MMK_R_n -12;
+		pos @MMK_L_u @MMK_R_o -3;
+		pos @MMK_L_u @MMK_R_v -14;
+		pos @MMK_L_v @MMK_R_A -18;
+		pos @MMK_L_v @MMK_R_J -44;
+		pos @MMK_L_v @MMK_R_M -22;
+		pos @MMK_L_v @MMK_R_S -22;
+		pos @MMK_L_v @MMK_R_T -67;
+		pos @MMK_L_v @MMK_R_V -31;
+		pos @MMK_L_v @MMK_R_X -26;
+		pos @MMK_L_v @MMK_R_Y -38;
+		pos @MMK_L_v @MMK_R_a -17;
+		pos @MMK_L_v @MMK_R_g -23;
+		pos @MMK_L_v @MMK_R_hyphen -30;
+		pos @MMK_L_v @MMK_R_o -15;
+		pos @MMK_L_v @MMK_R_period -71;
+		pos @MMK_L_x @MMK_R_A 16;
+		pos @MMK_L_x @MMK_R_T -67;
+		pos @MMK_L_x @MMK_R_V -33;
+		pos @MMK_L_x @MMK_R_X -15;
+		pos @MMK_L_x @MMK_R_Y -45;
+		pos @MMK_L_x @MMK_R_a -21;
+		pos @MMK_L_x @MMK_R_g -21;
+		pos @MMK_L_x @MMK_R_hyphen -29;
+		pos @MMK_L_x @MMK_R_o -16;
+		pos @MMK_L_z @MMK_R_H -11;
+		pos @MMK_L_z @MMK_R_J -22;
+		pos @MMK_L_z @MMK_R_T -67;
+		pos @MMK_L_z @MMK_R_V -53;
+		pos @MMK_L_z @MMK_R_Y -35;
+		pos @MMK_L_z @MMK_R_o -15;
+	} kern_latn;
+	lookupflag 0;
+### close feature 'kern' ###
+} kern;
+
+### feature:-1:mark ###
+feature mark {
+	lookup mark_DFLT {
+		pos base dollar  <anchor 195 0> mark @mark_bottom <anchor 210 497> mark @mark_top;
+		pos base yen  <anchor 245 497> mark @mark_top;
+	} mark_DFLT;
+	lookup mark_latn {
+		pos base A  <anchor 286 0> mark @mark_bottom <anchor 287 640> mark @mark_top;
+		pos base Aacute  <anchor 286 0> mark @mark_bottom <anchor 281 766> mark @mark_top;
+		pos base uni01CD  <anchor 286 0> mark @mark_bottom <anchor 287 750> mark @mark_top;
+		pos base uni1EA0  <anchor 286 -155> mark @mark_bottom <anchor 287 640> mark @mark_top;
+		pos base Agrave  <anchor 286 0> mark @mark_bottom <anchor 287 874> mark @mark_top;
+		pos base Amacron  <anchor 286 0> mark @mark_bottom <anchor 287 796> mark @mark_top;
+		pos base Aring  <anchor 286 0> mark @mark_bottom <anchor 286 874> mark @mark_top;
+		pos base C  <anchor 306 0> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Ccedilla  <anchor 311 -190> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Ccircumflex  <anchor 306 0> mark @mark_bottom <anchor 314 778> mark @mark_top;
+		pos base D  <anchor 323 0> mark @mark_bottom <anchor 323 640> mark @mark_top;
+		pos base E  <anchor 278 0> mark @mark_bottom <anchor 272 640> mark @mark_top;
+		pos base Eacute  <anchor 278 0> mark @mark_bottom <anchor 266 766> mark @mark_top;
+		pos base Ecaron  <anchor 278 0> mark @mark_bottom <anchor 272 750> mark @mark_top;
+		pos base Ecircumflex  <anchor 278 0> mark @mark_bottom <anchor 272 778> mark @mark_top;
+		pos base uni1EBE  <anchor 278 0> mark @mark_bottom <anchor 292 936> mark @mark_top;
+		pos base uni1EC6  <anchor 278 -155> mark @mark_bottom <anchor 272 778> mark @mark_top;
+		pos base uni1EC0  <anchor 278 0> mark @mark_bottom <anchor 276 936> mark @mark_top;
+		pos base uni1EB8  <anchor 278 -155> mark @mark_bottom <anchor 272 640> mark @mark_top;
+		pos base Egrave  <anchor 278 0> mark @mark_bottom <anchor 272 874> mark @mark_top;
+		pos base Emacron  <anchor 278 0> mark @mark_bottom <anchor 272 796> mark @mark_top;
+		pos base G  <anchor 308 0> mark @mark_bottom <anchor 326 640> mark @mark_top;
+		pos base H  <anchor 341 0> mark @mark_bottom <anchor 341 640> mark @mark_top;
+		pos base I  <anchor 130 0> mark @mark_bottom <anchor 131 640> mark @mark_top;
+		pos base Iacute  <anchor 130 0> mark @mark_bottom <anchor 125 766> mark @mark_top;
+		pos base uni01CF  <anchor 130 0> mark @mark_bottom <anchor 131 750> mark @mark_top;
+		pos base uni1ECA  <anchor 130 -155> mark @mark_bottom <anchor 131 640> mark @mark_top;
+		pos base Igrave  <anchor 130 0> mark @mark_bottom <anchor 131 874> mark @mark_top;
+		pos base Imacron  <anchor 130 0> mark @mark_bottom <anchor 131 796> mark @mark_top;
+		pos base J  <anchor 127 640> mark @mark_top;
+		pos base K  <anchor 284 0> mark @mark_bottom <anchor 270 640> mark @mark_top;
+		pos base L  <anchor 235 0> mark @mark_bottom <anchor 130 640> mark @mark_top;
+		pos base M  <anchor 394 0> mark @mark_bottom <anchor 394 640> mark @mark_top;
+		pos base N  <anchor 336 0> mark @mark_bottom <anchor 337 640> mark @mark_top;
+		pos base Nacute  <anchor 336 0> mark @mark_bottom <anchor 331 766> mark @mark_top;
+		pos base Ncaron  <anchor 336 0> mark @mark_bottom <anchor 337 750> mark @mark_top;
+		pos base uni1E46  <anchor 336 -155> mark @mark_bottom <anchor 337 640> mark @mark_top;
+		pos base uni01F8  <anchor 336 0> mark @mark_bottom <anchor 337 874> mark @mark_top;
+		pos base Eng  <anchor 337 640> mark @mark_top;
+		pos base O  <anchor 317 0> mark @mark_bottom <anchor 318 640> mark @mark_top;
+		pos base Oacute  <anchor 317 0> mark @mark_bottom <anchor 312 766> mark @mark_top;
+		pos base uni01D1  <anchor 317 0> mark @mark_bottom <anchor 318 750> mark @mark_top;
+		pos base uni1ECC  <anchor 317 -155> mark @mark_bottom <anchor 318 640> mark @mark_top;
+		pos base Ograve  <anchor 317 0> mark @mark_bottom <anchor 318 874> mark @mark_top;
+		pos base Omacron  <anchor 317 0> mark @mark_bottom <anchor 318 796> mark @mark_top;
+		pos base R  <anchor 274 0> mark @mark_bottom <anchor 274 640> mark @mark_top;
+		pos base uni0156  <anchor 446 -190> mark @mark_bottom <anchor 274 640> mark @mark_top;
+		pos base S  <anchor 225 0> mark @mark_bottom <anchor 244 640> mark @mark_top;
+		pos base Scedilla  <anchor 230 -190> mark @mark_bottom <anchor 244 640> mark @mark_top;
+		pos base Scircumflex  <anchor 225 0> mark @mark_bottom <anchor 245 865> mark @mark_top;
+		pos base T  <anchor 238 0> mark @mark_bottom <anchor 247 640> mark @mark_top;
+		pos base U  <anchor 309 0> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Uacute  <anchor 309 0> mark @mark_bottom <anchor 308 766> mark @mark_top;
+		pos base uni01D3  <anchor 309 0> mark @mark_bottom <anchor 314 750> mark @mark_top;
+		pos base Udieresis  <anchor 309 0> mark @mark_bottom <anchor 315 827> mark @mark_top;
+		pos base uni01D7  <anchor 309 0> mark @mark_bottom <anchor 315 963> mark @mark_top;
+		pos base uni01D9  <anchor 309 0> mark @mark_bottom <anchor 314 947> mark @mark_top;
+		pos base uni01DB  <anchor 309 0> mark @mark_bottom <anchor 315 963> mark @mark_top;
+		pos base uni01D5  <anchor 309 0> mark @mark_bottom <anchor 314 919> mark @mark_top;
+		pos base uni1EE4  <anchor 309 -155> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Ugrave  <anchor 309 0> mark @mark_bottom <anchor 314 874> mark @mark_top;
+		pos base Umacron  <anchor 309 0> mark @mark_bottom <anchor 314 799> mark @mark_top;
+		pos base Uring  <anchor 309 0> mark @mark_bottom <anchor 313 874> mark @mark_top;
+		pos base V  <anchor 274 0> mark @mark_bottom <anchor 285 640> mark @mark_top;
+		pos base W  <anchor 438 640> mark @mark_top;
+		pos base X  <anchor 288 0> mark @mark_bottom <anchor 297 640> mark @mark_top;
+		pos base Y  <anchor 249 0> mark @mark_bottom <anchor 258 640> mark @mark_top;
+		pos base Z  <anchor 262 0> mark @mark_bottom <anchor 262 640> mark @mark_top;
+		pos base uni1E90  <anchor 262 0> mark @mark_bottom <anchor 263 865> mark @mark_top;
+		pos base A.back  <anchor 286 0> mark @mark_bottom <anchor 287 640> mark @mark_top;
+		pos base Aacute.back  <anchor 286 0> mark @mark_bottom <anchor 281 766> mark @mark_top;
+		pos base uni01CD.back  <anchor 286 0> mark @mark_bottom <anchor 287 750> mark @mark_top;
+		pos base uni1EA0.back  <anchor 286 -155> mark @mark_bottom <anchor 287 640> mark @mark_top;
+		pos base Agrave.back  <anchor 286 0> mark @mark_bottom <anchor 287 874> mark @mark_top;
+		pos base Amacron.back  <anchor 286 0> mark @mark_bottom <anchor 287 796> mark @mark_top;
+		pos base I.buzz  <anchor 131 640> mark @mark_top;
+		pos base Iacute.buzz  <anchor 125 766> mark @mark_top;
+		pos base uni01CF.buzz  <anchor 131 750> mark @mark_top;
+		pos base uni1ECA.buzz  <anchor 152 -155> mark @mark_bottom <anchor 131 640> mark @mark_top;
+		pos base Igrave.buzz  <anchor 131 874> mark @mark_top;
+		pos base Imacron.buzz  <anchor 131 796> mark @mark_top;
+		pos base E.di  <anchor 278 0> mark @mark_bottom <anchor 272 640> mark @mark_top;
+		pos base Eacute.di  <anchor 278 0> mark @mark_bottom <anchor 266 766> mark @mark_top;
+		pos base Ecaron.di  <anchor 278 0> mark @mark_bottom <anchor 272 750> mark @mark_top;
+		pos base uni1EB8.di  <anchor 278 -155> mark @mark_bottom <anchor 272 640> mark @mark_top;
+		pos base Egrave.di  <anchor 278 0> mark @mark_bottom <anchor 272 874> mark @mark_top;
+		pos base Emacron.di  <anchor 278 0> mark @mark_bottom <anchor 272 796> mark @mark_top;
+		pos base O.di  <anchor 317 0> mark @mark_bottom <anchor 318 640> mark @mark_top;
+		pos base Oacute.di  <anchor 317 0> mark @mark_bottom <anchor 312 766> mark @mark_top;
+		pos base uni01D1.di  <anchor 317 0> mark @mark_bottom <anchor 318 750> mark @mark_top;
+		pos base uni1ECC.di  <anchor 317 -155> mark @mark_bottom <anchor 318 640> mark @mark_top;
+		pos base Ograve.di  <anchor 317 0> mark @mark_bottom <anchor 318 874> mark @mark_top;
+		pos base Omacron.di  <anchor 317 0> mark @mark_bottom <anchor 318 796> mark @mark_top;
+		pos base U.di  <anchor 309 0> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Uacute.di  <anchor 309 0> mark @mark_bottom <anchor 308 766> mark @mark_top;
+		pos base uni01D3.di  <anchor 309 0> mark @mark_bottom <anchor 314 750> mark @mark_top;
+		pos base uni1EE4.di  <anchor 309 -155> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Ugrave.di  <anchor 309 0> mark @mark_bottom <anchor 314 874> mark @mark_top;
+		pos base Umacron.di  <anchor 309 0> mark @mark_bottom <anchor 314 799> mark @mark_top;
+		pos base E.front  <anchor 278 0> mark @mark_bottom <anchor 272 640> mark @mark_top;
+		pos base Eacute.front  <anchor 278 0> mark @mark_bottom <anchor 266 766> mark @mark_top;
+		pos base Ecaron.front  <anchor 278 0> mark @mark_bottom <anchor 272 750> mark @mark_top;
+		pos base uni1EB8.front  <anchor 278 -155> mark @mark_bottom <anchor 272 640> mark @mark_top;
+		pos base Egrave.front  <anchor 278 0> mark @mark_bottom <anchor 272 874> mark @mark_top;
+		pos base Emacron.front  <anchor 278 0> mark @mark_bottom <anchor 272 796> mark @mark_top;
+		pos base A.mid  <anchor 286 0> mark @mark_bottom <anchor 287 640> mark @mark_top;
+		pos base Aacute.mid  <anchor 286 0> mark @mark_bottom <anchor 281 766> mark @mark_top;
+		pos base uni01CD.mid  <anchor 286 0> mark @mark_bottom <anchor 287 750> mark @mark_top;
+		pos base uni1EA0.mid  <anchor 286 -155> mark @mark_bottom <anchor 287 640> mark @mark_top;
+		pos base Agrave.mid  <anchor 286 0> mark @mark_bottom <anchor 287 874> mark @mark_top;
+		pos base Amacron.mid  <anchor 286 0> mark @mark_bottom <anchor 287 796> mark @mark_top;
+		pos base U.yu  <anchor 309 0> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Uacute.yu  <anchor 309 0> mark @mark_bottom <anchor 308 766> mark @mark_top;
+		pos base uni01D3.yu  <anchor 309 0> mark @mark_bottom <anchor 314 750> mark @mark_top;
+		pos base uni1EE4.yu  <anchor 309 -155> mark @mark_bottom <anchor 314 640> mark @mark_top;
+		pos base Ugrave.yu  <anchor 309 0> mark @mark_bottom <anchor 314 874> mark @mark_top;
+		pos base Umacron.yu  <anchor 309 0> mark @mark_bottom <anchor 314 799> mark @mark_top;
+		pos base Y.yu  <anchor 270 0> mark @mark_bottom <anchor 272 640> mark @mark_top;
+		pos base a  <anchor 224 0> mark @mark_bottom <anchor 220 457> mark @mark_top;
+		pos base aacute  <anchor 224 0> mark @mark_bottom <anchor 249 691> mark @mark_top;
+		pos base uni01CE  <anchor 224 0> mark @mark_bottom <anchor 221 682> mark @mark_top;
+		pos base uni1EA1  <anchor 224 -155> mark @mark_bottom <anchor 220 457> mark @mark_top;
+		pos base agrave  <anchor 224 0> mark @mark_bottom <anchor 220 691> mark @mark_top;
+		pos base amacron  <anchor 224 0> mark @mark_bottom <anchor 220 616> mark @mark_top;
+		pos base aring  <anchor 224 0> mark @mark_bottom <anchor 219 691> mark @mark_top;
+		pos base b  <anchor 241 0> mark @mark_bottom <anchor 241 457> mark @mark_top;
+		pos base c  <anchor 234 0> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base ccedilla  <anchor 239 -190> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base ccircumflex  <anchor 234 0> mark @mark_bottom <anchor 237 682> mark @mark_top;
+		pos base d  <anchor 259 0> mark @mark_bottom <anchor 259 457> mark @mark_top;
+		pos base e  <anchor 245 0> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base eacute  <anchor 245 0> mark @mark_bottom <anchor 265 691> mark @mark_top;
+		pos base ecaron  <anchor 245 0> mark @mark_bottom <anchor 237 682> mark @mark_top;
+		pos base ecircumflex  <anchor 245 0> mark @mark_bottom <anchor 237 682> mark @mark_top;
+		pos base uni1EBF  <anchor 245 0> mark @mark_bottom <anchor 256 753> mark @mark_top;
+		pos base uni1EC7  <anchor 245 -155> mark @mark_bottom <anchor 237 682> mark @mark_top;
+		pos base uni1EC1  <anchor 245 0> mark @mark_bottom <anchor 240 753> mark @mark_top;
+		pos base uni1EB9  <anchor 245 -155> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base egrave  <anchor 245 0> mark @mark_bottom <anchor 236 691> mark @mark_top;
+		pos base emacron  <anchor 245 0> mark @mark_bottom <anchor 236 616> mark @mark_top;
+		pos base g  <anchor 243 447> mark @mark_top;
+		pos base h  <anchor 244 0> mark @mark_bottom <anchor 106 645> mark @mark_top;
+		pos base i  <anchor 107 0> mark @mark_bottom <anchor 107 457> mark @mark_top;
+		pos base iacute  <anchor 107 0> mark @mark_bottom <anchor 107 457> mark @mark_top;
+		pos base uni01D0  <anchor 107 0> mark @mark_bottom <anchor 107 457> mark @mark_top;
+		pos base uni1ECB  <anchor 107 -155> mark @mark_bottom <anchor 107 457> mark @mark_top;
+		pos base igrave  <anchor 107 0> mark @mark_bottom <anchor 107 457> mark @mark_top;
+		pos base imacron  <anchor 107 0> mark @mark_bottom <anchor 107 616> mark @mark_top;
+		pos base j  <anchor 107 457> mark @mark_top;
+		pos base k  <anchor 234 0> mark @mark_bottom <anchor 106 645> mark @mark_top;
+		pos base l  <anchor 106 0> mark @mark_bottom <anchor 106 680> mark @mark_top;
+		pos base m  <anchor 388 0> mark @mark_bottom <anchor 388 457> mark @mark_top;
+		pos base n  <anchor 248 0> mark @mark_bottom <anchor 261 457> mark @mark_top;
+		pos base nacute  <anchor 248 0> mark @mark_bottom <anchor 290 691> mark @mark_top;
+		pos base ncaron  <anchor 248 0> mark @mark_bottom <anchor 262 682> mark @mark_top;
+		pos base uni1E47  <anchor 248 -155> mark @mark_bottom <anchor 261 457> mark @mark_top;
+		pos base uni01F9  <anchor 248 0> mark @mark_bottom <anchor 261 691> mark @mark_top;
+		pos base eng  <anchor 261 457> mark @mark_top;
+		pos base o  <anchor 245 0> mark @mark_bottom <anchor 245 457> mark @mark_top;
+		pos base oacute  <anchor 245 0> mark @mark_bottom <anchor 274 691> mark @mark_top;
+		pos base uni01D2  <anchor 245 0> mark @mark_bottom <anchor 246 682> mark @mark_top;
+		pos base uni1ECD  <anchor 245 -155> mark @mark_bottom <anchor 245 457> mark @mark_top;
+		pos base ograve  <anchor 245 0> mark @mark_bottom <anchor 245 691> mark @mark_top;
+		pos base omacron  <anchor 245 0> mark @mark_bottom <anchor 245 616> mark @mark_top;
+		pos base p  <anchor 243 0> mark @mark_bottom <anchor 243 457> mark @mark_top;
+		pos base q  <anchor 231 0> mark @mark_bottom <anchor 256 457> mark @mark_top;
+		pos base r  <anchor 108 0> mark @mark_bottom <anchor 183 457> mark @mark_top;
+		pos base uni0157  <anchor 113 -190> mark @mark_bottom <anchor 183 457> mark @mark_top;
+		pos base s  <anchor 171 0> mark @mark_bottom <anchor 182 457> mark @mark_top;
+		pos base scedilla  <anchor 176 -190> mark @mark_bottom <anchor 182 457> mark @mark_top;
+		pos base scircumflex  <anchor 171 0> mark @mark_bottom <anchor 183 682> mark @mark_top;
+		pos base t  <anchor 201 0> mark @mark_bottom <anchor 131 512> mark @mark_top;
+		pos base u  <anchor 257 0> mark @mark_bottom <anchor 253 457> mark @mark_top;
+		pos base uacute  <anchor 257 0> mark @mark_bottom <anchor 282 691> mark @mark_top;
+		pos base uni01D4  <anchor 257 0> mark @mark_bottom <anchor 254 682> mark @mark_top;
+		pos base udieresis  <anchor 257 0> mark @mark_bottom <anchor 254 638> mark @mark_top;
+		pos base uni01D8  <anchor 257 0> mark @mark_bottom <anchor 253 773> mark @mark_top;
+		pos base uni01DA  <anchor 257 0> mark @mark_bottom <anchor 253 764> mark @mark_top;
+		pos base uni01DC  <anchor 257 0> mark @mark_bottom <anchor 254 780> mark @mark_top;
+		pos base uni01D6  <anchor 257 0> mark @mark_bottom <anchor 253 736> mark @mark_top;
+		pos base uni1EE5  <anchor 257 -155> mark @mark_bottom <anchor 253 457> mark @mark_top;
+		pos base ugrave  <anchor 257 0> mark @mark_bottom <anchor 253 691> mark @mark_top;
+		pos base umacron  <anchor 257 0> mark @mark_bottom <anchor 253 616> mark @mark_top;
+		pos base uring  <anchor 257 0> mark @mark_bottom <anchor 252 691> mark @mark_top;
+		pos base v  <anchor 203 0> mark @mark_bottom <anchor 211 457> mark @mark_top;
+		pos base w  <anchor 333 0> mark @mark_bottom <anchor 336 457> mark @mark_top;
+		pos base x  <anchor 213 0> mark @mark_bottom <anchor 219 457> mark @mark_top;
+		pos base y  <anchor 214 457> mark @mark_top;
+		pos base z  <anchor 205 0> mark @mark_bottom <anchor 205 457> mark @mark_top;
+		pos base uni1E91  <anchor 205 0> mark @mark_bottom <anchor 206 682> mark @mark_top;
+		pos base a.back  <anchor 248 0> mark @mark_bottom <anchor 249 457> mark @mark_top;
+		pos base aacute.back  <anchor 248 0> mark @mark_bottom <anchor 278 691> mark @mark_top;
+		pos base uni01CE.back  <anchor 248 0> mark @mark_bottom <anchor 250 682> mark @mark_top;
+		pos base uni1EA1.back  <anchor 248 -155> mark @mark_bottom <anchor 220 457> mark @mark_top;
+		pos base agrave.back  <anchor 248 0> mark @mark_bottom <anchor 249 691> mark @mark_top;
+		pos base amacron.back  <anchor 248 0> mark @mark_bottom <anchor 249 616> mark @mark_top;
+		pos base i.buzz  <anchor 152 0> mark @mark_bottom <anchor 110 462> mark @mark_top;
+		pos base iacute.buzz  <anchor 152 0> mark @mark_bottom <anchor 110 462> mark @mark_top;
+		pos base uni01D0.buzz  <anchor 152 0> mark @mark_bottom <anchor 110 462> mark @mark_top;
+		pos base uni1ECB.buzz  <anchor 152 -155> mark @mark_bottom <anchor 110 462> mark @mark_top;
+		pos base igrave.buzz  <anchor 152 0> mark @mark_bottom <anchor 110 462> mark @mark_top;
+		pos base imacron.buzz  <anchor 152 0> mark @mark_bottom <anchor 110 621> mark @mark_top;
+		pos base e.di  <anchor 245 0> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base eacute.di  <anchor 245 0> mark @mark_bottom <anchor 265 691> mark @mark_top;
+		pos base ecaron.di  <anchor 245 0> mark @mark_bottom <anchor 237 682> mark @mark_top;
+		pos base uni1EB9.di  <anchor 245 -155> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base egrave.di  <anchor 245 0> mark @mark_bottom <anchor 236 691> mark @mark_top;
+		pos base emacron.di  <anchor 245 0> mark @mark_bottom <anchor 236 616> mark @mark_top;
+		pos base o.di  <anchor 245 0> mark @mark_bottom <anchor 245 457> mark @mark_top;
+		pos base oacute.di  <anchor 245 0> mark @mark_bottom <anchor 274 691> mark @mark_top;
+		pos base uni01D2.di  <anchor 245 0> mark @mark_bottom <anchor 246 682> mark @mark_top;
+		pos base uni1ECD.di  <anchor 245 -155> mark @mark_bottom <anchor 245 457> mark @mark_top;
+		pos base ograve.di  <anchor 245 0> mark @mark_bottom <anchor 245 691> mark @mark_top;
+		pos base omacron.di  <anchor 245 0> mark @mark_bottom <anchor 245 616> mark @mark_top;
+		pos base u.di  <anchor 257 0> mark @mark_bottom <anchor 253 457> mark @mark_top;
+		pos base uacute.di  <anchor 257 0> mark @mark_bottom <anchor 282 691> mark @mark_top;
+		pos base uni01D4.di  <anchor 257 0> mark @mark_bottom <anchor 254 682> mark @mark_top;
+		pos base uni1EE5.di  <anchor 257 -155> mark @mark_bottom <anchor 253 457> mark @mark_top;
+		pos base ugrave.di  <anchor 257 0> mark @mark_bottom <anchor 253 691> mark @mark_top;
+		pos base umacron.di  <anchor 257 0> mark @mark_bottom <anchor 253 616> mark @mark_top;
+		pos base e.front  <anchor 245 0> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base eacute.front  <anchor 245 0> mark @mark_bottom <anchor 265 691> mark @mark_top;
+		pos base ecaron.front  <anchor 245 0> mark @mark_bottom <anchor 237 682> mark @mark_top;
+		pos base uni1EB9.front  <anchor 245 -155> mark @mark_bottom <anchor 236 457> mark @mark_top;
+		pos base egrave.front  <anchor 245 0> mark @mark_bottom <anchor 236 691> mark @mark_top;
+		pos base emacron.front  <anchor 245 0> mark @mark_bottom <anchor 236 616> mark @mark_top;
+		pos base a.mid  <anchor 220 457> mark @mark_top;
+		pos base aacute.mid  <anchor 249 691> mark @mark_top;
+		pos base uni01CE.mid  <anchor 221 682> mark @mark_top;
+		pos base uni1EA1.mid  <anchor 220 -155> mark @mark_bottom <anchor 220 457> mark @mark_top;
+		pos base agrave.mid  <anchor 220 691> mark @mark_top;
+		pos base amacron.mid  <anchor 220 616> mark @mark_top;
+		pos base u.yu  <anchor 257 0> mark @mark_bottom <anchor 253 457> mark @mark_top;
+		pos base uacute.yu  <anchor 257 0> mark @mark_bottom <anchor 282 691> mark @mark_top;
+		pos base uni01D4.yu  <anchor 257 0> mark @mark_bottom <anchor 254 682> mark @mark_top;
+		pos base uni1EE5.yu  <anchor 257 -155> mark @mark_bottom <anchor 253 457> mark @mark_top;
+		pos base ugrave.yu  <anchor 257 0> mark @mark_bottom <anchor 253 691> mark @mark_top;
+		pos base umacron.yu  <anchor 257 0> mark @mark_bottom <anchor 253 616> mark @mark_top;
+		pos base y.yu  <anchor 253 457> mark @mark_top;
+		pos base Rcircumflex  <anchor 274 0> mark @mark_bottom <anchor 274 778> mark @mark_top;
+		pos base Zcedilla  <anchor 267 -190> mark @mark_bottom <anchor 262 640> mark @mark_top;
+		pos base rcircumflex  <anchor 108 0> mark @mark_bottom <anchor 184 682> mark @mark_top;
+		pos base zcedilla  <anchor 210 -190> mark @mark_bottom <anchor 205 457> mark @mark_top;
+		pos base uni0251  <anchor 257 457> mark @mark_top;
+		pos base uni0261  <anchor 243 447> mark @mark_top;
+	} mark_latn;
+	lookupflag 0;
+### open feature 'mark' ###
+### close feature 'mark' ###
+} mark;
+
+### feature:-1:mkmk ###
+feature mkmk {
+### open feature 'mkmk' ###
+	lookup mkmk_DFLT_bottom {
+		lookupflag UseMarkFilteringSet @mark_bottom;
+		pos mark dotbelowcomb <anchor 116 -155> mark @mark_bottom;
+		pos mark uni0327 <anchor 195 -190> mark @mark_bottom;
+	} mkmk_DFLT_bottom;
+	lookup mkmk_DFLT_top {
+		lookupflag UseMarkFilteringSet @mark_top;
+		pos mark uni0308 <anchor 195 638> mark @mark_top;
+		pos mark uni03080300 <anchor 196 780> mark @mark_top;
+		pos mark uni03080301 <anchor 196 773> mark @mark_top;
+		pos mark uni0308030C <anchor 195 764> mark @mark_top;
+		pos mark uni03080304 <anchor 195 736> mark @mark_top;
+		pos mark gravecomb <anchor 195 691> mark @mark_top;
+		pos mark acutecomb <anchor 196 691> mark @mark_top;
+		pos mark uni0302 <anchor 195 682> mark @mark_top;
+		pos mark uni030C <anchor 195 682> mark @mark_top;
+		pos mark uni030A <anchor 194 691> mark @mark_top;
+		pos mark uni0304 <anchor 195 616> mark @mark_top;
+		pos mark uni0308.case <anchor 195 644> mark @mark_top;
+		pos mark uni03080300.case <anchor 196 780> mark @mark_top;
+		pos mark uni03080301.case <anchor 196 780> mark @mark_top;
+		pos mark uni0308030C.case <anchor 195 764> mark @mark_top;
+		pos mark gravecomb.case <anchor 195 691> mark @mark_top;
+		pos mark acutecomb.case <anchor 168 583> mark @mark_top;
+		pos mark uni0302.case <anchor 194 595> mark @mark_top;
+		pos mark uni030C.case <anchor 194 567> mark @mark_top;
+		pos mark uni030A.case <anchor 194 691> mark @mark_top;
+		pos mark uni0304.case <anchor 195 613> mark @mark_top;
+	} mkmk_DFLT_top;
+	lookup mkmk_latn_top {
+		lookupflag UseMarkFilteringSet @mark_top;
+		pos mark uni03020301 <anchor 215 753> mark @mark_top;
+		pos mark uni03020300 <anchor 199 753> mark @mark_top;
+	} mkmk_latn_top;
+### close feature 'mkmk' ###
+} mkmk;
+
+table GDEF {
+ GlyphClassDef [A Aacute uni01CD uni1EA0 Agrave Amacron Aring C Ccedilla Ccircumflex D E Eacute Ecaron Ecircumflex uni1EBE uni1EC6 uni1EC0 uni1EB8 Egrave Emacron G H I Iacute uni01CF uni1ECA Igrave Imacron J K L M N Nacute Ncaron uni1E46 uni01F8 Eng O Oacute uni01D1 uni1ECC Ograve Omacron R uni0156 S Scedilla Scircumflex T U Uacute uni01D3 Udieresis uni01D7 uni01D9 uni01DB uni01D5 uni1EE4 Ugrave Umacron Uring V W X Y Z uni1E90 A.back Aacute.back uni01CD.back uni1EA0.back Agrave.back Amacron.back I.buzz Iacute.buzz uni01CF.buzz uni1ECA.buzz Igrave.buzz Imacron.buzz E.di Eacute.di Ecaron.di uni1EB8.di Egrave.di Emacron.di O.di Oacute.di uni01D1.di uni1ECC.di Ograve.di Omacron.di U.di Uacute.di uni01D3.di uni1EE4.di Ugrave.di Umacron.di E.front Eacute.front Ecaron.front uni1EB8.front Egrave.front Emacron.front A.mid Aacute.mid uni01CD.mid uni1EA0.mid Agrave.mid Amacron.mid U.yu Uacute.yu uni01D3.yu uni1EE4.yu Ugrave.yu Umacron.yu Y.yu a aacute uni01CE uni1EA1 agrave amacron aring b c ccedilla ccircumflex d e eacute ecaron ecircumflex uni1EBF uni1EC7 uni1EC1 uni1EB9 egrave emacron g h i iacute uni01D0 uni1ECB igrave imacron j k l m n nacute ncaron uni1E47 uni01F9 eng o oacute uni01D2 uni1ECD ograve omacron p q r uni0157 s scedilla scircumflex t u uacute uni01D4 udieresis uni01D8 uni01DA uni01DC uni01D6 uni1EE5 ugrave umacron uring v w x y z uni1E91 a.back aacute.back uni01CE.back uni1EA1.back agrave.back amacron.back i.buzz iacute.buzz uni01D0.buzz uni1ECB.buzz igrave.buzz imacron.buzz e.di eacute.di ecaron.di uni1EB9.di egrave.di emacron.di o.di oacute.di uni01D2.di uni1ECD.di ograve.di omacron.di u.di uacute.di uni01D4.di uni1EE5.di ugrave.di umacron.di e.front eacute.front ecaron.front uni1EB9.front egrave.front emacron.front a.mid aacute.mid uni01CE.mid uni1EA1.mid agrave.mid amacron.mid u.yu uacute.yu uni01D4.yu uni1EE5.yu ugrave.yu umacron.yu y.yu Rcircumflex Zcedilla rcircumflex zcedilla dollar yen uni0251 uni0261],# Base 
+ , # Liga 
+ [uni03020301 uni03020300 uni0308 uni03080300 uni03080301 uni0308030C uni03080304 gravecomb acutecomb uni0302 uni030C uni030A uni0304 dotbelowcomb uni0327 uni0308.case uni03080300.case uni03080301.case uni0308030C.case gravecomb.case acutecomb.case uni0302.case uni030C.case uni030A.case uni0304.case], # Mark 
+ ;
+ } GDEF;

@@ -1,0 +1,23 @@
+{
+color = 3;
+glyphname = icaron;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (-76,0);
+ref = caroncomb;
+},
+{
+ref = i;
+}
+);
+width = 214;
+}
+);
+metricWidth = "=i";
+unicode = 464;
+}

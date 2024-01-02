@@ -1,0 +1,22 @@
+{
+color = 5;
+glyphname = Umacron;
+kernLeft = U;
+kernRight = U;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = U;
+},
+{
+pos = (119,183);
+ref = macroncomb;
+}
+);
+width = 623;
+}
+);
+unicode = 362;
+}

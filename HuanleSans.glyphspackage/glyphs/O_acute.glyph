@@ -1,0 +1,22 @@
+{
+color = 8;
+glyphname = Oacute;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (144,183);
+ref = acutecomb.case;
+}
+);
+width = 633;
+}
+);
+unicode = 211;
+}

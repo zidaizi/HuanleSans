@@ -1,0 +1,28 @@
+{
+color = 8;
+glyphname = Odotbelow;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (318,640);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (201,0);
+ref = dotbelowcomb;
+}
+);
+width = 633;
+}
+);
+unicode = 7884;
+}

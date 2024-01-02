@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0302.case" format="2">
+	<advance width="0"/>
+	<anchor x="194" y="457" name="_top"/>
+	<anchor x="306" y="646" name="custom1"/>
+	<anchor x="194" y="595" name="top"/>
+	<outline>
+		<component base="uni030C.case" xScale="-1" yScale="-1" xOffset="389" yOffset="1211"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>uni030C.case</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

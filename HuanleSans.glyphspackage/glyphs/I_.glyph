@@ -1,0 +1,40 @@
+{
+color = 3;
+glyphname = I;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (130,0);
+},
+{
+name = ogonek;
+pos = (164,0);
+},
+{
+name = top;
+pos = (131,640);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,640,l),
+(101,194,l),
+(96,0,l),
+(164,0,l),
+(161,199,l),
+(165,640,l)
+);
+}
+);
+width = 262;
+}
+);
+unicode = 73;
+}

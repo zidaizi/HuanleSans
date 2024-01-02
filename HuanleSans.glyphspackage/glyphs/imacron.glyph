@@ -1,0 +1,23 @@
+{
+color = 3;
+glyphname = imacron;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = i;
+},
+{
+pos = (-88,0);
+ref = macroncomb;
+}
+);
+width = 214;
+}
+);
+metricWidth = "=i (238)";
+unicode = 299;
+}

@@ -1,0 +1,30 @@
+{
+glyphname = circumflexcomb;
+kernLeft = asterisk;
+kernRight = asterisk;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (194,457);
+},
+{
+name = top;
+pos = (195,682);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (389,1204);
+ref = caroncomb;
+}
+);
+width = 389;
+}
+);
+unicode = 770;
+}

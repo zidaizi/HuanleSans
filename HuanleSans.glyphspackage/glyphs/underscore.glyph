@@ -1,0 +1,25 @@
+{
+glyphname = underscore;
+kernLeft = period;
+kernRight = period;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-11,-87,l),
+(-15,-127,l),
+(-10,-133,l),
+(462,-133,l),
+(466,-93,l),
+(461,-87,l)
+);
+}
+);
+width = 451;
+}
+);
+unicode = 95;
+}

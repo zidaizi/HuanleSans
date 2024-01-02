@@ -1,0 +1,22 @@
+{
+color = 3;
+glyphname = imacron.buzz;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = i.buzz;
+},
+{
+pos = (-85,5);
+ref = macroncomb;
+}
+);
+width = 259;
+}
+);
+metricWidth = "=i.buzz";
+}

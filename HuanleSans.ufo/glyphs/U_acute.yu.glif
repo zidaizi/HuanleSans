@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Uacute.yu" format="2">
+	<advance width="623"/>
+	<outline>
+		<component base="U.yu"/>
+		<component base="acutecomb.case" xOffset="140" yOffset="183"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

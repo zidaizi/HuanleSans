@@ -1,0 +1,21 @@
+{
+color = 1;
+glyphname = Edotbelow.front;
+kernLeft = H;
+kernRight = E;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = E.front;
+},
+{
+pos = (162,0);
+ref = dotbelowcomb;
+}
+);
+width = 476;
+}
+);
+}

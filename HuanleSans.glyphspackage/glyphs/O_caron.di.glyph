@@ -1,0 +1,21 @@
+{
+color = 8;
+glyphname = Ocaron.di;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = O.di;
+},
+{
+pos = (124,183);
+ref = caroncomb.case;
+}
+);
+width = 633;
+}
+);
+}

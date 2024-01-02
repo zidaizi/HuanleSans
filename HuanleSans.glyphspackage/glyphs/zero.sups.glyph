@@ -1,0 +1,16 @@
+{
+glyphname = zero.sups;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (0,443);
+ref = zero.subs;
+}
+);
+width = 333;
+}
+);
+unicode = 8304;
+}

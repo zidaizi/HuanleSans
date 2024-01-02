@@ -1,0 +1,21 @@
+{
+color = 5;
+glyphname = u.di;
+kernLeft = u;
+kernRight = u;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (134,229);
+ref = period;
+}
+);
+width = 484;
+}
+);
+}
