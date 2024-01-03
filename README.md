@@ -1,7 +1,32 @@
 # Huānlè Sans | 欢乐无衬线
 
 Experimental Pinyin Font derived from [Alegreya Sans](https://github.com/huertatipografica/Alegreya-Sans).
+I like to use it in my electronic dictionary.
+Perhaps it could have some educational use?
 
-Try it out for yourself [here](https://zidaizi.github.io/HuanleSans).
+Try it out for yourself [here](https://zidaizi.github.io/HuanleSans) (you can edit the text at the top of the page).
+
+The goal is to preserve the basic shape of letters while
+adding details that draw attention to some of the easily overlooked nuances in pronunciation.
+Other scripts are used as inspiration, including official shorthand for symbols like ng,
+but also unrelated scripts like German, Turkish and IPA.
 
 ![intro](intro.png)
+
+## Installation
+
+You can install on desktop by downloading [HuanleSans.otf](HuanleSans.otf).
+
+Apple mobile devices can install by downloading [HuanleSans.mobileconfig](HuanleSans.mobileconfig) and first opening it,
+then actually installing it through the Settings app → General → VPN, DNS & Service Management.
+(It gives a bunch of scary warnings, but it’s just a text file you can edit *by hand, yourself* to install any font,
+if you replace the data field with the .otf or .ttf file encoded as base64 and don’t collide the many ID fields.)
+
+Android users, your systems vary, but you’re smart, you’ll figure it out.
+
+## Technical details
+
+Most of the magic happens in the contextual alternates OpenType feature.
+The key to the logic there is that a correctly spelled pinyin syllable
+will either be separated by spaces or punctuation, or start with a consonant or apostrophe,
+which means any other vowels (and special cases for -r, -n and -ng, the only consonant finals) can be easily referenced and replaced.
