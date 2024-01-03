@@ -1,8 +1,11 @@
-# Huānlè Sans | 欢乐无衬线
+# <span lang="zh-Latn-pinyin">Huānlè</span> Sans · <span lang="zh-Hans">欢乐无衬线</span> · <span lang="zh-Hant">歡樂無襯線</span>
 
 Experimental Pinyin Font derived from [Alegreya Sans](https://github.com/huertatipografica/Alegreya-Sans).
 I like to use it in my electronic dictionary.
 Perhaps it could have some educational use?
+
+You can apply this font to any existing standard pinyin text without needing to edit the text,
+and assuming it is spelled correctly, everything will convert automatically.
 
 Try it out for yourself [here](https://zidaizi.github.io/HuanleSans) (you can edit the text at the top of the page).
 
