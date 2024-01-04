@@ -7,19 +7,18 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (194,457);
+pos = (194,459);
 },
 {
 name = top;
-pos = (195,682);
+pos = (195,691);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-alignment = -1;
 angle = 180;
-pos = (389,1204);
+pos = (389,1214);
 ref = caroncomb;
 }
 );

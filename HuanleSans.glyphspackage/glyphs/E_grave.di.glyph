@@ -1,8 +1,5 @@
 {
-color = 1;
 glyphname = Egrave.di;
-kernLeft = H;
-kernRight = E;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +8,11 @@ shapes = (
 ref = E.di;
 },
 {
-pos = (77,183);
-ref = gravecomb.case;
+pos = (81,182);
+ref = gravecomb;
 }
 );
-width = 476;
+width = 485;
 }
 );
 }

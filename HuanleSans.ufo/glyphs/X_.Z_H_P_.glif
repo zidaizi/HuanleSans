@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X.ZHP" format="2">
+	<advance width="596"/>
+	<outline>
+		<contour>
+			<point x="577" y="-3" type="curve"/>
+			<point x="560" y="19"/>
+			<point x="543" y="45"/>
+			<point x="526" y="67" type="curve"/>
+			<point x="352" y="334" type="line"/>
+			<point x="554" y="641" type="line"/>
+			<point x="461" y="641" type="line"/>
+			<point x="435" y="590" type="line"/>
+			<point x="300" y="389" type="line"/>
+			<point x="166" y="589" type="line"/>
+			<point x="139" y="641" type="line"/>
+			<point x="35" y="641" type="line"/>
+			<point x="244" y="323" type="line"/>
+			<point x="28" y="0" type="line"/>
+			<point x="119" y="0" type="line"/>
+			<point x="145" y="48" type="line"/>
+			<point x="294" y="267" type="line"/>
+			<point x="438" y="53" type="line"/>
+			<point x="450" y="35"/>
+			<point x="463" y="18"/>
+			<point x="475" y="0" type="curve"/>
+			<point x="566" y="-141"/>
+			<point x="642" y="-200"/>
+			<point x="854" y="-200" type="curve"/>
+			<point x="862" y="-200" type="line"/>
+			<point x="877" y="-185"/>
+			<point x="888" y="-148"/>
+			<point x="897" y="-130" type="curve"/>
+			<point x="895" y="-120" type="line"/>
+			<point x="690" y="-132"/>
+			<point x="643" y="-78"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=X</string>
+			<key>public.markColor</key>
+			<string>0.98,0.36,0.67,1</string>
+		</dict>
+	</lib>
+</glyph>

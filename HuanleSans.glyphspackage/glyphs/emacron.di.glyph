@@ -1,8 +1,5 @@
 {
-color = 1;
 glyphname = emacron.di;
-kernLeft = o;
-kernRight = e;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +8,11 @@ shapes = (
 ref = e.di;
 },
 {
-pos = (41,0);
+pos = (43,0);
 ref = macroncomb;
 }
 );
-width = 457;
+width = 460;
 }
 );
 }

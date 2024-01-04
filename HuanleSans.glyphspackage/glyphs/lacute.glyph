@@ -1,0 +1,19 @@
+{
+glyphname = lacute;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = l;
+},
+{
+pos = (-69,221);
+ref = acutecomb;
+}
+);
+width = 248;
+}
+);
+unicode = 314;
+}

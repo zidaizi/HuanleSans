@@ -1,59 +1,22 @@
 {
-color = 4;
 glyphname = j;
 kernLeft = j;
 kernRight = j;
 layers = (
 {
-anchors = (
-{
-name = top;
-pos = (107,457);
-}
-);
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(140,0,l),
-(138,200,l),
-(140,459,l),
-(75,452,l),
-(77,195,l),
-(74,0,l)
-);
-}
-);
-};
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-closed = 1;
-nodes = (
-(76,-111,o),
-(167,-172,o),
-(301,-191,c),
-(308,-191,l),
-(320,-179,o),
-(328,-166,o),
-(335,-152,c),
-(334,-143,l),
-(223,-133,o),
-(138,-86,o),
-(137,10,cs),
-(136,200,l),
-(141,457,l),
-(138,459,l),
-(74,456,l),
-(75,410,l),
-(78,195,l),
-(77,23,ls)
-);
+pos = (-1,0);
+ref = dotaccentcomb;
+},
+{
+ref = jdotless;
 }
 );
-width = 214;
+width = 242;
 }
 );
+metricWidth = "=i";
 unicode = 106;
 }

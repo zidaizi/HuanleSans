@@ -1,8 +1,5 @@
 {
-color = 9;
 glyphname = Scedilla;
-kernLeft = S;
-kernRight = S;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +8,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (35,0);
+pos = (31,0);
 ref = cedillacomb;
 }
 );
-width = 466;
+width = 475;
 }
 );
 unicode = 350;

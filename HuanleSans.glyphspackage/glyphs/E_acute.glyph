@@ -1,8 +1,5 @@
 {
-color = 1;
 glyphname = Eacute;
-kernLeft = H;
-kernRight = E;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +8,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (98,183);
-ref = acutecomb.case;
+pos = (81,182);
+ref = acutecomb;
 }
 );
-width = 476;
+width = 485;
 }
 );
 unicode = 201;

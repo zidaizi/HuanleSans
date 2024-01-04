@@ -1,0 +1,19 @@
+{
+glyphname = Dmacronbelow;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (158,0);
+ref = macronbelowcomb;
+}
+);
+width = 647;
+}
+);
+unicode = 7694;
+}

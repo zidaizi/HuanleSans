@@ -1,8 +1,5 @@
 {
-color = 9;
 glyphname = zcircumflex;
-kernLeft = z;
-kernRight = z;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +8,11 @@ shapes = (
 ref = z;
 },
 {
-pos = (11,0);
+pos = (13,0);
 ref = circumflexcomb;
 }
 );
-width = 409;
+width = 413;
 }
 );
 unicode = 7825;

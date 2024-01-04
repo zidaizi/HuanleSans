@@ -64,6 +64,8 @@
 		<integer>-15</integer>
 		<key>public.kern2.s</key>
 		<integer>-3</integer>
+		<key>public.kern2.t</key>
+		<integer>-3</integer>
 		<key>public.kern2.u</key>
 		<integer>-14</integer>
 		<key>public.kern2.v</key>
@@ -369,6 +371,8 @@
 		<integer>-83</integer>
 		<key>public.kern2.s</key>
 		<integer>-67</integer>
+		<key>public.kern2.t</key>
+		<integer>-35</integer>
 		<key>public.kern2.u</key>
 		<integer>-75</integer>
 		<key>public.kern2.v</key>
@@ -431,6 +435,8 @@
 		<integer>-92</integer>
 		<key>public.kern2.s</key>
 		<integer>-49</integer>
+		<key>public.kern2.t</key>
+		<integer>-10</integer>
 		<key>public.kern2.u</key>
 		<integer>-51</integer>
 		<key>public.kern2.v</key>
@@ -497,6 +503,8 @@
 		<integer>-101</integer>
 		<key>public.kern2.s</key>
 		<integer>-43</integer>
+		<key>public.kern2.t</key>
+		<integer>-23</integer>
 		<key>public.kern2.u</key>
 		<integer>-63</integer>
 		<key>public.kern2.v</key>
@@ -653,6 +661,8 @@
 		<integer>-4</integer>
 		<key>public.kern2.j</key>
 		<integer>16</integer>
+		<key>public.kern2.t</key>
+		<integer>16</integer>
 	</dict>
 	<key>public.kern1.hyphen</key>
 	<dict>
@@ -744,6 +754,8 @@
 		<integer>-12</integer>
 		<key>public.kern2.period</key>
 		<integer>-50</integer>
+		<key>public.kern2.t</key>
+		<integer>-3</integer>
 		<key>public.kern2.v</key>
 		<integer>-15</integer>
 		<key>public.kern2.x</key>
@@ -775,37 +787,6 @@
 		<integer>-50</integer>
 		<key>public.kern2.v</key>
 		<integer>-71</integer>
-	</dict>
-	<key>public.kern1.r</key>
-	<dict>
-		<key>public.kern2.A</key>
-		<integer>-15</integer>
-		<key>public.kern2.H</key>
-		<integer>-10</integer>
-		<key>public.kern2.J</key>
-		<integer>-20</integer>
-		<key>public.kern2.T</key>
-		<integer>-85</integer>
-		<key>public.kern2.V</key>
-		<integer>-29</integer>
-		<key>public.kern2.X</key>
-		<integer>-33</integer>
-		<key>public.kern2.Y</key>
-		<integer>-40</integer>
-		<key>public.kern2.a</key>
-		<integer>-10</integer>
-		<key>public.kern2.asterisk</key>
-		<integer>20</integer>
-		<key>public.kern2.h</key>
-		<integer>3</integer>
-		<key>public.kern2.hyphen</key>
-		<integer>-35</integer>
-		<key>public.kern2.o</key>
-		<integer>-3</integer>
-		<key>public.kern2.period</key>
-		<integer>-87</integer>
-		<key>public.kern2.v</key>
-		<integer>13</integer>
 	</dict>
 	<key>public.kern1.s</key>
 	<dict>

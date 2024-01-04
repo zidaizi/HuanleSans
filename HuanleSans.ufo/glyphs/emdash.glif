@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="2">
-	<advance width="938"/>
+	<advance width="925"/>
 	<unicode hex="2014"/>
 	<outline>
 		<contour>
-			<point x="949" y="280" type="line"/>
-			<point x="-12" y="280" type="line"/>
-			<point x="-16" y="237" type="line"/>
-			<point x="-11" y="231" type="line"/>
-			<point x="951" y="231" type="line"/>
-			<point x="955" y="274" type="line"/>
+			<point x="935" y="286" type="line"/>
+			<point x="-11" y="286" type="line"/>
+			<point x="-16" y="233" type="line"/>
+			<point x="-10" y="226" type="line"/>
+			<point x="937" y="226" type="line"/>
+			<point x="942" y="279" type="line"/>
 		</contour>
 	</outline>
 </glyph>

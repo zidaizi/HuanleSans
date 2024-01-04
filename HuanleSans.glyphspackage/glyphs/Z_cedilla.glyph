@@ -1,9 +1,5 @@
 {
-category = Letter;
-color = 9;
 glyphname = Zcedilla;
-kernLeft = Z;
-kernRight = Z;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -12,12 +8,11 @@ shapes = (
 ref = Z;
 },
 {
-pos = (72,0);
+pos = (66,0);
 ref = cedillacomb;
 }
 );
-width = 523;
+width = 530;
 }
 );
-script = latin;
 }

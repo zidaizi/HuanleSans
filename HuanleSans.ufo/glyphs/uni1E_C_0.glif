@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1EC0" format="2">
-	<advance width="476"/>
+	<advance width="485"/>
 	<unicode hex="1EC0"/>
 	<outline>
-		<component base="E.front"/>
-		<component base="uni03020300" xOffset="77" yOffset="183"/>
+		<component base="E"/>
+		<component base="uni0302" xOffset="81" yOffset="182"/>
+		<component base="gravecomb" xOffset="82" yOffset="414"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>public.markColor</key>
-			<string>0.99,0.62,0.11,1</string>
-		</dict>
-	</lib>
 </glyph>

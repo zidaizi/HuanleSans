@@ -1,8 +1,5 @@
 {
-color = 9;
 glyphname = Scircumflex;
-kernLeft = S;
-kernRight = S;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +8,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (50,183);
+pos = (55,182);
 ref = circumflexcomb;
 }
 );
-width = 466;
+width = 475;
 }
 );
 unicode = 348;

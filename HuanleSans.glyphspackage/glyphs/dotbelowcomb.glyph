@@ -7,22 +7,21 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (116,0);
+pos = (117,0);
 },
 {
 name = bottom;
-pos = (116,-155);
+pos = (117,-191);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-alignment = -1;
-pos = (1,-151);
+pos = (2,-161);
 ref = period;
 }
 );
-width = 232;
+width = 233;
 }
 );
 unicode = 803;

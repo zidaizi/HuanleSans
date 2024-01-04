@@ -5,13 +5,12 @@ layers = (
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-alignment = -1;
 angle = 180;
 pos = (290,521);
 ref = parenleft;
 }
 );
-width = 307;
+width = 305;
 }
 );
 metricLeft = "=|bracketleft";

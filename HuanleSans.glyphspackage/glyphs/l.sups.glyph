@@ -1,0 +1,38 @@
+{
+glyphname = l.sups;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (95,0);
+},
+{
+name = top;
+pos = (95,447);
+},
+{
+name = topright;
+pos = (168,303);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(48,796,l),
+(51,464,l),
+(47,337,l),
+(123,337,l),
+(120,471,l),
+(123,801,l)
+);
+}
+);
+width = 166;
+}
+);
+metricLeft = n.sups;
+unicode = 737;
+}

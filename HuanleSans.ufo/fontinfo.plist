@@ -12,17 +12,6 @@
 	<integer>-185</integer>
 	<key>familyName</key>
 	<string>Huanle Sans</string>
-	<key>guidelines</key>
-	<array>
-		<dict>
-			<key>angle</key>
-			<integer>0</integer>
-			<key>x</key>
-			<integer>236</integer>
-			<key>y</key>
-			<integer>-107</integer>
-		</dict>
-	</array>
 	<key>openTypeHeadCreated</key>
 	<string>2024/01/01 11:00:45</string>
 	<key>openTypeHheaAscender</key>
@@ -38,7 +27,7 @@
 	<key>openTypeNameLicenseURL</key>
 	<string>http://scripts.sil.org/OFL</string>
 	<key>openTypeNamePreferredSubfamilyName</key>
-	<string>Regular</string>
+	<string>Pinyin</string>
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
@@ -67,7 +56,7 @@
 		<real>712.0</real>
 	</array>
 	<key>postscriptFontName</key>
-	<string>HuanleSans-Regular</string>
+	<string>HuanleSans-Pinyin</string>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<real>-197.0</real>
@@ -89,10 +78,12 @@
 	<integer>-185</integer>
 	<key>postscriptUnderlineThickness</key>
 	<integer>35</integer>
+	<key>styleMapFamilyName</key>
+	<string>Huanle Sans Pinyin</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>
-	<string>Regular</string>
+	<string>Pinyin</string>
 	<key>unitsPerEm</key>
 	<integer>974</integer>
 	<key>versionMajor</key>

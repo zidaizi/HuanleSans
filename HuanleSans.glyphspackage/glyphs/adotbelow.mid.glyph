@@ -1,27 +1,18 @@
 {
-color = 0;
 glyphname = adotbelow.mid;
-kernLeft = a;
-kernRight = u;
 layers = (
 {
-anchors = (
-{
-name = top;
-pos = (220,457);
-}
-);
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
 ref = a.mid;
 },
 {
-pos = (104,0);
+pos = (121,0);
 ref = dotbelowcomb;
 }
 );
-width = 448;
+width = 464;
 }
 );
 }

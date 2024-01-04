@@ -1,8 +1,5 @@
 {
-color = 3;
 glyphname = idotbelow;
-kernLeft = l;
-kernRight = l;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,13 +8,12 @@ shapes = (
 ref = i;
 },
 {
-pos = (-9,0);
+pos = (4,0);
 ref = dotbelowcomb;
 }
 );
-width = 214;
+width = 242;
 }
 );
-metricWidth = "=i (238)";
 unicode = 7883;
 }

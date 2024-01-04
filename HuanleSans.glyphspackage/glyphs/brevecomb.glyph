@@ -1,0 +1,45 @@
+{
+glyphname = brevecomb;
+kernLeft = asterisk;
+kernRight = asterisk;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (194,459);
+},
+{
+name = top;
+pos = (195,691);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(311,690,l),
+(295,618,o),
+(256,583,o),
+(195,583,cs),
+(135,583,o),
+(95,618,o),
+(79,690,c),
+(63,690,l),
+(34,652,l),
+(53,565,o),
+(101,507,o),
+(193,507,cs),
+(284,507,o),
+(335,563,o),
+(356,652,c),
+(328,690,l)
+);
+}
+);
+width = 389;
+}
+);
+unicode = 774;
+}

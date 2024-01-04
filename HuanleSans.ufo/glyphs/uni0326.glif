@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0326" format="2">
+	<advance width="0"/>
+	<unicode hex="0326"/>
+	<anchor x="109" y="0" name="_bottom"/>
+	<anchor x="109" y="-191" name="bottom"/>
+	<outline>
+		<component base="comma" xScale="0.926" yScale="0.926" xOffset="2" yOffset="-139"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>comma</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>comma</string>
+		</dict>
+	</lib>
+</glyph>

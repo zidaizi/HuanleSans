@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni2084" format="2">
-	<advance width="333"/>
+	<advance width="353"/>
 	<unicode hex="2084"/>
 	<outline>
-		<contour>
-			<point x="239" y="257" type="line"/>
-			<point x="184" y="257" type="line"/>
-			<point x="18" y="26" type="line"/>
-			<point x="18" y="-12" type="line"/>
-			<point x="23" y="-18" type="line"/>
-			<point x="69" y="-15" type="line"/>
-			<point x="236" y="-15" type="line"/>
-			<point x="299" y="-18" type="line"/>
-			<point x="303" y="24" type="line"/>
-			<point x="299" y="30" type="line"/>
-			<point x="72" y="30" type="line"/>
-			<point x="185" y="188" type="line"/>
-			<point x="189" y="188" type="line"/>
-			<point x="189" y="16" type="line"/>
-			<point x="188" y="-119" type="line"/>
-			<point x="191" y="-123" type="line"/>
-			<point x="239" y="-120" type="line"/>
-			<point x="242" y="-115" type="line"/>
-			<point x="238" y="8" type="line"/>
-		</contour>
+		<component base="uni2074" yOffset="-442"/>
 	</outline>
 </glyph>

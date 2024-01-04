@@ -1,22 +1,18 @@
 {
-color = 3;
 glyphname = igrave.buzz;
-kernLeft = l;
-kernRight = l;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-pos = (-77,0);
-ref = gravecomb;
+ref = i.buzz;
 },
 {
-ref = i.buzz;
+pos = (-103,0);
+ref = gravecomb;
 }
 );
-width = 259;
+width = 253;
 }
 );
-metricWidth = "=i.buzz";
 }

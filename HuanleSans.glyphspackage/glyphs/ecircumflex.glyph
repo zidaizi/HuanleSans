@@ -1,21 +1,18 @@
 {
-color = 1;
 glyphname = ecircumflex;
-kernLeft = o;
-kernRight = e;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-ref = e.front;
+ref = e;
 },
 {
-pos = (42,0);
+pos = (43,0);
 ref = circumflexcomb;
 }
 );
-width = 457;
+width = 460;
 }
 );
 unicode = 234;

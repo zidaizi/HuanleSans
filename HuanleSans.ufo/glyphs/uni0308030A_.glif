@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0308030A" format="2">
+	<advance width="0"/>
+	<outline>
+		<component base="uni0308" yOffset="-40"/>
+		<component base="uni030A" xOffset="1" yOffset="132"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>uni030A</string>
+				</dict>
+			</array>
+			<key>public.markColor</key>
+			<string>0.04,0.57,0.04,1</string>
+		</dict>
+	</lib>
+</glyph>

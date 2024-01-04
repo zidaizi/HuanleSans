@@ -1,0 +1,32 @@
+{
+glyphname = tbar;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (212,-191);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = t;
+},
+{
+closed = 1;
+nodes = (
+(30,287,l),
+(26,232,l),
+(31,227,l),
+(286,227,l),
+(289,280,l),
+(284,287,l)
+);
+}
+);
+width = 337;
+}
+);
+unicode = 359;
+}

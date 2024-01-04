@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni02E1" format="2">
+	<advance width="166"/>
+	<unicode hex="02E1"/>
+	<anchor x="95" y="0" name="bottom"/>
+	<anchor x="95" y="447" name="top"/>
+	<anchor x="168" y="303" name="topright"/>
+	<outline>
+		<contour>
+			<point x="123" y="801" type="line"/>
+			<point x="48" y="796" type="line"/>
+			<point x="51" y="464" type="line"/>
+			<point x="47" y="337" type="line"/>
+			<point x="123" y="337" type="line"/>
+			<point x="120" y="471" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>n.sups</string>
+		</dict>
+	</lib>
+</glyph>

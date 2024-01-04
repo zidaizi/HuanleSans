@@ -1,0 +1,19 @@
+{
+glyphname = Ihookabove;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (4,182);
+ref = hookabovecomb;
+}
+);
+width = 271;
+}
+);
+unicode = 7880;
+}

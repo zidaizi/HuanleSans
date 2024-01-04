@@ -1,0 +1,26 @@
+{
+glyphname = dotaboverightcomb;
+layers = (
+{
+anchors = (
+{
+name = _topright;
+pos = (114,446);
+},
+{
+name = topright;
+pos = (113,446);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (4,453);
+ref = period;
+}
+);
+width = 247;
+}
+);
+unicode = 856;
+}

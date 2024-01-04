@@ -7,29 +7,14 @@ layers = (
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-closed = 1;
-nodes = (
-(52,634,l),
-(57,458,l),
-(63,452,l),
-(99,457,l),
-(108,632,l),
-(103,638,l)
-);
+ref = quotesingle;
 },
 {
-closed = 1;
-nodes = (
-(162,634,l),
-(168,458,l),
-(174,452,l),
-(209,457,l),
-(219,632,l),
-(213,638,l)
-);
+pos = (155,0);
+ref = quotesingle;
 }
 );
-width = 268;
+width = 326;
 }
 );
 metricLeft = quotesingle;

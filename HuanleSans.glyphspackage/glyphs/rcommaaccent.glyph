@@ -1,9 +1,5 @@
 {
-category = Letter;
-color = 9;
 glyphname = rcommaaccent;
-kernLeft = n;
-kernRight = r;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -12,13 +8,12 @@ shapes = (
 ref = r;
 },
 {
-pos = (-82,0);
-ref = cedillacomb;
+pos = (25,0);
+ref = commaaccentcomb;
 }
 );
-width = 320;
+width = 340;
 }
 );
-script = latin;
 unicode = 343;
 }

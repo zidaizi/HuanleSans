@@ -1,8 +1,5 @@
 {
-color = 0;
 glyphname = Amacron.mid;
-kernLeft = A;
-kernRight = A;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +8,11 @@ shapes = (
 ref = A.mid;
 },
 {
-pos = (92,183);
-ref = macroncomb.case;
+pos = (97,182);
+ref = macroncomb;
 }
 );
-width = 573;
+width = 580;
 }
 );
 }

@@ -1,0 +1,56 @@
+{
+glyphname = dblgravecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (193,459);
+},
+{
+name = top;
+pos = (194,691);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(183,496,l),
+(173,498,l),
+(112,556,o),
+(50,615,o),
+(-8,678,c),
+(-7,688,l),
+(42,724,l),
+(52,723,l),
+(105,656,o),
+(160,591,o),
+(218,528,c)
+);
+},
+{
+closed = 1;
+nodes = (
+(362,496,l),
+(350,498,l),
+(289,556,o),
+(229,615,o),
+(170,678,c),
+(170,688,l),
+(219,724,l),
+(229,723,l),
+(283,656,o),
+(338,591,o),
+(397,528,c)
+);
+}
+);
+width = 389;
+}
+);
+metricLeft = "=|hungarumlautcomb";
+metricRight = "=|hungarumlautcomb";
+unicode = 783;
+}

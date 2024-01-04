@@ -1,0 +1,19 @@
+{
+glyphname = Gdotaccent;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = G;
+},
+{
+pos = (204,182);
+ref = dotaccentcomb;
+}
+);
+width = 600;
+}
+);
+unicode = 288;
+}

@@ -1,0 +1,18 @@
+{
+glyphname = rcommaaccent.ZHP;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = r;
+},
+{
+pos = (-65,0);
+ref = cedillacomb;
+}
+);
+width = 340;
+}
+);
+}

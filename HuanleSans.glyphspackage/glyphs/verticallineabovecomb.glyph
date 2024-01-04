@@ -1,0 +1,31 @@
+{
+glyphname = verticallineabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (113,459);
+},
+{
+name = top;
+pos = (114,691);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(153,480,l),
+(153,697,l),
+(74,697,l),
+(74,480,l)
+);
+}
+);
+width = 227;
+}
+);
+unicode = 781;
+}

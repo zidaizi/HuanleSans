@@ -1,0 +1,19 @@
+{
+glyphname = udieresisbelow;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (65,0);
+ref = dieresisbelowcomb;
+}
+);
+width = 511;
+}
+);
+unicode = 7795;
+}

@@ -1,65 +1,24 @@
 {
+color = 5;
 glyphname = dieresiscomb_macroncomb;
-kernLeft = asterisk;
-kernRight = asterisk;
 layers = (
 {
 anchors = (
 {
 name = _top;
-pos = (195,457);
-},
-{
-name = top;
-pos = (195,736);
+pos = (194,459);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-closed = 1;
-nodes = (
-(249,601,o),
-(234,586,o),
-(234,564,cs),
-(234,541,o),
-(248,527,o),
-(270,527,cs),
-(293,527,o),
-(308,542,o),
-(308,565,cs),
-(308,588,o),
-(294,601,o),
-(272,601,cs)
-);
+pos = (0,-40);
+ref = dieresiscomb;
 },
 {
-closed = 1;
-nodes = (
-(96,601,o),
-(80,586,o),
-(80,564,cs),
-(80,541,o),
-(94,527,o),
-(117,527,cs),
-(140,527,o),
-(154,542,o),
-(154,565,cs),
-(154,588,o),
-(140,601,o),
-(118,601,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(82,736,l),
-(78,690,l),
-(83,685,l),
-(310,685,l),
-(314,730,l),
-(309,736,l)
-);
+alignment = -1;
+pos = (1,122);
+ref = macroncomb;
 }
 );
 width = 389;

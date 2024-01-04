@@ -5,7 +5,6 @@ layers = (
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-alignment = -1;
 pos = (480,0);
 ref = greater;
 scale = (-1,1);

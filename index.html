@@ -10,13 +10,13 @@
 	line-height: 1.2;
 	margin: 0;
 	padding: 0;
-	font-weight: 300;
+	font-weight: 375;
 }
 body {
 	background-color: #EEE;
 	margin: calc(0.25em + 1vw);
-	font-family: "Segoe UI", system-ui, sans-serif;
-	font-size: 1.25em;
+	font-family: "Huanle Sans Regular", "Segoe UI", system-ui, sans-serif;
+	font-size: 1.2em;
 	font-synthesis: none;
 	-webkit-font-smoothing: antialiased;
 }
@@ -33,16 +33,23 @@ tr:hover {
 	background-color: rgba(0,255,0,0.15);
 }
 :lang(zh-Latn-pinyin), [contenteditable="true"] {
-	font-family: "Huanle Sans";
+	font-family: "Huanle Sans Pinyin";
 }
 @font-face {
 	font-weight: 1 1000;
 	font-style: normal;
 	font-display: swap;
-	src: url("https://raw.githubusercontent.com/zidaizi/HuanleSans/master/HuanleSans.otf") format("opentype"),
-	     url("https://raw.githubusercontent.com/zidaizi/HuanleSans/master/HuanleSans-Regular.otf") format("opentype");
+	src: url("https://raw.githubusercontent.com/zidaizi/HuanleSans/master/HuanleSans-Pinyin.otf") format("opentype");
 	size-adjust: 110%;
-	font-family: "Huanle Sans";
+	font-family: "Huanle Sans Pinyin";
+}
+@font-face {
+	font-weight: 1 1000;
+	font-style: normal;
+	font-display: swap;
+	src: url("https://raw.githubusercontent.com/zidaizi/HuanleSans/master/HuanleSans-Regular.otf") format("opentype");
+	size-adjust: 110%;
+	font-family: "Huanle Sans Regular";
 }
     </style>
   </head>

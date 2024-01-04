@@ -1,0 +1,40 @@
+{
+color = 5;
+glyphname = idotless;
+kernLeft = l;
+kernRight = l;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (121,0);
+},
+{
+name = ogonek;
+pos = (163,0);
+},
+{
+name = top;
+pos = (121,459);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(163,0,l),
+(160,201,l),
+(163,462,l),
+(80,454,l),
+(83,194,l),
+(79,0,l)
+);
+}
+);
+width = 242;
+}
+);
+unicode = 305;
+}

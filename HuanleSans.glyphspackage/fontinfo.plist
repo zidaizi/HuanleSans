@@ -37,6 +37,14 @@ automatic = 1;
 code = "languagesystem DFLT dflt;
 
 languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn NLD;
 ";
 name = Languagesystems;
 }
@@ -44,267 +52,72 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature calt;
+code = "feature locl;
 feature subs;
 feature sinf;
 feature sups;
-feature case;
+feature calt;
 ";
 tag = aalt;
 },
 {
 automatic = 1;
 code = "lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb verticallinebelowcomb dotaboverightcomb horncomb strokeshortcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
 	lookupflag 0;
 	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
 	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
 	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
 	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
-} ccmp_Other_1;
-
-lookup ccmp_latn_1 {
-	lookupflag 0;
-	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
-	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
+	sub dieresiscomb ringcomb by dieresiscomb_ringcomb;
+} ccmp_Other_2;
 ";
 tag = ccmp;
 },
 {
-code = "# @a
-@b = [ b B ];
-@c = [ c C ];
-@d = [ d D ];
-# @e
-@f = [ f F ];
-@g = [ g G ];
-@h = [ h H ];
-# @i
-@j = [ j J ];
-@k = [ k K ];
-@l = [ l L ];
-@m = [ m M ];
-@n = [ n N ];
-# @o
-@p = [ p P ];
-@q = [ q Q ];
-@r = [ r R ];
-@s = [ s S ];
-@t = [ t T ];
-# @u
-# @yu
-@v = [ v V ];
-@w = [ w W ];
-@x = [ x X ];
-@y = [ y Y ];
-@z = [ z Z ];
-
-@a  = [a amacron aacute acaron agrave adotbelow
-       A Amacron Aacute Acaron Agrave Adotbelow];
-@e  = [e emacron eacute ecaron egrave edotbelow
-       E Emacron Eacute Ecaron Egrave Edotbelow];
-@i  = [i imacron iacute icaron igrave idotbelow
-       I Imacron Iacute Icaron Igrave Idotbelow];
-@o  = [o omacron oacute ocaron ograve odotbelow
-       O Omacron Oacute Ocaron Ograve Odotbelow];
-@u  = [u umacron uacute ucaron ugrave udotbelow
-       U Umacron Uacute Ucaron Ugrave Udotbelow];
-@yu = [udieresis udieresismacron udieresisacute udieresiscaron udieresisgrave
-       Udieresis Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave];
-
-@a.mid  = [ a.mid amacron.mid aacute.mid acaron.mid agrave.mid adotbelow.mid
-            A.mid Amacron.mid Aacute.mid Acaron.mid Agrave.mid Adotbelow.mid ];
-@a.back = [ a.back amacron.back aacute.back acaron.back agrave.back adotbelow.back
-            A.back Amacron.back Aacute.back Acaron.back Agrave.back Adotbelow.back ];
-@a.a    = [ @a @a.mid @a.back ];
-
-@e.di    = [ e.di emacron.di eacute.di ecaron.di egrave.di edotbelow.di
-             E.di Emacron.di Eacute.di Ecaron.di Egrave.di Edotbelow.di ];
-@e.front = [ e.front emacron.front eacute.front ecaron.front egrave.front edotbelow.front
-             E.front Emacron.front Eacute.front Ecaron.front Egrave.front Edotbelow.front ];
-@e.a     = [ @e @e.di @e.front ];
-
-@i.buzz = [ i.buzz imacron.buzz iacute.buzz icaron.buzz igrave.buzz idotbelow.buzz
-            I.buzz Imacron.buzz Iacute.buzz Icaron.buzz Igrave.buzz Idotbelow.buzz ];
-@i.a    = [ @i @i.buzz ];
-
-@o.di = [ o.di omacron.di oacute.di ocaron.di ograve.di odotbelow.di
-          O.di Omacron.di Oacute.di Ocaron.di Ograve.di Odotbelow.di ];
-@o.a =  [ @o @o.di ];
-
-@u.di = [ u.di umacron.di uacute.di ucaron.di ugrave.di udotbelow.di
-          U.di Umacron.di Uacute.di Ucaron.di Ugrave.di Udotbelow.di ];
-@u.a =  [ @u @u.di ];
-
-@u.yu = [ u.yu umacron.yu uacute.yu ucaron.yu ugrave.yu udotbelow.yu
-          U.yu Umacron.yu Uacute.yu Ucaron.yu Ugrave.yu Udotbelow.yu ];
-@yu.a = [ @yu @u.yu ];
-
-@eng = [ eng Eng ];
-
-@sibilants = [ z c s r
-               Z C S R
-               zcedilla ccedilla scedilla rcommaaccent
-               Zcedilla Ccedilla Scedilla Rcommaaccent
-               zcircumflex ccircumflex scircumflex rcircumflex
-               Zcircumflex Ccircumflex Scircumflex Rcircumflex];
-
-@front = [y i y.yu u.yu udieresis
-          Y I Y.yu U.yu Udieresis];
-
-
-
-lookup SUB_ZHP_cleanup {
-	lookupflag IgnoreMarks;
-
-	sub [v V] by [udieresis Udieresis];
-
-	# explicit single storey variants (ɑ, ɡ) occasionally found in Chinese material
-	sub alpha-latin by a;
-	sub gsingle by g;
-
-} SUB_ZHP_cleanup;
-
-
-
-lookup SUB_ZHP_decompose {
-  lookupflag IgnoreMarks;
-
-  # nmacron does not have a unicode
-  sub [ngrave Ngrave] by [n N] gravecomb;
-  sub [nacute Nacute] by [n N] acutecomb;
-  sub [ncaron Ncaron] by [n N] caroncomb;
-
-  sub [aring Aring uring Uring] by [a A u U] ringcomb;
-
-} SUB_ZHP_decompose;
-
-
-
-lookup SUB_ZHP_basic {
-	lookupflag IgnoreMarks;
-
-	sub [y Y]' @u.a by [y.yu Y.yu];
-	sub [@j @q @x y.yu Y.yu] @u' by @u.yu;
-	sub [@n @l] u' @e.a by u.yu;
-
-	# e.g. fǎn[]gǎn vs fāng’àn
-	ignore sub @n' @g' [@a.a @e.a @i.a @o.a @u.a @yu.a];
-	sub n' g' by eng;
-	sub N' [G g]' by Eng;
-
-	sub z' [h]'   by zcedilla;
-	sub Z' [H h]' by Zcedilla;
-	sub c' [h]'   by ccedilla;
-	sub C' [H h]' by Ccedilla;
-	sub s' [h]'   by scedilla;
-	sub S' [H h]' by Scedilla;
-	sub [r R]' [@a.a @e.a @i.a @o.a @u.a @yu.a] by [rcommaaccent Rcommaaccent];
-	sub @sibilants @i' by @i.buzz;
-
-} SUB_ZHP_basic;
-
-
-
-lookup SUB_ZHP_e.front {
-	lookupflag IgnoreMarks;
-
-	sub @e' @i.a by @e.front;
-	sub @front @e' by @e.front;
-
-} SUB_ZHP_e.front;
-
-
-
-lookup SUB_ZHP_e.default {
-	lookupflag IgnoreMarks;
-
-	### easier to assume the diphthong is the default and then change e.di
-	sub @e' by @e.di;
-
-} SUB_ZHP_e.default;
-
-
-
-lookup SUB_ZHP_e.di {
-	lookupflag IgnoreMarks;
-
-	ignore sub @e.a' [@n @r] [@a.a @e.a @i.a @o.a @u.a @yu.a];
-	sub @e.di' [@n @eng @r] by @e;
-
-} SUB_ZHP_e.di;
-
-
-
-lookup SUB_ZHP_uen {
-	lookupflag IgnoreMarks;
-
-	### should not be needed, these u already transformed into *.yu
-	#ignore sub [@j @q @x y.yu Y.yu] @u' @n;
-	### some diphthongs would break, e.g. shòunà
-	ignore sub [@a.a @e.a @i.a @o.a @u.a @yu.a] @u' @n;
-	### ensure n does not belong to next syllable
-	ignore sub @u' @n [@a.a @e.a @i.a @o.a @u.a @yu.a];
-	### u (not w) indicates another preceding initial, we need no context before, only after.
-	sub @u' @n by @u.di;
-
-} SUB_ZHP_uen;
-
-
-
-lookup SUB_ZHP_a.mid {
-	lookupflag IgnoreMarks;
-
-	### -ian and -u[ü]an
-	### a takes the tone mark, not i or ü
-	ignore sub @front @a' @n [@a.a @e.a @i.a @o.a @u.a @yu.a];
-	sub @front @a' @n by @a.mid;
-
-} SUB_ZHP_a.mid;
-
-
-
-lookup SUB_ZHP_a.back {
-	lookupflag IgnoreMarks;
-
-	### assume that if o- would be a new syllable it would have an apostrophe before
-	sub @a' [@eng o O] by @a.back;
-
-} SUB_ZHP_a.back;
-
-
-
-lookup SUB_ZHP_uo {
-	lookupflag IgnoreMarks;
-
-	ignore sub [@b @p @m @f] @o' @u.a;
-	sub [@b @p @m @f] @o' by @o.di;
-
-} SUB_ZHP_uo;
-
-
-
-lookup SUB_ZHP_iou {
-	lookupflag IgnoreMarks;
-
-	### syllables do not start with u, no need for accomodations
-	sub @i @u' by @u.di;
-
-} SUB_ZHP_iou;
-
-
-
-lookup SUB_ZHP_uei {
-	lookupflag IgnoreMarks;
-
-	### syllables do not start with i, no need for accomodations
-	sub @u' @i.a by @u.di;
-
-} SUB_ZHP_uei;";
-tag = calt;
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by idotaccent;
+	language CRT;
+	sub i by idotaccent;
+	language KAZ;
+	sub i by idotaccent;
+	language TAT;
+	sub i by idotaccent;
+	language TRK;
+	sub i by idotaccent;
+} locl_latn_0;
+
+lookup locl_latn_1 {
+	script latn;
+	language ROM;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+	language MOL;
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+
+lookup locl_latn_2 {
+	script latn;
+	language NLD;
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_2;
+";
+tag = locl;
 },
 {
 automatic = 1;
@@ -338,7 +151,32 @@ tag = sinf;
 },
 {
 automatic = 1;
-code = "sub zero by zero.sups;
+code = "sub h by h.sups;
+sub i by i.sups;
+sub j by j.sups;
+sub l by l.sups;
+sub n by n.sups;
+sub r by r.sups;
+sub s by s.sups;
+sub w by w.sups;
+sub x by x.sups;
+sub y by y.sups;
+sub a by a.sups;
+sub b by b.sups;
+sub c by c.sups;
+sub d by d.sups;
+sub e by e.sups;
+sub f by f.sups;
+sub g by g.sups;
+sub k by k.sups;
+sub m by m.sups;
+sub o by o.sups;
+sub p by p.sups;
+sub t by t.sups;
+sub u by u.sups;
+sub v by v.sups;
+sub z by z.sups;
+sub zero by zero.sups;
 sub one by one.sups;
 sub two by two.sups;
 sub three by three.sups;
@@ -348,23 +186,266 @@ sub six by six.sups;
 sub seven by seven.sups;
 sub eight by eight.sups;
 sub nine by nine.sups;
+sub q by q.sups;
 ";
 tag = sups;
 },
 {
-automatic = 1;
-code = "sub dieresiscomb by dieresiscomb.case;
-sub dieresiscomb_gravecomb by dieresiscomb_gravecomb.case;
-sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;
-sub dieresiscomb_caroncomb by dieresiscomb_caroncomb.case;
-sub gravecomb by gravecomb.case;
-sub acutecomb by acutecomb.case;
-sub circumflexcomb by circumflexcomb.case;
-sub caroncomb by caroncomb.case;
-sub ringcomb by ringcomb.case;
-sub macroncomb by macroncomb.case;
-";
-tag = case;
+code = "# @a
+@b = [ b B ] ;
+@c = [ c C ] ;
+@d = [ d D ] ;
+# @e
+@f = [ f F ] ;
+@g = [ g G ] ;
+@h = [ h H ] ;
+# @i
+@j = [ j J j.ZHP J.ZHP ] ;
+@k = [ k K ] ;
+@l = [ l L ] ;
+@m = [ m M ] ;
+@n = [ n N ] ;
+# @o
+@p = [ p P ] ;
+@q = [ q Q q.ZHP Q.ZHP ] ;
+@r = [ r R ] ;
+@s = [ s S ] ;
+@t = [ t T ] ;
+# @u
+# @yu
+@v = [ v V ] ;
+@w = [ w W ] ;
+@x = [ x X x.ZHP X.ZHP ] ;
+@y = [ y Y ] ;
+@z = [ z Z ] ;
+
+@a =       [ a amacron aacute acaron agrave adotbelow                              
+             A Amacron Aacute Acaron Agrave Adotbelow                               ] ;
+@e =       [ e emacron eacute ecaron egrave edotbelow                              
+             E Emacron Eacute Ecaron Egrave Edotbelow                               ] ;
+@i =       [ i imacron iacute icaron igrave idotbelow                              
+             I Imacron Iacute Icaron Igrave Idotbelow                               ] ;
+@o =       [ o omacron oacute ocaron ograve odotbelow                              
+             O Omacron Oacute Ocaron Ograve Odotbelow                               ] ;
+@u =       [ u umacron uacute ucaron ugrave udotbelow                              
+             U Umacron Uacute Ucaron Ugrave Udotbelow                               ] ;
+@yu =      [ udieresis udieresismacron udieresisacute udieresiscaron udieresisgrave
+             Udieresis Udieresismacron Udieresisacute Udieresiscaron Udieresisgrave ] ;
+
+@a.mid =   [ a.mid amacron.mid aacute.mid acaron.mid agrave.mid adotbelow.mid      
+             A.mid Amacron.mid Aacute.mid Acaron.mid Agrave.mid Adotbelow.mid       ] ;
+@a.back =  [ a.back amacron.back aacute.back acaron.back agrave.back adotbelow.back
+             A.back Amacron.back Aacute.back Acaron.back Agrave.back Adotbelow.back ] ;
+@a.a =     [ @a @a.mid @a.back ] ;
+
+@e.di =    [ e.di emacron.di eacute.di ecaron.di egrave.di edotbelow.di                  
+             E.di Emacron.di Eacute.di Ecaron.di Egrave.di Edotbelow.di                   ] ;
+@e.front = [ e.front emacron.front eacute.front ecaron.front egrave.front edotbelow.front
+             E.front Emacron.front Eacute.front Ecaron.front Egrave.front Edotbelow.front ] ;
+@e.a =     [ @e @e.di @e.front ] ;
+
+@i.buzz =  [ i.buzz imacron.buzz iacute.buzz icaron.buzz igrave.buzz idotbelow.buzz
+             I.buzz Imacron.buzz Iacute.buzz Icaron.buzz Igrave.buzz Idotbelow.buzz ] ;
+@i.a =     [ @i @i.buzz ] ;
+
+@o.di =    [ o.di omacron.di oacute.di ocaron.di ograve.di odotbelow.di
+             O.di Omacron.di Oacute.di Ocaron.di Ograve.di Odotbelow.di ] ;
+@o.a =     [ @o @o.di ] ;
+
+@u.di =    [ u.di umacron.di uacute.di ucaron.di ugrave.di udotbelow.di
+             U.di Umacron.di Uacute.di Ucaron.di Ugrave.di Udotbelow.di ] ;
+@u.a =     [ @u @u.di ] ;
+
+@u.yu =    [ u.yu umacron.yu uacute.yu ucaron.yu ugrave.yu udotbelow.yu
+             U.yu Umacron.yu Uacute.yu Ucaron.yu Ugrave.yu Udotbelow.yu ] ;
+@yu.a =    [ @yu @u.yu ] ;
+
+@eng = [ eng Eng ] ;
+
+@sibilants = [ z c s r
+               Z C S R
+               zcedilla ccedilla scedilla rcommaaccent
+               Zcedilla Ccedilla Scedilla Rcommaaccent
+               zcircumflex ccircumflex scircumflex
+               Zcircumflex Ccircumflex Scircumflex ] ;
+
+@front = [ y i y.yu u.yu udieresis
+           Y I Y.yu U.yu Udieresis ] ;
+
+
+
+lookup SUB_ZHP_cleanup {
+	lookupflag IgnoreMarks ;
+
+	sub [ v V ] by [ udieresis Udieresis ] ;
+
+	# explicit single storey variants (ɑ, ɡ) occasionally found in Chinese material
+	sub [ alpha-latin Alpha-latin ] by [ a A ] ;
+	sub [ gsingle Gscript ] by [ g G ] ;
+
+} SUB_ZHP_cleanup ;
+
+
+
+lookup SUB_ZHP_decompose {
+	lookupflag IgnoreMarks ;
+
+ # nmacron does not have a unicode
+	sub [ ngrave Ngrave ]' by [ n N ] gravecomb ;
+	sub [ nacute Nacute ]' by [ n N ] acutecomb ;
+	sub [ ncaron Ncaron ]' by [ n N ] caroncomb ;
+
+	sub [ aring Aring uring Uring ]' by [ a A u U ] ringcomb ;
+
+} SUB_ZHP_decompose ;
+
+
+
+lookup SUB_ZHP_basic {
+	lookupflag IgnoreMarks ;
+
+	sub [ j J ]' by [ j.ZHP J.ZHP ] ;
+	sub [ q Q ]' by [ q.ZHP Q.ZHP ] ;
+	sub [ x X ]' by [ x.ZHP X.ZHP ] ;
+
+	sub [ y Y ]' @u.a by [ y.yu Y.yu ] ;
+	sub [ @j @q @x y.yu Y.yu ] @u' by @u.yu ;
+	sub [ @n @l ] u' @e.a by u.yu ;
+
+	# e.g. fǎn[]gǎn vs fāng’àn
+	ignore sub @n' @g' [ @a.a @e.a @i.a @o.a @u.a @yu.a ] ;
+	sub n' g' by eng ;
+	sub N' [ G g ]' by Eng ;
+
+	# official shorthands for zh/ch/sh, but easy to confuse with third tone accents, better to put something below characters
+	sub [ zcircumflex Zcircumflex ]' by [ zcedilla Zcedilla ] ;
+	sub [ ccircumflex Ccircumflex ]' by [ ccedilla Ccedilla ] ;
+	sub [ scircumflex Scircumflex ]' by [ scedilla Scedilla ] ;
+
+	sub z' [ h   ]' by zcedilla ;
+	sub Z' [ h H ]' by Zcedilla ;
+	sub c' [ h   ]' by ccedilla ;
+	sub C' [ h H ]' by Ccedilla ;
+	sub s' [ h   ]' by scedilla ;
+	sub S' [ h H ]' by Scedilla ;
+	sub    [ r R ]' [ @a.a @e.a @i.a @o.a @u.a @yu.a ] by [ rcommaaccent Rcommaaccent ] ;
+
+	sub @sibilants @i' by @i.buzz ;
+
+} SUB_ZHP_basic ;
+
+
+
+lookup SUB_ZHP_e.front {
+	lookupflag IgnoreMarks ;
+
+	sub @e' @i.a by @e.front ;
+	sub @front @e' by @e.front ;
+
+} SUB_ZHP_e.front ;
+
+
+
+lookup SUB_ZHP_e.default {
+	lookupflag IgnoreMarks ;
+
+	### easier to assume the diphthong is the default and then change e.di
+	sub @e' by @e.di ;
+
+} SUB_ZHP_e.default ;
+
+
+
+lookup SUB_ZHP_e.di {
+	lookupflag IgnoreMarks ;
+
+	ignore sub @e.a' [ @n @r ] [ @a.a @e.a @i.a @o.a @u.a @yu.a ] ;
+	sub @e.di' [ @n @eng @r ] by @e ;
+
+} SUB_ZHP_e.di ;
+
+
+
+lookup SUB_ZHP_uen {
+	lookupflag IgnoreMarks ;
+
+	### should not be needed, these u already transformed into *.yu
+	#ignore sub [ @j @q @x y.yu Y.yu ] @u' @n ;
+	### some diphthongs would break, e.g. shòunà
+	ignore sub [ @a.a @e.a @i.a @o.a @u.a @yu.a ] @u' @n ;
+	### ensure n does not belong to next syllable
+	ignore sub @u' @n [ @a.a @e.a @i.a @o.a @u.a @yu.a ] ;
+	### u (not w) indicates another preceding initial, we need no context before, only after.
+	sub @u' @n by @u.di ;
+
+} SUB_ZHP_uen ;
+
+
+
+lookup SUB_ZHP_a.mid {
+	lookupflag IgnoreMarks ;
+
+	### -ian and -u[ ü ]an
+	### a takes the tone mark, not i or ü
+	ignore sub @front @a' @n [ @a.a @e.a @i.a @o.a @u.a @yu.a ] ;
+	sub @front @a' @n by @a.mid ;
+
+} SUB_ZHP_a.mid ;
+
+
+
+lookup SUB_ZHP_a.back {
+	lookupflag IgnoreMarks ;
+
+	### assume that if o- would be a new syllable it would have an apostrophe before
+	sub @a' [ @eng o O ] by @a.back ;
+
+} SUB_ZHP_a.back ;
+
+
+
+lookup SUB_ZHP_uo {
+	lookupflag IgnoreMarks ;
+
+	ignore sub [ @b @p @m @f ] @o' @u.a ;
+	sub [ @b @p @m @f ] @o' by @o.di ;
+
+} SUB_ZHP_uo ;
+
+
+
+lookup SUB_ZHP_iou {
+	lookupflag IgnoreMarks ;
+
+	### syllables do not start with u, no need for accomodations
+	sub @i @u' by @u.di ;
+
+} SUB_ZHP_iou ;
+
+
+
+lookup SUB_ZHP_uei {
+	lookupflag IgnoreMarks ;
+
+	### syllables do not start with i, no need for accomodations
+	sub @u' @i.a by @u.di ;
+
+} SUB_ZHP_uei ;
+
+
+
+### other lookups don't account for these
+### moving this section earlier will probably break a whole lot
+lookup SUB_ZHP_basic_post {
+	lookupflag IgnoreMarks ;
+
+	sub i by idotless ;
+	sub [ rcommaaccent Rcommaaccent ] by [ rcommaaccent.ZHP Rcommaaccent.ZHP ] ;
+	#sub [ g G ] by [ gsingle Gscript ] ;
+	#rcircumflex?
+
+} SUB_ZHP_basic_post ;";
+tag = calt;
 }
 );
 fontMaster = (
@@ -436,12 +517,6 @@ size = "-12";
 );
 }
 );
-guides = (
-{
-pos = (236,-107);
-}
-);
-iconName = SemiLight;
 id = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 metricValues = (
 {
@@ -470,7 +545,7 @@ pos = 497;
 {
 }
 );
-name = "60";
+name = "76";
 stemValues = (
 48,
 54,
@@ -495,6 +570,47 @@ value = 1;
 {
 name = "TTFAutohint options";
 value = "--increase-x-height=17";
+}
+);
+instanceInterpolations = {
+"DE016B7A-D921-4FAF-BA9C-94A7D66B995D" = 1;
+};
+name = Pinyin;
+properties = (
+{
+key = sampleTexts;
+values = (
+{
+language = dflt;
+value = "bō xiǔ rì zhè fǎ yán yāng jiǎ què chuí shěng húnán hūn’àn QIÁNFĀNG";
+}
+);
+}
+);
+},
+{
+customParameters = (
+{
+name = Filter;
+value = "AddExtremes;";
+},
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--increase-x-height=17";
+},
+{
+name = "Remove Features";
+value = (
+calt
+);
+},
+{
+name = "Update Features";
+value = 1;
 }
 );
 instanceInterpolations = {
@@ -639,7 +755,6 @@ kerningLTR = {
 "@MMK_R_u" = -90;
 "@MMK_R_v" = -95;
 "@MMK_R_x" = -93;
-c = -74;
 };
 "@MMK_L_Gamma.sups" = {
 "@MMK_R_A.sups" = -34;

@@ -1,8 +1,6 @@
 {
 color = 5;
 glyphname = u.di;
-kernLeft = u;
-kernRight = u;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -11,11 +9,12 @@ shapes = (
 ref = u;
 },
 {
-pos = (134,229);
+pos = (176,251);
 ref = period;
+scale = (0.64,0.64);
 }
 );
-width = 484;
+width = 511;
 }
 );
 }

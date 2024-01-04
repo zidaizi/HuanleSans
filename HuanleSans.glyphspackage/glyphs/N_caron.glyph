@@ -1,7 +1,5 @@
 {
 glyphname = Ncaron;
-kernLeft = H;
-kernRight = H;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -10,11 +8,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (143,183);
-ref = caroncomb.case;
+pos = (146,182);
+ref = caroncomb;
 }
 );
-width = 680;
+width = 684;
 }
 );
 unicode = 327;
