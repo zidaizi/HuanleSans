@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u.di" format="2">
-	<advance width="511"/>
+	<advance width="496"/>
 	<outline>
 		<component base="u"/>
-		<component base="period" xScale="0.64" yScale="0.64" xOffset="176" yOffset="251"/>
+		<component base="period" xScale="0.64" yScale="0.64" xOffset="165" yOffset="251"/>
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=u</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=u</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

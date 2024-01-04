@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = a.mid;
+kernLeft = a;
+kernRight = a;
 layers = (
 {
 anchors = (
@@ -114,7 +116,7 @@ nodes = (
 );
 }
 );
-width = 464;
+width = 460;
 }
 );
 metricLeft = "=a";

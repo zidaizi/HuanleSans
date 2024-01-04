@@ -49,4 +49,7 @@ nodes = (
 width = 580;
 }
 );
+metricLeft = "=A";
+metricRight = "=A";
+metricWidth = "=A";
 }

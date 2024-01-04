@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = U.yu;
+kernLeft = U;
+kernRight = U;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -46,4 +48,7 @@ nodes = (
 width = 627;
 }
 );
+metricLeft = "=U";
+metricRight = "=U";
+metricWidth = "=U";
 }

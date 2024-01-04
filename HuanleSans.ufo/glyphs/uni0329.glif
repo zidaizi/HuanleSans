@@ -5,11 +5,6 @@
 	<anchor x="114" y="0" name="_bottom"/>
 	<anchor x="114" y="-191" name="bottom"/>
 	<outline>
-		<contour>
-			<point x="74" y="-230" type="line"/>
-			<point x="153" y="-230" type="line"/>
-			<point x="153" y="-12" type="line"/>
-			<point x="74" y="-12" type="line"/>
-		</contour>
+		<component base="uni030D" xScale="-1" yScale="-1" xOffset="226" yOffset="461"/>
 	</outline>
 </glyph>

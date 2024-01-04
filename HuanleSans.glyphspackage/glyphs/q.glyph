@@ -1,6 +1,7 @@
 {
 glyphname = q;
 kernLeft = o;
+kernRight = n;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -54,7 +55,7 @@ nodes = (
 width = 508;
 }
 );
-metricLeft = o;
+metricLeft = "=o";
 metricWidth = "=p";
 unicode = 113;
 }

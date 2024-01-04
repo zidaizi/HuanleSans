@@ -56,7 +56,7 @@
 		<real>712.0</real>
 	</array>
 	<key>postscriptFontName</key>
-	<string>HuanleSans-Pinyin</string>
+	<string>HuanleSansPinyin</string>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<real>-197.0</real>
@@ -79,7 +79,7 @@
 	<key>postscriptUnderlineThickness</key>
 	<integer>35</integer>
 	<key>styleMapFamilyName</key>
-	<string>Huanle Sans Pinyin</string>
+	<string>Huānlè Sans [Pīnyīn] Pinyin</string>
 	<key>styleMapStyleName</key>
 	<string>regular</string>
 	<key>styleName</key>

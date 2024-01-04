@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = e.di;
+kernLeft = e;
+kernRight = e;
 layers = (
 {
 anchors = (
@@ -65,5 +67,6 @@ width = 460;
 }
 );
 metricLeft = "=e";
+metricRight = "=e";
 metricWidth = "=e";
 }

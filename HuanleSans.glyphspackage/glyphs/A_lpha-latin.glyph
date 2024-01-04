@@ -1,5 +1,7 @@
 {
 glyphname = "Alpha-latin";
+kernLeft = C;
+kernRight = a;
 layers = (
 {
 anchors = (

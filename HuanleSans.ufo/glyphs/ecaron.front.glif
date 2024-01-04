@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ecaron.front" format="2">
-	<advance width="462"/>
+	<advance width="460"/>
 	<outline>
 		<component base="e.front"/>
-		<component base="uni030C" xOffset="45"/>
+		<component base="uni030C" xOffset="43"/>
 	</outline>
 </glyph>

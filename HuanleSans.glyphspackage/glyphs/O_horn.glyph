@@ -1,5 +1,7 @@
 {
 glyphname = Ohorn;
+kernLeft = O;
+kernRight = O;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -8,7 +10,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (473,195);
+pos = (526,195);
 ref = horncomb;
 }
 );

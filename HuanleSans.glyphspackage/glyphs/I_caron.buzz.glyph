@@ -1,5 +1,7 @@
 {
 glyphname = Icaron.buzz;
+kernLeft = I;
+kernRight = I;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -8,7 +10,7 @@ shapes = (
 ref = I.buzz;
 },
 {
-pos = (-96,182);
+pos = (-95,182);
 ref = caroncomb;
 }
 );

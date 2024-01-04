@@ -15,13 +15,9 @@ pos = (114,-191);
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-closed = 1;
-nodes = (
-(153,-230,l),
-(153,-12,l),
-(74,-12,l),
-(74,-230,l)
-);
+angle = 180;
+pos = (226,461);
+ref = verticallineabovecomb;
 }
 );
 width = 227;

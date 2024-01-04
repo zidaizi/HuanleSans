@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = E.di;
+kernLeft = E;
+kernRight = E;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -17,4 +19,6 @@ scale = (0.8,0.8);
 width = 485;
 }
 );
+metricLeft = "=E";
+metricRight = "=E";
 }

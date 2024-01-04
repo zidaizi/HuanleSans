@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = i.buzz;
+kernLeft = i;
+kernRight = i;
 layers = (
 {
 anchors = (

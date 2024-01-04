@@ -1,5 +1,7 @@
 {
 glyphname = uhorn;
+kernLeft = u;
+kernRight = u;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -8,12 +10,13 @@ shapes = (
 ref = u;
 },
 {
-pos = (386,13);
+pos = (391,13);
 ref = horncomb;
 }
 );
-width = 511;
+width = 496;
 }
 );
+metricRight = "=f";
 unicode = 432;
 }

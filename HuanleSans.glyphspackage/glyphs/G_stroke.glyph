@@ -1,5 +1,7 @@
 {
 glyphname = Gstroke;
+kernLeft = G;
+kernRight = G;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -9,7 +11,7 @@ ref = G;
 },
 {
 alignment = -1;
-pos = (250,-86);
+pos = (243,-102);
 ref = strokeshortcomb;
 }
 );

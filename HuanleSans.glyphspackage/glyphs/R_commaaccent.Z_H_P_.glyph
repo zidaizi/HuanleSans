@@ -1,4 +1,5 @@
 {
+color = 9;
 glyphname = Rcommaaccent.ZHP;
 layers = (
 {
@@ -16,4 +17,6 @@ ref = cedillacomb;
 width = 559;
 }
 );
+metricLeft = "=R";
+metricWidth = "=R";
 }

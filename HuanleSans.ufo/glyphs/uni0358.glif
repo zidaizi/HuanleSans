@@ -2,9 +2,9 @@
 <glyph name="uni0358" format="2">
 	<advance width="0"/>
 	<unicode hex="0358"/>
-	<anchor x="114" y="446" name="_topright"/>
-	<anchor x="113" y="446" name="topright"/>
+	<anchor x="60" y="446" name="_topright"/>
+	<anchor x="60" y="446" name="topright"/>
 	<outline>
-		<component base="period" xOffset="4" yOffset="453"/>
+		<component base="period" xOffset="-54" yOffset="413"/>
 	</outline>
 </glyph>

@@ -1,5 +1,7 @@
 {
 glyphname = Gscript;
+kernLeft = G;
+kernRight = G;
 layers = (
 {
 anchors = (

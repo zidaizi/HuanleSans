@@ -1,5 +1,7 @@
 {
 glyphname = acircumflexgrave;
+kernLeft = a;
+kernRight = a;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -16,7 +18,7 @@ pos = (31,232);
 ref = gravecomb;
 }
 );
-width = 464;
+width = 460;
 }
 );
 unicode = 7847;

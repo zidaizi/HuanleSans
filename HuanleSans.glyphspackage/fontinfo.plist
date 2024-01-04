@@ -64,7 +64,7 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
-	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb verticallinebelowcomb dotaboverightcomb horncomb strokeshortcomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb ringbelowcomb verticallinebelowcomb dotaboverightcomb horncomb strokeshortcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
@@ -267,7 +267,7 @@ code = "# @a
                zcedilla ccedilla scedilla rcommaaccent
                Zcedilla Ccedilla Scedilla Rcommaaccent
                zcircumflex ccircumflex scircumflex
-               Zcircumflex Ccircumflex Scircumflex ] ;
+               Zcircumflex Ccircumflex Scircumflex     ] ;
 
 @front = [ y i y.yu u.yu udieresis
            Y I Y.yu U.yu Udieresis ] ;
@@ -290,7 +290,10 @@ lookup SUB_ZHP_cleanup {
 lookup SUB_ZHP_decompose {
 	lookupflag IgnoreMarks ;
 
- # nmacron does not have a unicode
+	sub [ aring Aring ]' by [ a A ] ringcomb ;
+	sub [ uring Uring ]' by [ u U ] ringcomb ;
+
+	# nmacron does not have a unicode
 	sub [ ngrave Ngrave ]' by [ n N ] gravecomb ;
 	sub [ nacute Nacute ]' by [ n N ] acutecomb ;
 	sub [ ncaron Ncaron ]' by [ n N ] caroncomb ;
@@ -441,8 +444,9 @@ lookup SUB_ZHP_basic_post {
 
 	sub i by idotless ;
 	sub [ rcommaaccent Rcommaaccent ] by [ rcommaaccent.ZHP Rcommaaccent.ZHP ] ;
-	#sub [ g G ] by [ gsingle Gscript ] ;
-	#rcircumflex?
+	#sub g by gsingle ;
+
+	# rcircumflex?
 
 } SUB_ZHP_basic_post ;";
 tag = calt;
@@ -585,6 +589,77 @@ language = dflt;
 value = "bō xiǔ rì zhè fǎ yán yāng jiǎ què chuí shěng húnán hūn’àn QIÁNFĀNG";
 }
 );
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Huānlè Sans [Pīnyīn]";
+},
+{
+language = ZHS;
+value = "欢乐无衬线【拼音】";
+},
+{
+language = ZHT;
+value = "歡樂無襯線【拼音】";
+},
+{
+language = ZHH;
+value = "歡樂無襯線【拼音】";
+}
+);
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = "Pīnyīn";
+},
+{
+language = ZHS;
+value = "拼音";
+},
+{
+language = ZHT;
+value = "拼音";
+},
+{
+language = ZHH;
+value = "拼音";
+}
+);
+},
+{
+key = preferredFamilyNames;
+values = (
+{
+language = dflt;
+value = "Huānlè Sans [Pīnyīn]";
+},
+{
+language = ZHS;
+value = "欢乐无衬线【拼音】";
+},
+{
+language = ZHT;
+value = "歡樂無襯線【拼音】";
+},
+{
+language = ZHH;
+value = "歡樂無襯線【拼音】";
+}
+);
+},
+{
+key = postscriptFontName;
+value = HuanleSansPinyin;
+},
+{
+key = postscriptFullName;
+value = "Huanle Sans Pinyin";
 }
 );
 },
@@ -616,7 +691,7 @@ value = 1;
 instanceInterpolations = {
 "DE016B7A-D921-4FAF-BA9C-94A7D66B995D" = 1;
 };
-name = Regular;
+name = Latin;
 properties = (
 {
 key = sampleTexts;
@@ -626,6 +701,35 @@ language = dflt;
 value = "bō xiǔ rì zhè fǎ yán yāng jiǎ què chuí shěng húnán hūn’àn QIÁNFĀNG";
 }
 );
+},
+{
+key = styleNames;
+values = (
+{
+language = dflt;
+value = Latin;
+},
+{
+language = ZHS;
+value = "拉丁";
+},
+{
+language = ZHT;
+value = "拉丁";
+},
+{
+language = ZHH;
+value = "拉丁";
+}
+);
+},
+{
+key = postscriptFullName;
+value = "Huanle Sans";
+},
+{
+key = postscriptFontName;
+value = HuanleSans;
 }
 );
 }

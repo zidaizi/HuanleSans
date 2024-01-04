@@ -1,0 +1,22 @@
+{
+glyphname = Ocenteredtilde;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (-112,65);
+ref = strokeshortcomb;
+scale = (1.75,1);
+}
+);
+width = 636;
+}
+);
+unicode = 415;
+}

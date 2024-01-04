@@ -1,5 +1,7 @@
 {
 glyphname = uhookabove;
+kernLeft = u;
+kernRight = u;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -8,11 +10,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (124,0);
+pos = (114,0);
 ref = hookabovecomb;
 }
 );
-width = 511;
+width = 496;
 }
 );
 unicode = 7911;

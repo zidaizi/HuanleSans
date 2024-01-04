@@ -2,9 +2,9 @@
 <glyph name="uni018F" format="2">
 	<advance width="622"/>
 	<unicode hex="018F"/>
-	<anchor x="234" y="458" name="bottom"/>
-	<anchor x="79" y="448" name="ogonek"/>
-	<anchor x="243" y="0" name="top"/>
+	<anchor x="306" y="0" name="bottom"/>
+	<anchor x="452" y="39" name="ogonek"/>
+	<anchor x="309" y="640" name="top"/>
 	<outline>
 		<contour>
 			<point x="299" y="647" type="curve" smooth="yes"/>

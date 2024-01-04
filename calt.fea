@@ -74,7 +74,7 @@
                zcedilla ccedilla scedilla rcommaaccent
                Zcedilla Ccedilla Scedilla Rcommaaccent
                zcircumflex ccircumflex scircumflex
-               Zcircumflex Ccircumflex Scircumflex ] ;
+               Zcircumflex Ccircumflex Scircumflex     ] ;
 
 @front = [ y i y.yu u.yu udieresis
            Y I Y.yu U.yu Udieresis ] ;
@@ -97,7 +97,10 @@ lookup SUB_ZHP_cleanup {
 lookup SUB_ZHP_decompose {
 	lookupflag IgnoreMarks ;
 
- # nmacron does not have a unicode
+	sub [ aring Aring ]' by [ a A ] ringcomb ;
+	sub [ uring Uring ]' by [ u U ] ringcomb ;
+
+	# nmacron does not have a unicode
 	sub [ ngrave Ngrave ]' by [ n N ] gravecomb ;
 	sub [ nacute Nacute ]' by [ n N ] acutecomb ;
 	sub [ ncaron Ncaron ]' by [ n N ] caroncomb ;
@@ -247,7 +250,9 @@ lookup SUB_ZHP_basic_post {
 	lookupflag IgnoreMarks ;
 
 	sub i by idotless ;
-	#sub [ g G ] by [ gsingle Gscript ] ;
-	#rcircumflex?
+	sub [ rcommaaccent Rcommaaccent ] by [ rcommaaccent.ZHP Rcommaaccent.ZHP ] ;
+	#sub g by gsingle ;
+
+	# rcircumflex?
 
 } SUB_ZHP_basic_post ;

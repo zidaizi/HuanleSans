@@ -34,6 +34,10 @@
 	</outline>
 	<lib>
 		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=A</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=A</string>
 			<key>public.markColor</key>
 			<string>0.04,0.57,0.04,1</string>
 		</dict>

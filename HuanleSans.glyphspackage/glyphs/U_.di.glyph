@@ -1,6 +1,8 @@
 {
 color = 5;
 glyphname = U.di;
+kernLeft = U;
+kernRight = U;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -17,4 +19,7 @@ scale = (0.8,0.8);
 width = 627;
 }
 );
+metricLeft = "=U";
+metricRight = "=U";
+metricWidth = "=U";
 }

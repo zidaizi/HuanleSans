@@ -1,0 +1,33 @@
+{
+glyphname = dbloverlinecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (194,459);
+},
+{
+name = top;
+pos = (195,736);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (-17,123);
+ref = macroncomb;
+scale = (1.1,0.75);
+},
+{
+alignment = -1;
+pos = (-17,253);
+ref = macroncomb;
+scale = (1.1,0.75);
+}
+);
+width = 389;
+}
+);
+unicode = 831;
+}

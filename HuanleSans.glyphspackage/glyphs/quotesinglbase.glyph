@@ -1,0 +1,18 @@
+{
+glyphname = quotesinglbase;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (0,-600);
+ref = quoteright;
+}
+);
+width = 171;
+}
+);
+metricLeft = "=quoteright";
+metricRight = "=quoteright";
+unicode = 8218;
+}

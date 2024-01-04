@@ -261,6 +261,7 @@
 		<string>Oacute</string>
 		<string>Obreve</string>
 		<string>uni01D1</string>
+		<string>uni019F</string>
 		<string>Ocircumflex</string>
 		<string>uni1ED0</string>
 		<string>uni1ED8</string>
@@ -310,6 +311,7 @@
 		<string>uni01D3</string>
 		<string>Ucircumflex</string>
 		<string>Udieresis</string>
+		<string>uni00DC030A</string>
 		<string>uni01D7</string>
 		<string>uni1E72</string>
 		<string>uni01D9</string>
@@ -518,6 +520,7 @@
 		<string>eng</string>
 		<string>o</string>
 		<string>oacute</string>
+		<string>uni0275</string>
 		<string>obreve</string>
 		<string>uni01D2</string>
 		<string>ocircumflex</string>
@@ -570,6 +573,7 @@
 		<string>uni01D4</string>
 		<string>ucircumflex</string>
 		<string>udieresis</string>
+		<string>uni00FC030A</string>
 		<string>uni01D8</string>
 		<string>uni1E73</string>
 		<string>uni01DA</string>
@@ -759,6 +763,8 @@
 		<string>braceright</string>
 		<string>bracketleft</string>
 		<string>bracketright</string>
+		<string>quotesinglbase</string>
+		<string>quotedblbase</string>
 		<string>quotedblleft</string>
 		<string>quotedblright</string>
 		<string>quoteleft</string>
@@ -806,6 +812,7 @@
 		<string>uni031B</string>
 		<string>dotbelowcomb</string>
 		<string>uni0324</string>
+		<string>uni0325</string>
 		<string>uni0326</string>
 		<string>uni0327</string>
 		<string>uni0328</string>
@@ -813,6 +820,7 @@
 		<string>uni032E</string>
 		<string>uni0331</string>
 		<string>uni0335</string>
+		<string>uni033F</string>
 		<string>uni0358</string>
 		<string>dieresis</string>
 		<string>dotaccent</string>
@@ -832,6 +840,7 @@
 		<string>uni02B9</string>
 		<string>uni02BF</string>
 		<string>uni02BE</string>
+		<string>uni02CC</string>
 		<string>uni02C8</string>
 		<string>uni000A</string>
 		<string>u107A5</string>

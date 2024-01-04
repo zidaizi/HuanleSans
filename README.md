@@ -18,16 +18,16 @@ but also unrelated scripts like German, Turkish and IPA.
 
 ## Installation
 
-You can install on desktop by downloading [HuanleSans-Pinyin.otf](HuanleSans-Pinyin.otf).
+You can install on desktop by downloading [HuanleSansPinyin.otf](HuanleSansPinyin.otf).
 
-Apple mobile devices can install by downloading [HuanleSans-Pinyin.mobileconfig](HuanleSans-Pinyin.mobileconfig) and first opening it,
+Apple mobile devices can install by downloading [HuanleSansPinyin.mobileconfig](HuanleSansPinyin.mobileconfig) and first opening it,
 then actually installing it through the Settings app → General → VPN, DNS & Service Management.
 (It gives a bunch of scary warnings, but it’s just a text file you can edit *by hand, yourself* to install any font,
 if you replace the data field with the .otf or .ttf file encoded as base64 and don’t collide the many ID fields.)
 
 Android users, your systems vary, but you’re smart, you’ll figure it out.
 
-There’s also a [HuanleSans-Regular.otf](HuanleSans-Regular.otf) and [HuanleSans-Regular.mobileconfig](HuanleSans-Regular.mobileconfig)
+There’s also a [HuanleSans.otf](HuanleSans.otf) and [HuanleSans.mobileconfig](HuanleSans.mobileconfig)
 that doesn’t have the substitutions, if you just want the enlarged accents, or want to use it for something else.
 
 ## Technical details

@@ -1,5 +1,7 @@
 {
 glyphname = udotbelow.di;
+kernLeft = u;
+kernRight = u;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -8,11 +10,11 @@ shapes = (
 ref = u.di;
 },
 {
-pos = (143,0);
+pos = (133,0);
 ref = dotbelowcomb;
 }
 );
-width = 511;
+width = 496;
 }
 );
 }
