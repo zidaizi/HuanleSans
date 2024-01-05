@@ -1,6 +1,6 @@
 {
 glyphname = tcedilla;
-kernLeft = t;
+kernLeft = u;
 kernRight = t;
 layers = (
 {

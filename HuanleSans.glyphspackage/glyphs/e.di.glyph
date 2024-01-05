@@ -1,7 +1,7 @@
 {
 color = 5;
 glyphname = e.di;
-kernLeft = e;
+kernLeft = o;
 kernRight = e;
 layers = (
 {

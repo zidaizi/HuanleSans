@@ -1,6 +1,6 @@
 {
 glyphname = tbar;
-kernLeft = t;
+kernLeft = u;
 kernRight = t;
 layers = (
 {

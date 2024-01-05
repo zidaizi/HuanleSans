@@ -1,6 +1,6 @@
 {
 glyphname = lcaron;
-kernLeft = l;
+kernLeft = h;
 kernRight = l;
 layers = (
 {

@@ -1,6 +1,6 @@
 {
 glyphname = idotbelow.buzz;
-kernLeft = t;
+kernLeft = l;
 kernRight = l;
 layers = (
 {

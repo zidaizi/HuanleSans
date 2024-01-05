@@ -15,7 +15,8 @@
 body {
 	background-color: #EEE;
 	margin: calc(0.25em + 1vw);
-	font-family: "Huanle Sans", "Segoe UI", system-ui, sans-serif;
+	font-family: "Huanle Sans Pinyin", "Segoe UI", system-ui, sans-serif;
+	font-variant-ligatures: no-contextual;
 	font-size: 1.2em;
 	font-synthesis: none;
 	-webkit-font-smoothing: antialiased;
@@ -34,6 +35,7 @@ tr:hover {
 }
 :lang(zh-Latn-pinyin), [contenteditable="true"] {
 	font-family: "Huanle Sans Pinyin";
+	font-variant-ligatures: contextual;
 }
 @font-face {
 	font-weight: 1 1000;
@@ -42,14 +44,6 @@ tr:hover {
 	src: url("https://raw.githubusercontent.com/zidaizi/HuanleSans/master/HuanleSansPinyin.otf") format("opentype");
 	size-adjust: 110%;
 	font-family: "Huanle Sans Pinyin";
-}
-@font-face {
-	font-weight: 1 1000;
-	font-style: normal;
-	font-display: swap;
-	src: url("https://raw.githubusercontent.com/zidaizi/HuanleSans/master/HuanleSans.otf") format("opentype");
-	size-adjust: 110%;
-	font-family: "Huanle Sans";
 }
     </style>
   </head>

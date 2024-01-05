@@ -1,7 +1,7 @@
 {
 glyphname = kcaron;
 kernLeft = k;
-kernRight = k;
+kernRight = x;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -10,7 +10,7 @@ shapes = (
 ref = k;
 },
 {
-pos = (-70,188);
+pos = (154,-2);
 ref = caroncomb;
 }
 );

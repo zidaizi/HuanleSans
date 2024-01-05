@@ -1,7 +1,7 @@
 {
 glyphname = dcroat;
-kernLeft = d;
-kernRight = d;
+kernLeft = o;
+kernRight = l;
 layers = (
 {
 anchors = (

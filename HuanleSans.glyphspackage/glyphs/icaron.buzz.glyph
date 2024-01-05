@@ -1,6 +1,6 @@
 {
 glyphname = icaron.buzz;
-kernLeft = t;
+kernLeft = l;
 kernRight = l;
 layers = (
 {

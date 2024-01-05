@@ -1,6 +1,6 @@
 {
 glyphname = tdieresis;
-kernLeft = t;
+kernLeft = u;
 kernRight = t;
 layers = (
 {

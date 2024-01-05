@@ -1,7 +1,7 @@
 {
 glyphname = hbar;
 kernLeft = h;
-kernRight = h;
+kernRight = n;
 layers = (
 {
 anchors = (

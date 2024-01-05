@@ -1,8 +1,8 @@
 {
 color = 9;
 glyphname = rcommaaccent.ZHP;
-kernLeft = r;
-kernRight = r;
+kernLeft = t;
+kernRight = n;
 layers = (
 {
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
