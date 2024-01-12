@@ -290,9 +290,6 @@ lookup SUB_ZHP_cleanup {
 lookup SUB_ZHP_decompose {
 	lookupflag IgnoreMarks ;
 
-	sub [ aring Aring ]' by [ a A ] ringcomb ;
-	sub [ uring Uring ]' by [ u U ] ringcomb ;
-
 	# nmacron does not have a unicode
 	sub [ ngrave Ngrave ]' by [ n N ] gravecomb ;
 	sub [ nacute Nacute ]' by [ n N ] acutecomb ;
@@ -448,7 +445,8 @@ lookup SUB_ZHP_basic_post {
 
 	# rcircumflex?
 
-} SUB_ZHP_basic_post ;";
+} SUB_ZHP_basic_post ;
+";
 tag = calt;
 }
 );
@@ -1175,23 +1173,22 @@ kerningLTR = {
 };
 "@MMK_L_f" = {
 "@MMK_R_A" = -17;
-"@MMK_R_H" = 35;
 "@MMK_R_J" = 43;
-"@MMK_R_O" = 16;
-"@MMK_R_S" = 29;
+"@MMK_R_O" = 20;
+"@MMK_R_S" = 18;
 "@MMK_R_T" = 36;
-"@MMK_R_U" = 102;
-"@MMK_R_V" = 50;
-"@MMK_R_X" = 102;
-"@MMK_R_Y" = 65;
+"@MMK_R_U" = 25;
+"@MMK_R_V" = 35;
+"@MMK_R_X" = 22;
+"@MMK_R_Y" = 35;
 "@MMK_R_Z" = 40;
-"@MMK_R_a" = -11;
-"@MMK_R_asterisk" = 53;
-"@MMK_R_g" = -24;
-"@MMK_R_o" = -20;
+"@MMK_R_asterisk" = 35;
+"@MMK_R_g" = -12;
 "@MMK_R_period" = -42;
-"@MMK_R_v" = 16;
-"@MMK_R_y" = 20;
+"@MMK_R_u" = 26;
+"@MMK_R_v" = 36;
+"@MMK_R_x" = 27;
+"@MMK_R_z" = 16;
 };
 "@MMK_L_g" = {
 "@MMK_R_H" = -22;
@@ -1267,6 +1264,8 @@ kerningLTR = {
 "@MMK_R_asterisk" = -45;
 "@MMK_R_f" = -20;
 "@MMK_R_n" = -12;
+"@MMK_R_o" = 20;
+"@MMK_R_p" = 0;
 "@MMK_R_period" = -50;
 "@MMK_R_t" = -3;
 "@MMK_R_v" = -15;
@@ -1329,6 +1328,7 @@ kerningLTR = {
 "@MMK_R_X" = -10;
 "@MMK_R_Y" = -31;
 "@MMK_R_asterisk" = 22;
+"@MMK_R_f" = 0;
 "@MMK_R_g" = -22;
 "@MMK_R_hyphen" = -15;
 "@MMK_R_o" = -15;

@@ -97,9 +97,6 @@ lookup SUB_ZHP_cleanup {
 lookup SUB_ZHP_decompose {
 	lookupflag IgnoreMarks ;
 
-	sub [ aring Aring ]' by [ a A ] ringcomb ;
-	sub [ uring Uring ]' by [ u U ] ringcomb ;
-
 	# nmacron does not have a unicode
 	sub [ ngrave Ngrave ]' by [ n N ] gravecomb ;
 	sub [ nacute Nacute ]' by [ n N ] acutecomb ;
