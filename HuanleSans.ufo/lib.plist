@@ -173,6 +173,8 @@
 		<string>Aring</string>
 		<string>Atilde</string>
 		<string>AE</string>
+		<string>AEacute</string>
+		<string>uni01E2</string>
 		<string>B</string>
 		<string>C</string>
 		<string>Cacute</string>
@@ -235,6 +237,7 @@
 		<string>uni1EC8</string>
 		<string>Imacron</string>
 		<string>Iogonek</string>
+		<string>uni0197</string>
 		<string>Itilde</string>
 		<string>J</string>
 		<string>uni004A0301</string>
@@ -247,6 +250,7 @@
 		<string>Lacute</string>
 		<string>Lcaron</string>
 		<string>uni013B</string>
+		<string>uni1E3A</string>
 		<string>Lslash</string>
 		<string>M</string>
 		<string>uni1E3E</string>
@@ -269,6 +273,7 @@
 		<string>uni1ED4</string>
 		<string>uni1ED6</string>
 		<string>Odieresis</string>
+		<string>uni022A</string>
 		<string>uni1ECC</string>
 		<string>Ograve</string>
 		<string>uni1ECE</string>
@@ -280,6 +285,8 @@
 		<string>uni1EE0</string>
 		<string>Ohungarumlaut</string>
 		<string>Omacron</string>
+		<string>uni01EA</string>
+		<string>uni01EC</string>
 		<string>Oslash</string>
 		<string>Otilde</string>
 		<string>OE</string>
@@ -290,6 +297,7 @@
 		<string>Racute</string>
 		<string>Rcaron</string>
 		<string>uni0156</string>
+		<string>uni1E5E</string>
 		<string>S</string>
 		<string>Sacute</string>
 		<string>Scaron</string>
@@ -307,6 +315,7 @@
 		<string>uni1E6E</string>
 		<string>U</string>
 		<string>Uacute</string>
+		<string>uni0244</string>
 		<string>Ubreve</string>
 		<string>uni01D3</string>
 		<string>Ucircumflex</string>
@@ -431,6 +440,8 @@
 		<string>aring</string>
 		<string>atilde</string>
 		<string>ae</string>
+		<string>aeacute</string>
+		<string>uni01E3</string>
 		<string>b</string>
 		<string>c</string>
 		<string>cacute</string>
@@ -495,6 +506,7 @@
 		<string>ij</string>
 		<string>imacron</string>
 		<string>iogonek</string>
+		<string>uni0268</string>
 		<string>itilde</string>
 		<string>j</string>
 		<string>uni0237</string>
@@ -508,6 +520,7 @@
 		<string>lacute</string>
 		<string>lcaron</string>
 		<string>uni013C</string>
+		<string>uni1E3B</string>
 		<string>lslash</string>
 		<string>m</string>
 		<string>uni1E3F</string>
@@ -530,6 +543,7 @@
 		<string>uni1ED5</string>
 		<string>uni1ED7</string>
 		<string>odieresis</string>
+		<string>uni022B</string>
 		<string>uni1ECD</string>
 		<string>ograve</string>
 		<string>uni1ECF</string>
@@ -541,6 +555,8 @@
 		<string>uni1EE1</string>
 		<string>ohungarumlaut</string>
 		<string>omacron</string>
+		<string>uni01EB</string>
+		<string>uni01ED</string>
 		<string>oslash</string>
 		<string>otilde</string>
 		<string>oe</string>
@@ -551,6 +567,7 @@
 		<string>racute</string>
 		<string>rcaron</string>
 		<string>uni0157</string>
+		<string>uni1E5F</string>
 		<string>s</string>
 		<string>sacute</string>
 		<string>scaron</string>
@@ -569,6 +586,7 @@
 		<string>uni1E6F</string>
 		<string>u</string>
 		<string>uacute</string>
+		<string>uni0289</string>
 		<string>ubreve</string>
 		<string>uni01D4</string>
 		<string>ucircumflex</string>
@@ -649,6 +667,7 @@
 		<string>uni1EE5.di</string>
 		<string>ugrave.di</string>
 		<string>umacron.di</string>
+		<string>uni0268.dotless</string>
 		<string>e.front</string>
 		<string>eacute.front</string>
 		<string>ecaron.front</string>
@@ -678,6 +697,7 @@
 		<string>uni02B7</string>
 		<string>uni02E3</string>
 		<string>uni02B8</string>
+		<string>uni1D3A</string>
 		<string>uni1D43</string>
 		<string>uni1D47</string>
 		<string>uni1D9C</string>
@@ -778,6 +798,7 @@
 		<string>at</string>
 		<string>ampersand</string>
 		<string>bar</string>
+		<string>uni2303</string>
 		<string>cent</string>
 		<string>dollar</string>
 		<string>yen</string>
@@ -787,7 +808,14 @@
 		<string>equal</string>
 		<string>greater</string>
 		<string>less</string>
+		<string>asciitilde</string>
+		<string>asciicircum</string>
 		<string>percent</string>
+		<string>uni208B</string>
+		<string>uni207B</string>
+		<string>uni208A</string>
+		<string>uni207A</string>
+		<string>uni25CC</string>
 		<string>uni0308</string>
 		<string>uni03080300</string>
 		<string>uni03080301</string>
@@ -820,6 +848,7 @@
 		<string>uni032E</string>
 		<string>uni0331</string>
 		<string>uni0335</string>
+		<string>uni0336</string>
 		<string>uni033F</string>
 		<string>uni0358</string>
 		<string>dieresis</string>
@@ -828,7 +857,9 @@
 		<string>acute</string>
 		<string>hungarumlaut</string>
 		<string>circumflex</string>
+		<string>uni02CA</string>
 		<string>caron</string>
+		<string>uni02CB</string>
 		<string>breve</string>
 		<string>ring</string>
 		<string>tilde</string>

@@ -10,7 +10,7 @@ shapes = (
 ref = U;
 },
 {
-pos = (566,195);
+pos = (556,195);
 ref = horncomb;
 }
 );

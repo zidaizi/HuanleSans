@@ -2,16 +2,17 @@
 <glyph name="uni0331" format="2">
 	<advance width="0"/>
 	<unicode hex="0331"/>
-	<anchor x="166" y="0" name="_bottom"/>
-	<anchor x="166" y="-191" name="bottom"/>
+	<unicode hex="0320"/>
+	<anchor x="202" y="0" name="_bottom"/>
+	<anchor x="202" y="-191" name="bottom"/>
 	<outline>
 		<contour>
-			<point x="314" y="-98" type="line"/>
-			<point x="16" y="-98" type="line"/>
-			<point x="11" y="-159" type="line"/>
-			<point x="19" y="-168" type="line"/>
-			<point x="316" y="-168" type="line"/>
-			<point x="321" y="-105" type="line"/>
+			<point x="350" y="-98" type="line"/>
+			<point x="52" y="-98" type="line"/>
+			<point x="47" y="-159" type="line"/>
+			<point x="55" y="-168" type="line"/>
+			<point x="352" y="-168" type="line"/>
+			<point x="357" y="-105" type="line"/>
 		</contour>
 	</outline>
 	<lib>

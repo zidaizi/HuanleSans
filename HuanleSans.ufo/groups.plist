@@ -64,6 +64,8 @@
 	<key>public.kern1.E</key>
 	<array>
 		<string>AE</string>
+		<string>AEacute</string>
+		<string>uni01E2</string>
 		<string>E</string>
 		<string>Eacute</string>
 		<string>Ebreve</string>
@@ -214,6 +216,8 @@
 		<string>uni1EE0</string>
 		<string>Ohungarumlaut</string>
 		<string>Omacron</string>
+		<string>uni01EA</string>
+		<string>uni01EC</string>
 		<string>Oslash</string>
 		<string>Otilde</string>
 		<string>Q</string>
@@ -385,6 +389,8 @@
 	<key>public.kern1.e</key>
 	<array>
 		<string>ae</string>
+		<string>aeacute</string>
+		<string>uni01E3</string>
 		<string>e</string>
 		<string>eacute</string>
 		<string>ebreve</string>
@@ -530,6 +536,8 @@
 		<string>uni1EE1</string>
 		<string>ohungarumlaut</string>
 		<string>omacron</string>
+		<string>uni01EB</string>
+		<string>uni01ED</string>
 		<string>oslash</string>
 		<string>otilde</string>
 		<string>p</string>
@@ -725,6 +733,8 @@
 		<string>Aring</string>
 		<string>Atilde</string>
 		<string>AE</string>
+		<string>AEacute</string>
+		<string>uni01E2</string>
 		<string>Aacute.back</string>
 		<string>uni01CD.back</string>
 		<string>uni1EA0.back</string>
@@ -823,6 +833,7 @@
 		<string>P</string>
 		<string>Thorn</string>
 		<string>R</string>
+		<string>J.ZHP</string>
 	</array>
 	<key>public.kern2.I</key>
 	<array>
@@ -851,7 +862,6 @@
 		<string>J</string>
 		<string>uni004A0301</string>
 		<string>Jcircumflex</string>
-		<string>J.ZHP</string>
 	</array>
 	<key>public.kern2.K</key>
 	<array>
@@ -908,6 +918,8 @@
 		<string>uni1EE0</string>
 		<string>Ohungarumlaut</string>
 		<string>Omacron</string>
+		<string>uni01EA</string>
+		<string>uni01EC</string>
 		<string>Oslash</string>
 		<string>Otilde</string>
 		<string>OE</string>
@@ -1054,6 +1066,8 @@
 		<string>aring</string>
 		<string>atilde</string>
 		<string>ae</string>
+		<string>aeacute</string>
+		<string>uni01E3</string>
 		<string>uni0259</string>
 		<string>a.back</string>
 		<string>aacute.back</string>
@@ -1255,6 +1269,8 @@
 		<string>uni1EE1</string>
 		<string>ohungarumlaut</string>
 		<string>omacron</string>
+		<string>uni01EB</string>
+		<string>uni01ED</string>
 		<string>oslash</string>
 		<string>otilde</string>
 		<string>oe</string>

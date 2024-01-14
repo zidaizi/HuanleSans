@@ -11,11 +11,7 @@ ref = i;
 },
 {
 pos = (242,0);
-ref = jdotless;
-},
-{
-pos = (241,0);
-ref = dotaccentcomb;
+ref = j;
 }
 );
 width = 484;

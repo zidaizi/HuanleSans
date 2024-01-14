@@ -3,7 +3,15 @@
 	<advance width="229"/>
 	<unicode hex="003A"/>
 	<outline>
-		<component base="period" xOffset="-4"/>
-		<component base="period" xOffset="-4" yOffset="269"/>
+		<component base="period"/>
+		<component base="period" yOffset="269"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=period</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=period</string>
+		</dict>
+	</lib>
 </glyph>

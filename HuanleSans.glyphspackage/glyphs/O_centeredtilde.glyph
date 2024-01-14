@@ -10,9 +10,9 @@ shapes = (
 ref = O;
 },
 {
-pos = (-112,65);
-ref = strokeshortcomb;
-scale = (1.75,1);
+pos = (-2,65);
+ref = strokelongcomb;
+scale = (1.3,1);
 }
 );
 width = 636;

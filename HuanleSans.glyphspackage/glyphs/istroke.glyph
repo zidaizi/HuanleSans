@@ -1,0 +1,19 @@
+{
+glyphname = istroke;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = istroke.dotless;
+},
+{
+pos = (-1,0);
+ref = dotaccentcomb;
+}
+);
+width = 242;
+}
+);
+unicode = 616;
+}

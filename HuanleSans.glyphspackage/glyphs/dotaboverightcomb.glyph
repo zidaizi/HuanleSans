@@ -5,21 +5,21 @@ layers = (
 anchors = (
 {
 name = _topright;
-pos = (60,446);
+pos = (100,446);
 },
 {
 name = topright;
-pos = (60,446);
+pos = (100,446);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-pos = (-54,413);
+pos = (-14,413);
 ref = period;
 }
 );
-width = 120;
+width = 200;
 }
 );
 unicode = 856;

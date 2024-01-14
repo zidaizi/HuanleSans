@@ -64,7 +64,7 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dbloverlinecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb verticallineabovecomb];
-	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb ringbelowcomb verticallinebelowcomb dotaboverightcomb horncomb strokeshortcomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb ringbelowcomb verticallinebelowcomb dotaboverightcomb horncomb strokelongcomb strokeshortcomb];
 	sub [i j]' @CombiningTopAccents by [idotless jdotless];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
@@ -131,6 +131,8 @@ sub six by six.subs;
 sub seven by seven.subs;
 sub eight by eight.subs;
 sub nine by nine.subs;
+sub minus by minus.subs;
+sub plus by plus.subs;
 ";
 tag = subs;
 },
@@ -146,6 +148,8 @@ sub six by six.subs;
 sub seven by seven.subs;
 sub eight by eight.subs;
 sub nine by nine.subs;
+sub minus by minus.subs;
+sub plus by plus.subs;
 ";
 tag = sinf;
 },
@@ -161,6 +165,7 @@ sub s by s.sups;
 sub w by w.sups;
 sub x by x.sups;
 sub y by y.sups;
+sub N by N.sups;
 sub a by a.sups;
 sub b by b.sups;
 sub c by c.sups;
@@ -186,6 +191,8 @@ sub six by six.sups;
 sub seven by seven.sups;
 sub eight by eight.sups;
 sub nine by nine.sups;
+sub minus by minus.sups;
+sub plus by plus.sups;
 sub q by q.sups;
 ";
 tag = sups;
@@ -696,7 +703,7 @@ key = sampleTexts;
 values = (
 {
 language = dflt;
-value = "bō xiǔ rì zhè fǎ yán yāng jiǎ què chuí shěng húnán hūn’àn QIÁNFĀNG";
+value = " zA̤̍͘ză̤͘zĔ̤͘ze̤̋͘zƗ̤̀͘zɨ̤̂͘zƟ̤̍͘zɵ̤̂͘zɄ̤̀͘zʉ̤̂͘zM̤̋zm̤̆Zᴺzⁿz";
 }
 );
 },

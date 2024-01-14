@@ -7,16 +7,18 @@ layers = (
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-pos = (-4,0);
 ref = period;
 },
 {
-pos = (-4,269);
+pos = (0,269);
 ref = period;
 }
 );
 width = 229;
 }
 );
+metricLeft = "=period";
+metricRight = "=period";
+metricWidth = "=period";
 unicode = 58;
 }

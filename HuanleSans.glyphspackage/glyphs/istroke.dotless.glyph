@@ -1,0 +1,19 @@
+{
+glyphname = istroke.dotless;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-63,0);
+ref = strokeshortcomb;
+scale = (0.75,1);
+}
+);
+width = 242;
+}
+);
+}

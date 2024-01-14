@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _bottom;
-pos = (166,0);
+pos = (202,0);
 },
 {
 name = bottom;
-pos = (166,-191);
+pos = (202,-191);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -17,19 +17,19 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(16,-98,l),
-(11,-159,l),
-(19,-168,l),
-(316,-168,l),
-(321,-105,l),
-(314,-98,l)
+(52,-98,l),
+(47,-159,l),
+(55,-168,l),
+(352,-168,l),
+(357,-105,l),
+(350,-98,l)
 );
 }
 );
-width = 331;
+width = 409;
 }
 );
 metricLeft = "=macroncomb";
 metricRight = "=macroncomb";
-unicode = 817;
+unicode = (817,800);
 }

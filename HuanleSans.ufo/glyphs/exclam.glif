@@ -12,19 +12,6 @@
 			<point x="156" y="220" type="line"/>
 			<point x="180" y="650" type="line"/>
 		</contour>
-		<contour>
-			<point x="121" y="105" type="curve" smooth="yes"/>
-			<point x="82" y="105"/>
-			<point x="58" y="80"/>
-			<point x="58" y="43" type="curve" smooth="yes"/>
-			<point x="58" y="5"/>
-			<point x="79" y="-17"/>
-			<point x="117" y="-17" type="curve" smooth="yes"/>
-			<point x="154" y="-17"/>
-			<point x="178" y="8"/>
-			<point x="178" y="47" type="curve" smooth="yes"/>
-			<point x="178" y="83"/>
-			<point x="157" y="105"/>
-		</contour>
+		<component base="period" xOffset="4"/>
 	</outline>
 </glyph>

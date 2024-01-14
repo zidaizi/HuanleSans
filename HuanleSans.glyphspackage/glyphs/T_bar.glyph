@@ -11,8 +11,8 @@ ref = T;
 },
 {
 alignment = -1;
-pos = (1,0);
-ref = strokeshortcomb;
+pos = (1,63);
+ref = strokelongcomb;
 }
 );
 width = 491;
