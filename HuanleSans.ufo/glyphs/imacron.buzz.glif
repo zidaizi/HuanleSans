@@ -3,6 +3,6 @@
 	<advance width="253"/>
 	<outline>
 		<component base="i.buzz"/>
-		<component base="uni0304" xOffset="-103"/>
+		<component base="uni0304" xOffset="-104"/>
 	</outline>
 </glyph>

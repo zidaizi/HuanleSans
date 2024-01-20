@@ -1,0 +1,20 @@
+{
+glyphname = lessequal;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (0,25);
+ref = less;
+},
+{
+pos = (0,-235);
+ref = minus;
+}
+);
+width = 487;
+}
+);
+unicode = 8804;
+}

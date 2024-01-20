@@ -1,0 +1,49 @@
+{
+glyphname = j.sc;
+kernLeft = J;
+kernRight = H;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,499,l),
+(91,150,l),
+(88,0,l),
+(168,0,l),
+(165,157,l),
+(169,499,l)
+);
+}
+);
+};
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,499,l),
+(92,156,l),
+(92,92,ls),
+(92,36,o),
+(67,3,o),
+(5,-31,c),
+(5,-39,l),
+(37,-80,l),
+(133,-34,o),
+(166,12,o),
+(166,93,cs),
+(166,165,l),
+(169,499,l)
+);
+}
+);
+width = 261;
+}
+);
+metricRight = "=i.sc";
+metricWidth = "=i.sc";
+unicode = 7434;
+}

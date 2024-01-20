@@ -10,8 +10,10 @@ shapes = (
 ref = g;
 },
 {
-pos = (121,29);
-ref = strokeshortcomb;
+alignment = -1;
+pos = (-84,-294);
+ref = strokelongcomb;
+scale = (1.35,0.9);
 }
 );
 width = 488;

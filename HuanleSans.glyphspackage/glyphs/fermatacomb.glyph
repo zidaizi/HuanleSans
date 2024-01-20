@@ -1,0 +1,27 @@
+{
+glyphname = fermatacomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (195,459);
+},
+{
+name = top;
+pos = (195,782);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (0,1291);
+ref = candraBinducomb;
+scale = (1,-1);
+}
+);
+width = 389;
+}
+);
+unicode = 850;
+}

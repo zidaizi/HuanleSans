@@ -2,6 +2,10 @@
 <glyph name="space" format="2">
 	<advance width="164"/>
 	<unicode hex="0020"/>
+	<anchor x="82" y="0" name="bottom"/>
+	<anchor x="82" y="230" name="center"/>
+	<anchor x="82" y="459" name="top"/>
+	<anchor x="164" y="457" name="topright"/>
 	<outline>
 	</outline>
 </glyph>

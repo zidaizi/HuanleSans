@@ -2,6 +2,24 @@
 glyphname = space;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (82,0);
+},
+{
+name = center;
+pos = (82,230);
+},
+{
+name = top;
+pos = (82,459);
+},
+{
+name = topright;
+pos = (164,457);
+}
+);
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 width = 164;
 }

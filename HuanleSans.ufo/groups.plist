@@ -38,10 +38,12 @@
 		<string>uni1EA0.mid</string>
 		<string>Agrave.mid</string>
 		<string>Amacron.mid</string>
+		<string>uni1D00</string>
 	</array>
 	<key>public.kern1.B</key>
 	<array>
 		<string>B</string>
+		<string>uni0299</string>
 	</array>
 	<key>public.kern1.C</key>
 	<array>
@@ -51,6 +53,7 @@
 		<string>Ccedilla</string>
 		<string>Ccircumflex</string>
 		<string>Cdotaccent</string>
+		<string>uni1D04</string>
 	</array>
 	<key>public.kern1.D</key>
 	<array>
@@ -97,6 +100,9 @@
 		<string>uni1EB8.front</string>
 		<string>Egrave.front</string>
 		<string>Emacron.front</string>
+		<string>uni1D01</string>
+		<string>uni1D07</string>
+		<string>uni0276</string>
 	</array>
 	<key>public.kern1.Ezh</key>
 	<array>
@@ -105,6 +111,7 @@
 	<key>public.kern1.F</key>
 	<array>
 		<string>F</string>
+		<string>uniA730</string>
 	</array>
 	<key>public.kern1.G</key>
 	<array>
@@ -117,10 +124,12 @@
 		<string>uni1E20</string>
 		<string>uniA7AC</string>
 		<string>uni01E4</string>
+		<string>uni0262</string>
 	</array>
 	<key>public.kern1.Germandbls</key>
 	<array>
 		<string>uni1E9E</string>
+		<string>germandbls.sc</string>
 	</array>
 	<key>public.kern1.H</key>
 	<array>
@@ -133,6 +142,10 @@
 		<string>J</string>
 		<string>N</string>
 		<string>J.ZHP</string>
+		<string>uni029C</string>
+		<string>uni026A</string>
+		<string>uni1D0A</string>
+		<string>uni0274</string>
 	</array>
 	<key>public.kern1.I</key>
 	<array>
@@ -167,6 +180,7 @@
 		<string>uni01E8</string>
 		<string>uni0136</string>
 		<string>uni1E34</string>
+		<string>uni1D0B</string>
 	</array>
 	<key>public.kern1.L</key>
 	<array>
@@ -175,11 +189,13 @@
 		<string>Lcaron</string>
 		<string>uni013B</string>
 		<string>Lslash</string>
+		<string>uni029F</string>
 	</array>
 	<key>public.kern1.M</key>
 	<array>
 		<string>M</string>
 		<string>uni1E3E</string>
+		<string>uni1D0D</string>
 	</array>
 	<key>public.kern1.N</key>
 	<array>
@@ -228,11 +244,15 @@
 		<string>uni1ECC.di</string>
 		<string>Ograve.di</string>
 		<string>Omacron.di</string>
+		<string>uni1D05</string>
+		<string>uni1D0F</string>
+		<string>uniA7AF</string>
 		<string>at</string>
 	</array>
 	<key>public.kern1.P</key>
 	<array>
 		<string>P</string>
+		<string>uni1D18</string>
 	</array>
 	<key>public.kern1.R</key>
 	<array>
@@ -240,6 +260,7 @@
 		<string>Racute</string>
 		<string>Rcaron</string>
 		<string>uni0156</string>
+		<string>uni0280</string>
 	</array>
 	<key>public.kern1.S</key>
 	<array>
@@ -250,6 +271,7 @@
 		<string>Scircumflex</string>
 		<string>uni0218</string>
 		<string>uni1E62</string>
+		<string>uniA731</string>
 	</array>
 	<key>public.kern1.T</key>
 	<array>
@@ -260,10 +282,12 @@
 		<string>uni021A</string>
 		<string>uni1E6C</string>
 		<string>uni1E6E</string>
+		<string>uni1D1B</string>
 	</array>
 	<key>public.kern1.Thorn</key>
 	<array>
 		<string>Thorn</string>
+		<string>thorn.sc</string>
 	</array>
 	<key>public.kern1.U</key>
 	<array>
@@ -305,11 +329,13 @@
 		<string>uni1EE4.yu</string>
 		<string>Ugrave.yu</string>
 		<string>Umacron.yu</string>
+		<string>uni1D1C</string>
 	</array>
 	<key>public.kern1.V</key>
 	<array>
 		<string>V</string>
 		<string>W</string>
+		<string>uni1D20</string>
 	</array>
 	<key>public.kern1.W</key>
 	<array>
@@ -317,11 +343,13 @@
 		<string>Wcircumflex</string>
 		<string>Wdieresis</string>
 		<string>Wgrave</string>
+		<string>uni1D21</string>
 	</array>
 	<key>public.kern1.X</key>
 	<array>
 		<string>X</string>
 		<string>X.ZHP</string>
+		<string>x.sc</string>
 	</array>
 	<key>public.kern1.Y</key>
 	<array>
@@ -335,6 +363,7 @@
 		<string>uni0232</string>
 		<string>uni1EF8</string>
 		<string>Y.yu</string>
+		<string>uni028F</string>
 	</array>
 	<key>public.kern1.Z</key>
 	<array>
@@ -344,6 +373,7 @@
 		<string>uni1E90</string>
 		<string>Zdotaccent</string>
 		<string>uni1E92</string>
+		<string>uni1D22</string>
 		<string>Zcedilla</string>
 	</array>
 	<key>public.kern1.a</key>
@@ -359,6 +389,9 @@
 		<string>quoteright</string>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
+		<string>registered</string>
+		<string>trademark</string>
+		<string>degree</string>
 		<string>uni0308</string>
 		<string>uni0307</string>
 		<string>gravecomb</string>
@@ -422,6 +455,10 @@
 		<string>uni1EB9.front</string>
 		<string>egrave.front</string>
 		<string>emacron.front</string>
+	</array>
+	<key>public.kern1.ezh.sc</key>
+	<array>
+		<string>uni1D23</string>
 	</array>
 	<key>public.kern1.f</key>
 	<array>
@@ -548,6 +585,10 @@
 		<string>uni1ECD.di</string>
 		<string>ograve.di</string>
 		<string>omacron.di</string>
+	</array>
+	<key>public.kern1.o.sc</key>
+	<array>
+		<string>uni0259.sc</string>
 	</array>
 	<key>public.kern1.period</key>
 	<array>
@@ -691,6 +732,7 @@
 		<string>k</string>
 		<string>uni01E9</string>
 		<string>uni0137</string>
+		<string>kgreenlandic</string>
 		<string>uni1E35</string>
 		<string>x</string>
 		<string>x.ZHP</string>
@@ -746,6 +788,8 @@
 		<string>uni1EA0.mid</string>
 		<string>Agrave.mid</string>
 		<string>Amacron.mid</string>
+		<string>uni1D00</string>
+		<string>uni1D01</string>
 	</array>
 	<key>public.kern2.C</key>
 	<array>
@@ -817,6 +861,7 @@
 	<key>public.kern2.Germandbls</key>
 	<array>
 		<string>uni1E9E</string>
+		<string>germandbls.sc</string>
 	</array>
 	<key>public.kern2.H</key>
 	<array>
@@ -834,6 +879,18 @@
 		<string>Thorn</string>
 		<string>R</string>
 		<string>J.ZHP</string>
+		<string>uni0299</string>
+		<string>uni1D05</string>
+		<string>uni1D07</string>
+		<string>uniA730</string>
+		<string>uni029C</string>
+		<string>uni026A</string>
+		<string>uni1D0B</string>
+		<string>uni029F</string>
+		<string>uni0274</string>
+		<string>uni1D18</string>
+		<string>thorn.sc</string>
+		<string>uni0280</string>
 	</array>
 	<key>public.kern2.I</key>
 	<array>
@@ -862,6 +919,7 @@
 		<string>J</string>
 		<string>uni004A0301</string>
 		<string>Jcircumflex</string>
+		<string>uni1D0A</string>
 	</array>
 	<key>public.kern2.K</key>
 	<array>
@@ -882,6 +940,7 @@
 	<array>
 		<string>M</string>
 		<string>uni1E3E</string>
+		<string>uni1D0D</string>
 	</array>
 	<key>public.kern2.N</key>
 	<array>
@@ -931,6 +990,11 @@
 		<string>uni1ECC.di</string>
 		<string>Ograve.di</string>
 		<string>Omacron.di</string>
+		<string>uni1D04</string>
+		<string>uni0262</string>
+		<string>uni1D0F</string>
+		<string>uni0276</string>
+		<string>uniA7AF</string>
 		<string>at</string>
 	</array>
 	<key>public.kern2.R</key>
@@ -948,6 +1012,7 @@
 		<string>Scircumflex</string>
 		<string>uni0218</string>
 		<string>uni1E62</string>
+		<string>uniA731</string>
 	</array>
 	<key>public.kern2.T</key>
 	<array>
@@ -958,6 +1023,7 @@
 		<string>uni021A</string>
 		<string>uni1E6C</string>
 		<string>uni1E6E</string>
+		<string>uni1D1B</string>
 	</array>
 	<key>public.kern2.U</key>
 	<array>
@@ -999,11 +1065,13 @@
 		<string>uni1EE4.yu</string>
 		<string>Ugrave.yu</string>
 		<string>Umacron.yu</string>
+		<string>uni1D1C</string>
 	</array>
 	<key>public.kern2.V</key>
 	<array>
 		<string>V</string>
 		<string>W</string>
+		<string>uni1D20</string>
 	</array>
 	<key>public.kern2.W</key>
 	<array>
@@ -1011,11 +1079,13 @@
 		<string>Wcircumflex</string>
 		<string>Wdieresis</string>
 		<string>Wgrave</string>
+		<string>uni1D21</string>
 	</array>
 	<key>public.kern2.X</key>
 	<array>
 		<string>X</string>
 		<string>X.ZHP</string>
+		<string>x.sc</string>
 	</array>
 	<key>public.kern2.Y</key>
 	<array>
@@ -1029,6 +1099,7 @@
 		<string>uni0232</string>
 		<string>uni1EF8</string>
 		<string>Y.yu</string>
+		<string>uni028F</string>
 	</array>
 	<key>public.kern2.Z</key>
 	<array>
@@ -1038,6 +1109,7 @@
 		<string>uni1E90</string>
 		<string>Zdotaccent</string>
 		<string>uni1E92</string>
+		<string>uni1D22</string>
 		<string>Zcedilla</string>
 	</array>
 	<key>public.kern2.a</key>
@@ -1097,6 +1169,9 @@
 		<string>quoteright</string>
 		<string>quotedbl</string>
 		<string>quotesingle</string>
+		<string>registered</string>
+		<string>trademark</string>
+		<string>degree</string>
 		<string>uni0308</string>
 		<string>uni0307</string>
 		<string>gravecomb</string>
@@ -1142,6 +1217,7 @@
 		<string>uni1E25</string>
 		<string>uni1E96</string>
 		<string>k</string>
+		<string>kgreenlandic</string>
 		<string>l</string>
 		<string>lacute</string>
 		<string>lcaron</string>
@@ -1289,6 +1365,10 @@
 		<string>ograve.di</string>
 		<string>omacron.di</string>
 	</array>
+	<key>public.kern2.o.sc</key>
+	<array>
+		<string>uni0259.sc</string>
+	</array>
 	<key>public.kern2.p</key>
 	<array>
 		<string>p</string>
@@ -1313,6 +1393,10 @@
 		<string>scircumflex</string>
 		<string>uni0219</string>
 		<string>uni1E63</string>
+	</array>
+	<key>public.kern2.s.sc</key>
+	<array>
+		<string>uni1D23</string>
 	</array>
 	<key>public.kern2.u</key>
 	<array>

@@ -2,6 +2,7 @@
 <glyph name="acute" format="2">
 	<advance width="389"/>
 	<unicode hex="00B4"/>
+	<unicode hex="02CA"/>
 	<outline>
 		<component base="acutecomb"/>
 	</outline>

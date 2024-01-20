@@ -14,7 +14,7 @@ pos = (173,0);
 ref = dotbelowcomb;
 },
 {
-pos = (97,182);
+pos = (105,182);
 ref = brevecomb;
 }
 );

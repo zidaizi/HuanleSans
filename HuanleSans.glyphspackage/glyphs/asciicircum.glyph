@@ -5,10 +5,23 @@ layers = (
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-ref = circumflexcomb;
+closed = 1;
+nodes = (
+(215,590,l),
+(206,585,l),
+(50,229,l),
+(99,210,l),
+(107,215,l),
+(245,527,l),
+(251,527,l),
+(381,213,l),
+(430,225,l),
+(436,233,l),
+(285,590,l)
+);
 }
 );
-width = 389;
+width = 487;
 }
 );
 unicode = 94;

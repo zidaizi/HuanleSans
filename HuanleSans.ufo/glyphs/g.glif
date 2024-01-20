@@ -2,7 +2,9 @@
 <glyph name="g" format="2">
 	<advance width="488"/>
 	<unicode hex="0067"/>
-	<anchor x="246" y="449" name="top"/>
+	<anchor x="244" y="-191" name="bottom"/>
+	<anchor x="244" y="-63" name="center"/>
+	<anchor x="244" y="459" name="top"/>
 	<outline>
 		<contour>
 			<point x="180" y="163" type="curve"/>

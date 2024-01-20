@@ -2,20 +2,6 @@
 glyphname = e.sups;
 layers = (
 {
-anchors = (
-{
-name = bottom;
-pos = (182,0);
-},
-{
-name = ogonek;
-pos = (298,6);
-},
-{
-name = top;
-pos = (175,303);
-}
-);
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {

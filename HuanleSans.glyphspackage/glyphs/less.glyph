@@ -5,13 +5,15 @@ layers = (
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-pos = (480,0);
+pos = (487,0);
 ref = greater;
 scale = (-1,1);
 }
 );
-width = 480;
+width = 487;
 }
 );
+metricLeft = "=|greater";
+metricRight = "=|greater";
 unicode = 60;
 }

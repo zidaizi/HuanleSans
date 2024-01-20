@@ -12,5 +12,5 @@ ref = acutecomb;
 width = 389;
 }
 );
-unicode = 180;
+unicode = (180,714);
 }

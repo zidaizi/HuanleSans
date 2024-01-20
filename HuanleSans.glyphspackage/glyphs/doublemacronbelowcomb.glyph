@@ -1,0 +1,23 @@
+{
+glyphname = doublemacronbelowcomb;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-300,-98,l),
+(-310,-159,l),
+(-294,-168,l),
+(300,-168,l),
+(310,-105,l),
+(296,-98,l)
+);
+}
+);
+width = 0;
+}
+);
+unicode = 863;
+}

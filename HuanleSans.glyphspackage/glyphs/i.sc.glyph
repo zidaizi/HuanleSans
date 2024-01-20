@@ -1,0 +1,35 @@
+{
+glyphname = i.sc;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+anchors = (
+{
+name = ogonek;
+pos = (168,0);
+},
+{
+name = top;
+pos = (132,499);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(88,499,l),
+(91,150,l),
+(88,0,l),
+(168,0,l),
+(165,157,l),
+(169,499,l)
+);
+}
+);
+width = 261;
+}
+);
+unicode = 618;
+}

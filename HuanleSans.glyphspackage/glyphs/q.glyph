@@ -3,6 +3,20 @@ glyphname = q;
 kernLeft = o;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (192,0);
+},
+{
+name = center;
+pos = (239,230);
+},
+{
+name = top;
+pos = (245,459);
+}
+);
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {

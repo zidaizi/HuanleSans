@@ -1,0 +1,27 @@
+{
+glyphname = commaabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (86,459);
+},
+{
+name = top;
+pos = (86,721);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+alignment = -1;
+pos = (0,20);
+ref = quoteright;
+}
+);
+width = 171;
+}
+);
+unicode = 787;
+}

@@ -2,34 +2,25 @@
 <glyph name="uni030B" format="2">
 	<advance width="0"/>
 	<unicode hex="030B"/>
-	<anchor x="194" y="459" name="_top"/>
-	<anchor x="195" y="691" name="top"/>
+	<anchor x="186" y="459" name="_top"/>
+	<anchor x="186" y="731" name="top"/>
 	<outline>
-		<contour>
-			<point x="190" y="528" type="curve"/>
-			<point x="225" y="496" type="line"/>
-			<point x="237" y="498" type="line"/>
-			<point x="298" y="556"/>
-			<point x="358" y="615"/>
-			<point x="417" y="678" type="curve"/>
-			<point x="417" y="688" type="line"/>
-			<point x="368" y="724" type="line"/>
-			<point x="358" y="723" type="line"/>
-			<point x="304" y="656"/>
-			<point x="249" y="591"/>
-		</contour>
-		<contour>
-			<point x="12" y="528" type="curve"/>
-			<point x="47" y="496" type="line"/>
-			<point x="58" y="498" type="line"/>
-			<point x="119" y="556"/>
-			<point x="179" y="615"/>
-			<point x="238" y="678" type="curve"/>
-			<point x="238" y="688" type="line"/>
-			<point x="189" y="724" type="line"/>
-			<point x="179" y="723" type="line"/>
-			<point x="125" y="656"/>
-			<point x="70" y="591"/>
-		</contour>
+		<component base="acutecomb" xScale="0.9848" xyScale="0.1736" yScale="0.9848" yxScale="-0.1736" xOffset="21" yOffset="-25"/>
+		<component base="acute" xScale="0.9848" xyScale="0.1736" yScale="0.9848" yxScale="-0.1736" xOffset="175" yOffset="-25"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>acute</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
 </glyph>

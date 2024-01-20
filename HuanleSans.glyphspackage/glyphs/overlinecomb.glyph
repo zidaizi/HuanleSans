@@ -1,0 +1,27 @@
+{
+glyphname = overlinecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (243,459);
+},
+{
+name = top;
+pos = (243,644);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (-63,0);
+ref = macroncomb;
+scale = (1.6,1);
+}
+);
+width = 487;
+}
+);
+unicode = 773;
+}

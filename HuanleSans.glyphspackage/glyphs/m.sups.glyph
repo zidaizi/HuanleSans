@@ -39,12 +39,6 @@ nodes = (
 );
 },
 {
-closed = 0;
-nodes = (
-(192,401,l)
-);
-},
-{
 closed = 1;
 nodes = (
 (181,645,o),

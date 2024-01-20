@@ -9,24 +9,23 @@ pos = (192,459);
 },
 {
 name = top;
-pos = (192,736);
+pos = (192,758);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-pos = (0,117);
+alignment = -1;
+pos = (0,-29);
 ref = macroncomb;
-scale = (1,0.75);
 },
 {
 alignment = -1;
-pos = (0,243);
+pos = (0,114);
 ref = macroncomb;
-scale = (1,0.75);
 }
 );
-width = 384;
+width = 389;
 }
 );
 unicode = 831;

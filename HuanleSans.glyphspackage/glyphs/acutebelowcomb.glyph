@@ -1,0 +1,27 @@
+{
+glyphname = acutebelowcomb;
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (195,0);
+},
+{
+name = bottom;
+pos = (195,-258);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+angle = 180;
+pos = (387,450);
+ref = acutecomb;
+}
+);
+width = 389;
+}
+);
+unicode = 791;
+}

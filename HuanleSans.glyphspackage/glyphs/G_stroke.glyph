@@ -11,7 +11,7 @@ ref = G;
 },
 {
 alignment = -1;
-pos = (243,-102);
+pos = (232,-104);
 ref = strokeshortcomb;
 }
 );

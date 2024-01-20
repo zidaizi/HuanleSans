@@ -10,8 +10,12 @@ name = bottom;
 pos = (235,0);
 },
 {
+name = center;
+pos = (134,345);
+},
+{
 name = top;
-pos = (135,641);
+pos = (176,641);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";

@@ -2,16 +2,6 @@
 glyphname = h.sups;
 layers = (
 {
-anchors = (
-{
-name = center;
-pos = (182,152);
-},
-{
-name = top;
-pos = (89,428);
-}
-);
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
@@ -35,12 +25,6 @@ nodes = (
 (303,616,o),
 (269,645,o),
 (209,645,cs)
-);
-},
-{
-closed = 0;
-nodes = (
-(175,472,l)
 );
 },
 {

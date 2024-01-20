@@ -5,52 +5,23 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (193,459);
+pos = (186,459);
 },
 {
 name = top;
-pos = (194,691);
+pos = (186,731);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-closed = 1;
-nodes = (
-(163,496,l),
-(153,498,l),
-(92,556,o),
-(30,615,o),
-(-28,678,c),
-(-27,688,l),
-(22,724,l),
-(32,723,l),
-(85,656,o),
-(140,591,o),
-(198,528,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(342,496,l),
-(330,498,l),
-(269,556,o),
-(209,615,o),
-(150,678,c),
-(150,688,l),
-(199,724,l),
-(209,723,l),
-(263,656,o),
-(318,591,o),
-(377,528,c)
-);
+pos = (372,0);
+ref = hungarumlautcomb;
+scale = (-1,1);
 }
 );
-width = 389;
+width = 372;
 }
 );
-metricLeft = "=|hungarumlautcomb";
-metricRight = "=|hungarumlautcomb";
 unicode = 783;
 }

@@ -1,0 +1,27 @@
+{
+glyphname = commareversedabovecomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (86,459);
+},
+{
+name = top;
+pos = (86,721);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+pos = (171,20);
+ref = quoteright;
+scale = (-1,1);
+}
+);
+width = 171;
+}
+);
+unicode = 788;
+}

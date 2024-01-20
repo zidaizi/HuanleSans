@@ -10,11 +10,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (97,182);
+pos = (105,182);
 ref = brevecomb;
 },
 {
-pos = (98,414);
+pos = (97,393);
 ref = tildecomb;
 }
 );

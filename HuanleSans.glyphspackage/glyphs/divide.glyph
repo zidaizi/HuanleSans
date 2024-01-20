@@ -1,0 +1,25 @@
+{
+glyphname = divide;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = minus;
+},
+{
+pos = (142,51);
+ref = period;
+scale = (0.934,0.934);
+},
+{
+pos = (142,400);
+ref = period;
+scale = (0.934,0.934);
+}
+);
+width = 487;
+}
+);
+unicode = 247;
+}

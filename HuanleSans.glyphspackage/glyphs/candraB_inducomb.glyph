@@ -1,0 +1,27 @@
+{
+glyphname = candraBinducomb;
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (195,782);
+}
+);
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+alignment = 1;
+ref = brevecomb;
+},
+{
+alignment = -1;
+pos = (73,104);
+ref = dotaccentcomb;
+}
+);
+width = 372;
+}
+);
+unicode = 784;
+}

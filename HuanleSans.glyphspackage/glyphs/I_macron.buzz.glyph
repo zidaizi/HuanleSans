@@ -10,7 +10,7 @@ shapes = (
 ref = I.buzz;
 },
 {
-pos = (-95,182);
+pos = (-96,182);
 ref = macroncomb;
 }
 );

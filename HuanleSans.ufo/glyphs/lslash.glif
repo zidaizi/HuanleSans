@@ -1,30 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="2">
-	<advance width="263"/>
+	<advance width="248"/>
 	<unicode hex="0142"/>
-	<anchor x="131" y="0" name="bottom"/>
-	<anchor x="131" y="680" name="top"/>
-	<anchor x="236" y="459" name="topright"/>
 	<outline>
 		<contour>
-			<point x="232" y="464" type="line"/>
-			<point x="131" y="411" type="line"/>
-			<point x="120" y="408" type="line"/>
-			<point x="9" y="350" type="line"/>
-			<point x="27" y="295" type="line"/>
-			<point x="32" y="292" type="line"/>
-			<point x="132" y="344" type="line"/>
-			<point x="143" y="347" type="line"/>
-			<point x="255" y="407" type="line"/>
-			<point x="237" y="462" type="line"/>
+			<point x="224" y="464" type="line"/>
+			<point x="123" y="411" type="line"/>
+			<point x="112" y="408" type="line"/>
+			<point x="1" y="350" type="line"/>
+			<point x="19" y="295" type="line"/>
+			<point x="24" y="292" type="line"/>
+			<point x="124" y="344" type="line"/>
+			<point x="135" y="347" type="line"/>
+			<point x="247" y="407" type="line"/>
+			<point x="229" y="462" type="line"/>
 		</contour>
-		<contour>
-			<point x="175" y="702" type="line"/>
-			<point x="90" y="695" type="line"/>
-			<point x="95" y="195" type="line"/>
-			<point x="89" y="0" type="line"/>
-			<point x="174" y="0" type="line"/>
-			<point x="168" y="202" type="line"/>
-		</contour>
+		<component base="l"/>
 	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=</string>
+		</dict>
+	</lib>
 </glyph>

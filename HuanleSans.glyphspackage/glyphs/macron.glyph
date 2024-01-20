@@ -12,5 +12,5 @@ ref = macroncomb;
 width = 389;
 }
 );
-unicode = 175;
+unicode = (175,713);
 }

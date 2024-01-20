@@ -29,12 +29,12 @@
 			<point x="237" y="625"/>
 			<point x="237" y="563" type="curve"/>
 			<point x="237" y="460"/>
-			<point x="189" y="404"/>
-			<point x="62" y="357" type="curve"/>
-			<point x="62" y="349" type="line"/>
-			<point x="108" y="317" type="line"/>
-			<point x="112" y="317" type="line"/>
-			<point x="235" y="368"/>
+			<point x="189" y="399"/>
+			<point x="62" y="352" type="curve"/>
+			<point x="62" y="344" type="line"/>
+			<point x="108" y="312" type="line"/>
+			<point x="112" y="312" type="line"/>
+			<point x="235" y="363"/>
 			<point x="305" y="456"/>
 			<point x="305" y="563" type="curve"/>
 			<point x="305" y="654"/>

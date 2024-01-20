@@ -1,0 +1,29 @@
+{
+glyphname = v.sc;
+kernLeft = V;
+kernRight = V;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+closed = 1;
+nodes = (
+(403,499,l),
+(390,438,l),
+(251,78,l),
+(246,78,l),
+(121,442,l),
+(108,499,l),
+(26,499,l),
+(199,0,l),
+(294,0,l),
+(483,499,ls)
+);
+}
+);
+width = 502;
+}
+);
+unicode = 7456;
+}

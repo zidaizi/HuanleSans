@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="X.ZHP" format="2">
 	<advance width="596"/>
+	<anchor x="298" y="0" name="bottom"/>
+	<anchor x="298" y="641" name="top"/>
 	<outline>
 		<contour>
 			<point x="577" y="-3" type="curve"/>

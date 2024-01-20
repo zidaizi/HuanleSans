@@ -5,11 +5,11 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (194,459);
+pos = (186,459);
 },
 {
 name = top;
-pos = (195,691);
+pos = (186,670);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
@@ -17,11 +17,11 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (389,1168);
+pos = (372,1179);
 ref = brevecomb;
 }
 );
-width = 389;
+width = 372;
 }
 );
 unicode = 785;

@@ -7,17 +7,17 @@ layers = (
 anchors = (
 {
 name = _top;
-pos = (122,459);
+pos = (123,459);
 },
 {
 name = top;
-pos = (123,691);
+pos = (123,678);
 }
 );
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {
-pos = (8,573);
+pos = (9,573);
 ref = period;
 }
 );

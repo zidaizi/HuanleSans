@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="kgreenlandic" format="2">
+	<advance width="461"/>
+	<unicode hex="0138"/>
+	<anchor x="240" y="0" name="bottom"/>
+	<anchor x="240" y="457" name="top"/>
+	<outline>
+		<contour>
+			<point x="264" y="249" type="curve"/>
+			<point x="441" y="459" type="line"/>
+			<point x="346" y="459" type="line"/>
+			<point x="320" y="417" type="line"/>
+			<point x="180" y="248" type="line"/>
+			<point x="180" y="241" type="line"/>
+			<point x="237" y="156"/>
+			<point x="300" y="74"/>
+			<point x="366" y="-5" type="curve"/>
+			<point x="376" y="-9" type="line"/>
+			<point x="402" y="-5"/>
+			<point x="428" y="-2"/>
+			<point x="453" y="5" type="curve"/>
+			<point x="453" y="15" type="line"/>
+			<point x="389" y="90"/>
+			<point x="323" y="169"/>
+		</contour>
+		<contour>
+			<point x="169" y="463" type="line"/>
+			<point x="79" y="456" type="line"/>
+			<point x="85" y="380" type="line"/>
+			<point x="89" y="195" type="line"/>
+			<point x="83" y="0" type="line"/>
+			<point x="168" y="0" type="line"/>
+			<point x="162" y="202" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>l</string>
+		</dict>
+	</lib>
+</glyph>

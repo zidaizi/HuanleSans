@@ -1,0 +1,19 @@
+{
+glyphname = Mdotbelow;
+layers = (
+{
+layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
+shapes = (
+{
+ref = M;
+},
+{
+pos = (278,0);
+ref = dotbelowcomb;
+}
+);
+width = 790;
+}
+);
+unicode = 7746;
+}

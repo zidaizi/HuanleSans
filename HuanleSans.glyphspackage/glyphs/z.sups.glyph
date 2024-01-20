@@ -2,12 +2,6 @@
 glyphname = z.sups;
 layers = (
 {
-anchors = (
-{
-name = top;
-pos = (152,303);
-}
-);
 layerId = "DE016B7A-D921-4FAF-BA9C-94A7D66B995D";
 shapes = (
 {

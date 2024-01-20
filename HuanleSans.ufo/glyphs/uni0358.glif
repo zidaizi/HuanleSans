@@ -2,8 +2,8 @@
 <glyph name="uni0358" format="2">
 	<advance width="0"/>
 	<unicode hex="0358"/>
-	<anchor x="100" y="446" name="_topright"/>
-	<anchor x="100" y="446" name="topright"/>
+	<anchor x="100" y="457" name="_topright"/>
+	<anchor x="100" y="457" name="topright"/>
 	<outline>
 		<component base="period" xOffset="-14" yOffset="413"/>
 	</outline>

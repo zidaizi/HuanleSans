@@ -2,7 +2,8 @@
 <glyph name="l" format="2">
 	<advance width="248"/>
 	<unicode hex="006C"/>
-	<anchor x="125" y="0" name="bottom"/>
+	<anchor x="126" y="0" name="bottom"/>
+	<anchor x="126" y="350" name="center"/>
 	<anchor x="125" y="680" name="top"/>
 	<anchor x="230" y="459" name="topright"/>
 	<outline>
