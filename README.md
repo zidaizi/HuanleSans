@@ -7,7 +7,7 @@ Perhaps it could have some educational use?
 You can apply this font to any existing standard pinyin text without needing to edit the text,
 and assuming it is spelled correctly, everything will convert automatically.
 
-Try it out for yourself [here](https://zidaizi.github.io/HuanleSans) (you can edit the text at the top of the page).
+Try it out for yourself [here](https://zidaizi.github.io/huanle-sans) (you can edit the text at the top of the page).
 
 The goal is to preserve the basic shape of letters while
 adding details that draw attention to some of the easily overlooked nuances in pronunciation.
