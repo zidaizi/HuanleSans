@@ -10,11 +10,11 @@ shapes = (
 ref = g;
 },
 {
-pos = (58,0);
+pos = (60,0);
 ref = brevecomb;
 }
 );
-width = 488;
+width = 494;
 }
 );
 unicode = 287;

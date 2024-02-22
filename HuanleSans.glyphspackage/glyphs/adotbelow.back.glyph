@@ -10,11 +10,11 @@ shapes = (
 ref = a.back;
 },
 {
-pos = (135,0);
+pos = (141,0);
 ref = dotbelowcomb;
 }
 );
-width = 474;
+width = 470;
 }
 );
 }

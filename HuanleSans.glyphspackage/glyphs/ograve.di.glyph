@@ -10,11 +10,11 @@ shapes = (
 ref = o.di;
 },
 {
-pos = (50,0);
+pos = (56,0);
 ref = gravecomb;
 }
 );
-width = 486;
+width = 498;
 }
 );
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="u.di" format="2">
-	<advance width="496"/>
+	<advance width="488"/>
 	<outline>
 		<component base="u"/>
 		<component base="period" xScale="0.64" yScale="0.64" xOffset="165" yOffset="251"/>

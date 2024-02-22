@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
-	<advance width="0"/>
+	<advance width="389"/>
 	<unicode hex="0300"/>
 	<unicode hex="0340"/>
 	<anchor x="194" y="459" name="_top"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eacute.front" format="2">
-	<advance width="460"/>
+	<advance width="468"/>
 	<outline>
 		<component base="e.front"/>
-		<component base="acutecomb" xOffset="43"/>
+		<component base="acutecomb" xOffset="49"/>
 	</outline>
 </glyph>

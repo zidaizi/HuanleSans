@@ -4,7 +4,7 @@
 	<unicode hex="0126"/>
 	<outline>
 		<component base="H"/>
-		<component base="uni0336" xScale="1.75" xOffset="-87" yOffset="250"/>
+		<component base="strokelongcomb" xScale="1.75" xOffset="-87" yOffset="250"/>
 	</outline>
 	<lib>
 		<dict>
@@ -16,7 +16,7 @@
 					<key>index</key>
 					<integer>1</integer>
 					<key>name</key>
-					<string>uni0336</string>
+					<string>strokelongcomb</string>
 				</dict>
 			</array>
 		</dict>

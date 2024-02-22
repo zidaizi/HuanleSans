@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="odotbelow.di" format="2">
+	<advance width="498"/>
+	<outline>
+		<component base="o.di"/>
+		<component base="dotbelowcomb" xOffset="133"/>
+	</outline>
+</glyph>

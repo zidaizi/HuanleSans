@@ -10,11 +10,11 @@ shapes = (
 ref = t;
 },
 {
-pos = (13,0);
+pos = (24,0);
 ref = cedillacomb;
 }
 );
-width = 337;
+width = 354;
 }
 );
 unicode = 355;

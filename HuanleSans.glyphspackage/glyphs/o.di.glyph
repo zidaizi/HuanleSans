@@ -16,7 +16,7 @@ ref = period;
 scale = (0.64,0.64);
 }
 );
-width = 486;
+width = 498;
 }
 );
 metricLeft = "=o";

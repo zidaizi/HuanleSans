@@ -3,7 +3,7 @@
 	<advance width="372"/>
 	<unicode hex="02DD"/>
 	<outline>
-		<component base="uni030B"/>
+		<component base="hungarumlautcomb"/>
 	</outline>
 	<lib>
 		<dict>
@@ -15,7 +15,7 @@
 					<key>index</key>
 					<integer>0</integer>
 					<key>name</key>
-					<string>uni030B</string>
+					<string>hungarumlautcomb</string>
 				</dict>
 			</array>
 		</dict>

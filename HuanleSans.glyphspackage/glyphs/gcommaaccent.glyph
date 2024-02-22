@@ -10,11 +10,11 @@ shapes = (
 ref = g;
 },
 {
-pos = (158,0);
+pos = (160,0);
 ref = commaturnedabovecomb;
 }
 );
-width = 488;
+width = 494;
 }
 );
 unicode = 291;

@@ -246,6 +246,10 @@ lookup SUB_ZHP_uei {
 lookup SUB_ZHP_basic_post {
 	lookupflag IgnoreMarks ;
 
+	sub b by b.ZHP ;
+	sub d by d.ZHP ;
+	sub g by g.ZHP ;
+
 	sub i by idotless ;
 	sub [ rcommaaccent Rcommaaccent ] by [ rcommaaccent.ZHP Rcommaaccent.ZHP ] ;
 	#sub g by gsingle ;

@@ -3,7 +3,7 @@
 	<advance width="389"/>
 	<unicode hex="02C7"/>
 	<outline>
-		<component base="uni030C"/>
+		<component base="caroncomb"/>
 	</outline>
 	<lib>
 		<dict>
@@ -15,7 +15,7 @@
 					<key>index</key>
 					<integer>0</integer>
 					<key>name</key>
-					<string>uni030C</string>
+					<string>caroncomb</string>
 				</dict>
 			</array>
 		</dict>

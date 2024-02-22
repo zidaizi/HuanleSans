@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="whiteDiamond" format="2">
+	<advance width="487"/>
+	<unicode hex="25C7"/>
+	<unicode hex="2B26"/>
+	<outline>
+		<contour>
+			<point x="243" y="98" type="line"/>
+			<point x="112" y="229" type="line"/>
+			<point x="243" y="360" type="line"/>
+			<point x="374" y="229" type="line"/>
+		</contour>
+		<contour>
+			<point x="243" y="20" type="line"/>
+			<point x="452" y="229" type="line"/>
+			<point x="243" y="438" type="line"/>
+			<point x="34" y="229" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>=blackDiamond</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=blackDiamond</string>
+		</dict>
+	</lib>
+</glyph>

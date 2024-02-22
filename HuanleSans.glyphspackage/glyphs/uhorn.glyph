@@ -10,11 +10,11 @@ shapes = (
 ref = u;
 },
 {
-pos = (416,2);
+pos = (421,2);
 ref = horncomb;
 }
 );
-width = 496;
+width = 488;
 }
 );
 metricRight = "=f";

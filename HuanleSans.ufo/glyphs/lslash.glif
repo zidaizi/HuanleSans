@@ -1,26 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lslash" format="2">
-	<advance width="248"/>
+	<advance width="240"/>
 	<unicode hex="0142"/>
 	<outline>
 		<contour>
-			<point x="224" y="464" type="line"/>
-			<point x="123" y="411" type="line"/>
-			<point x="112" y="408" type="line"/>
-			<point x="1" y="350" type="line"/>
-			<point x="19" y="295" type="line"/>
-			<point x="24" y="292" type="line"/>
-			<point x="124" y="344" type="line"/>
-			<point x="135" y="347" type="line"/>
-			<point x="247" y="407" type="line"/>
-			<point x="229" y="462" type="line"/>
+			<point x="220" y="464" type="line"/>
+			<point x="119" y="411" type="line"/>
+			<point x="108" y="408" type="line"/>
+			<point x="-3" y="350" type="line"/>
+			<point x="15" y="295" type="line"/>
+			<point x="20" y="292" type="line"/>
+			<point x="120" y="344" type="line"/>
+			<point x="131" y="347" type="line"/>
+			<point x="243" y="407" type="line"/>
+			<point x="225" y="462" type="line"/>
 		</contour>
-		<component base="l"/>
+		<component base="l" xOffset="-8"/>
 	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>=</string>
-		</dict>
-	</lib>
 </glyph>

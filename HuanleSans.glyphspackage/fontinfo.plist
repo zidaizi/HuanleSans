@@ -53,11 +53,11 @@ features = (
 {
 automatic = 1;
 code = "feature locl;
-feature c2sc;
-feature smcp;
 feature subs;
 feature sinf;
 feature sups;
+feature c2sc;
+feature smcp;
 feature calt;
 ";
 tag = aalt;
@@ -246,6 +246,7 @@ sub six by six.sc;
 sub seven by seven.sc;
 sub eight by eight.sc;
 sub nine by nine.sc;
+sub q by q.sc;
 ";
 tag = c2sc;
 },
@@ -549,14 +550,17 @@ lookup SUB_ZHP_uei {
 lookup SUB_ZHP_basic_post {
 	lookupflag IgnoreMarks ;
 
+	sub b by b.ZHP ;
+	sub d by d.ZHP ;
+	sub g by g.ZHP ;
+
 	sub i by idotless ;
 	sub [ rcommaaccent Rcommaaccent ] by [ rcommaaccent.ZHP Rcommaaccent.ZHP ] ;
 	#sub g by gsingle ;
 
 	# rcircumflex?
 
-} SUB_ZHP_basic_post ;
-";
+} SUB_ZHP_basic_post ;";
 tag = calt;
 }
 );
@@ -637,22 +641,22 @@ pos = 700;
 },
 {
 over = 12;
-pos = 640;
+pos = 641;
 },
 {
 over = 12;
-pos = 457;
+pos = 459;
 },
 {
 over = -12;
 },
 {
 over = -12;
-pos = -185;
+pos = -188;
 },
 {
 over = 12;
-pos = 497;
+pos = 499;
 },
 {
 }
@@ -1374,7 +1378,7 @@ kerningLTR = {
 "@MMK_R_asterisk" = -45;
 "@MMK_R_f" = -20;
 "@MMK_R_n" = -12;
-"@MMK_R_o" = 20;
+"@MMK_R_o" = 0;
 "@MMK_R_p" = 0;
 "@MMK_R_period" = -50;
 "@MMK_R_t" = -3;

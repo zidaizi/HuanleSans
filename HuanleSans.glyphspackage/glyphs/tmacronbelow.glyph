@@ -10,11 +10,11 @@ shapes = (
 ref = t;
 },
 {
-pos = (10,0);
+pos = (21,0);
 ref = macronbelowcomb;
 }
 );
-width = 337;
+width = 354;
 }
 );
 unicode = 7791;

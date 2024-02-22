@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="acutecomb" format="2">
-	<advance width="0"/>
+	<advance width="389"/>
 	<unicode hex="0301"/>
 	<unicode hex="0341"/>
 	<anchor x="194" y="459" name="_top"/>

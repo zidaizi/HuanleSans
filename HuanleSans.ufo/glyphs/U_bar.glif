@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ubar" format="2">
+	<advance width="627"/>
+	<unicode hex="0244"/>
+	<outline>
+		<component base="U"/>
+		<component base="strokelongcomb" xOffset="67" yOffset="110"/>
+	</outline>
+</glyph>

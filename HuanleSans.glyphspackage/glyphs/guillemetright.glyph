@@ -12,7 +12,7 @@ ref = guilsinglright;
 ref = guilsinglright;
 }
 );
-width = 400;
+width = 434;
 }
 );
 metricLeft = "=guilsinglright";

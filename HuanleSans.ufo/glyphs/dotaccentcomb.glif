@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccentcomb" format="2">
+	<advance width="245"/>
+	<unicode hex="0307"/>
+	<anchor x="123" y="459" name="_top"/>
+	<anchor x="123" y="678" name="top"/>
+	<outline>
+		<component base="period" xOffset="9" yOffset="573"/>
+	</outline>
+</glyph>

@@ -10,11 +10,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (51,0);
+pos = (56,0);
 ref = tildecomb;
 }
 );
-width = 496;
+width = 488;
 }
 );
 unicode = 7919;

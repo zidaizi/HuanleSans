@@ -3,6 +3,6 @@
 	<advance width="485"/>
 	<outline>
 		<component base="E.di"/>
-		<component base="uni030C" xOffset="81" yOffset="182"/>
+		<component base="caroncomb" xOffset="81" yOffset="182"/>
 	</outline>
 </glyph>

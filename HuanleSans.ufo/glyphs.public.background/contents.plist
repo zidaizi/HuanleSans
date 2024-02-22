@@ -2,15 +2,23 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>b.ZHP</key>
+	<string>b.Z_H_P_.glif</string>
+	<key>commaaboverightcomb</key>
+	<string>commaaboverightcomb.glif</string>
+	<key>d.ZHP</key>
+	<string>d.Z_H_P_.glif</string>
+	<key>dotaboverightcomb</key>
+	<string>dotaboverightcomb.glif</string>
+	<key>g.ZHP</key>
+	<string>g.Z_H_P_.glif</string>
+	<key>j.sc</key>
+	<string>j.sc.glif</string>
+	<key>tildebelowcomb</key>
+	<string>tildebelowcomb.glif</string>
 	<key>tildecomb</key>
 	<string>tildecomb.glif</string>
-	<key>uni0315</key>
-	<string>uni0315.glif</string>
-	<key>uni0330</key>
-	<string>uni0330.glif</string>
-	<key>uni0358</key>
-	<string>uni0358.glif</string>
-	<key>uni1D0A</key>
-	<string>uni1D_0A_.glif</string>
+	<key>x.ZHP</key>
+	<string>x.Z_H_P_.glif</string>
 </dict>
 </plist>

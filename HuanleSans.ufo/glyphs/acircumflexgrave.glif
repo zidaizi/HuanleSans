@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acircumflexgrave" format="2">
+	<advance width="460"/>
+	<unicode hex="1EA7"/>
+	<outline>
+		<component base="a"/>
+		<component base="circumflexcomb" xOffset="40"/>
+		<component base="gravecomb" xOffset="41" yOffset="232"/>
+	</outline>
+</glyph>

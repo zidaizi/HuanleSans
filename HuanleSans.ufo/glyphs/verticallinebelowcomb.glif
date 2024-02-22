@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticallinebelowcomb" format="2">
+	<advance width="227"/>
+	<unicode hex="0329"/>
+	<anchor x="114" y="0" name="_bottom"/>
+	<anchor x="114" y="-258" name="bottom"/>
+	<outline>
+		<component base="verticallineabovecomb" xScale="-1" yScale="-1" xOffset="226" yOffset="461"/>
+	</outline>
+</glyph>

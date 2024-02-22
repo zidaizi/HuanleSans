@@ -2,6 +2,6 @@
 <glyph name="dcroat.sc" format="2">
 	<advance width="566"/>
 	<outline>
-		<component base="uni1D06"/>
+		<component base="eth.sc"/>
 	</outline>
 </glyph>

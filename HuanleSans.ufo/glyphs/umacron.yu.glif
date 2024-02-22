@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="umacron.yu" format="2">
-	<advance width="496"/>
+	<advance width="488"/>
 	<outline>
 		<component base="u.yu"/>
-		<component base="uni0304" xOffset="50"/>
+		<component base="macroncomb" xOffset="55"/>
 	</outline>
 </glyph>

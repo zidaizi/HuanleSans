@@ -4,7 +4,7 @@
 	<unicode hex="00AF"/>
 	<unicode hex="02C9"/>
 	<outline>
-		<component base="uni0304"/>
+		<component base="macroncomb"/>
 	</outline>
 	<lib>
 		<dict>
@@ -16,7 +16,7 @@
 					<key>index</key>
 					<integer>0</integer>
 					<key>name</key>
-					<string>uni0304</string>
+					<string>macroncomb</string>
 				</dict>
 			</array>
 		</dict>

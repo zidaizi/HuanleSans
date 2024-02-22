@@ -10,11 +10,11 @@ shapes = (
 ref = e.di;
 },
 {
-pos = (131,0);
+pos = (137,0);
 ref = dotbelowcomb;
 }
 );
-width = 460;
+width = 468;
 }
 );
 }

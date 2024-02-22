@@ -5,11 +5,11 @@
 	<key>ascender</key>
 	<integer>700</integer>
 	<key>capHeight</key>
-	<integer>640</integer>
+	<integer>641</integer>
 	<key>copyright</key>
 	<string>Copyright 2013 The Alegreya Sans Project Authors (https://github.com/huertatipografica/Alegreya-Sans)</string>
 	<key>descender</key>
-	<integer>-185</integer>
+	<integer>-188</integer>
 	<key>familyName</key>
 	<string>Huanle Sans</string>
 	<key>openTypeHeadCreated</key>
@@ -48,10 +48,10 @@
 	<array>
 		<real>-12.0</real>
 		<real>0.0</real>
-		<real>457.0</real>
-		<real>469.0</real>
-		<real>640.0</real>
-		<real>652.0</real>
+		<real>459.0</real>
+		<real>471.0</real>
+		<real>641.0</real>
+		<real>653.0</real>
 		<real>700.0</real>
 		<real>712.0</real>
 	</array>
@@ -59,8 +59,8 @@
 	<string>HuanleSansPinyin</string>
 	<key>postscriptOtherBlues</key>
 	<array>
-		<real>-197.0</real>
-		<real>-185.0</real>
+		<real>-200.0</real>
+		<real>-188.0</real>
 	</array>
 	<key>postscriptStemSnapH</key>
 	<array>
@@ -91,6 +91,6 @@
 	<key>versionMinor</key>
 	<integer>8</integer>
 	<key>xHeight</key>
-	<integer>457</integer>
+	<integer>459</integer>
 </dict>
 </plist>

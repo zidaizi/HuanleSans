@@ -14,7 +14,7 @@ pos = (25,0);
 ref = commaaccentcomb;
 }
 );
-width = 340;
+width = 360;
 }
 );
 unicode = 343;

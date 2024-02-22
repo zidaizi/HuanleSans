@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.sups" format="2">
+	<advance width="167"/>
+	<unicode hex="2071"/>
+	<outline>
+		<contour>
+			<point x="124" y="645" type="line"/>
+			<point x="48" y="638" type="line"/>
+			<point x="51" y="464" type="line"/>
+			<point x="47" y="337" type="line"/>
+			<point x="124" y="337" type="line"/>
+			<point x="120" y="471" type="line"/>
+		</contour>
+		<contour>
+			<point x="91" y="790" type="curve" smooth="yes"/>
+			<point x="65" y="790"/>
+			<point x="49" y="772"/>
+			<point x="49" y="747" type="curve" smooth="yes"/>
+			<point x="49" y="721"/>
+			<point x="63" y="706"/>
+			<point x="87" y="706" type="curve" smooth="yes"/>
+			<point x="113" y="706"/>
+			<point x="128" y="722"/>
+			<point x="128" y="749" type="curve" smooth="yes"/>
+			<point x="128" y="774"/>
+			<point x="115" y="790"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>n.sups</string>
+		</dict>
+	</lib>
+</glyph>

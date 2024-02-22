@@ -10,11 +10,11 @@ shapes = (
 ref = e.front;
 },
 {
-pos = (43,0);
+pos = (49,0);
 ref = caroncomb;
 }
 );
-width = 460;
+width = 468;
 }
 );
 }

@@ -10,11 +10,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-2,-26);
+pos = (4,-26);
 ref = strokelongcomb;
 }
 );
-width = 486;
+width = 498;
 }
 );
 unicode = 629;
